@@ -1,0 +1,6 @@
+Edita e excluir: Pessoa e Lugar;
+Colocar uma lista de lugares para a pessoa;
+colocar gps;
+tra�ar a rota para o lugar cadastrado;
+
+melhor ganha chocolate!
