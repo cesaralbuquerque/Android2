@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidAvacadoListaDeCompras</string>
+    <string name="cadastrar_cadastro">Cadastro de Produto</string>
+    <string name="descricao">Descrição</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="produto">Produto</string>
+    <string name="unidade"> unidade(s)</string>
+    <string name="comprado"> Item Comprado</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="excluir">Excluir</string>
+    <string name="cadastrar_produto">Cadastrar Produto</string>
+    <string name="listar_produtos">Listar Produtos</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
