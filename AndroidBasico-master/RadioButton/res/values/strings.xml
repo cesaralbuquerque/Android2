@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RadioButton</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="label_salario">Digite o Salário</string>
+    <string name="valor_salario">40%</string>
+    <string name="valor_salario_45">45%</string>
+    <string name="valor_salario_50">50%</string>
+    <string name="btn_calcular">Calcular</string>
+
+</resources>
