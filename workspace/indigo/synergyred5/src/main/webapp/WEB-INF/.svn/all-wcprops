@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/synergychat/!svn/ver/573/synergyred5/src/main/webapp/WEB-INF
+END
+spring-text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/synergychat/!svn/ver/573/synergyred5/src/main/webapp/WEB-INF/spring-text.xml
+END
+synergyengine.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/573/synergyred5/src/main/webapp/WEB-INF/synergyengine.properties
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/synergychat/!svn/ver/573/synergyred5/src/main/webapp/WEB-INF/web.xml
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/synergychat/!svn/ver/573/synergyred5/src/main/webapp/WEB-INF/hibernate.cfg.xml
+END
+red5-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/synergychat/!svn/ver/573/synergyred5/src/main/webapp/WEB-INF/red5-web.xml
+END
+red5-web.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/synergychat/!svn/ver/573/synergyred5/src/main/webapp/WEB-INF/red5-web.properties
+END

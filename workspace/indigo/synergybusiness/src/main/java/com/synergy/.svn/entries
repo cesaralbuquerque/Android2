@@ -1,0 +1,61 @@
+8
+
+dir
+576
+https://synergychat.svn.cvsdude.com/synergychat/synergybusiness/src/main/java/com/synergy
+https://synergychat.svn.cvsdude.com/synergychat
+
+
+
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+45c3e2bf-c045-4bd1-baaf-4b6e865f7e0a
+
+App.java
+file
+
+
+
+
+2011-11-29T23:44:38.873000Z
+5554e43a18ea430073bbca39141742a7
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+
+chat
+dir
+
+dao
+dir
+
+exception
+dir
+
+model
+dir
+
+service
+dir
+
+util
+dir
+
+vo
+dir
+

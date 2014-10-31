@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+    version="1.0">
+    <persistence-unit name="synergychat" transaction-type="RESOURCE_LOCAL">
+    <class>com.synergy.model.Company</class>
+    <class>com.synergy.model.Group</class>
+    <class>com.synergy.model.Chat</class>
+    <class>com.synergy.model.Subscriber</class>
+    <class>com.synergy.model.ProductSubscriber</class>
+    <class>com.synergy.model.Product</class>
+    <class>com.synergy.model.Video</class>
+    <class>com.synergy.model.MailContact</class>
+    <class>com.synergy.model.MailMessage</class>
+    <class>com.synergy.model.InboxMailMessage</class>
+    <class>com.synergy.model.SentMailMessage</class>
+    <class>com.synergy.model.Purchase</class>
+    <class>com.synergy.model.GuestChat</class>
+   </persistence-unit>
+</persistence>

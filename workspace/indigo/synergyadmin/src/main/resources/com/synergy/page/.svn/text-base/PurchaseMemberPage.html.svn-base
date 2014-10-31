@@ -1,0 +1,39 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+		<div id="auxContent">
+
+    <div id="auxRight">
+    	<img class="heading" src="img/heading-purchase.png" alt="Purchase Connections"/>
+        
+        <p class="light">Choose the number of connections that best suits your company’s website.  
+        Note sure how many connections you need?  <a wicket:id="faqLink" target="_blank" style="color:blue;text-decoration:underline">Click here</a> for more information.<br/>
+Additional connections can be added at anytime.</p>
+
+		<div id="purchase1">
+			<form name="purchase1conn" wicket:id="oneConForm" action="#" method="post">
+				<span class="offset">1 connection - $69.99/year</span>
+				<input type="image" value="Submit" class="sub" name="purchase" src="img/backend/button-purchasesm.gif"/>
+			</form>
+		</div> 
+		<div id="purchase5">
+			<form name="purchase5conn" wicket:id="fiveConForm" action="#" method="post">
+				<div wicket:id="feedback" style="color: #FF0000"></div><br>
+				<span class="offset">5 connections - $27.99/month ($2.90 for additional connections)</span>
+
+				<div style="margin-top: 4px; float: left">Total Connections</div>
+				<input type="text" class="short borderGray" wicket:id="quantity" name="quantity" size="3" maxlength="3"/>
+				<input type="image" style="position: absolute" name="purchase" src="img/backend/button-purchasesm.gif"/>
+			</form>
+		</div>
+		<!--  
+		<div class="spacer"></div>
+		<div id="resellInfo"><span class="offset">Want to be a reseller or an affiliate?</span>
+			<a href="#"><img id="learnMore" src="img/backend/button-learnsm.gif" alt="learn more"/></a>
+		</div>
+		-->
+	    
+    </div><!--end auxRight-->
+
+</div>
+</wicket:extend>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RegistrodeAvistagemActivity!</string>
+    <string name="app_name">Registro de Avistagem</string>
+    <string name="estado_mar">Estado do mar</string>
+    <string name="visibilidade">Visibilidade</string>
+    <string name="ondulacao">Ondulacao</string>
+    <string name="grupo">Grupo</string>
+    <string name="comportamento">Comportamento</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="confianca">confianca</string>
+    <string name="aaa">aaa</string>
+    <string name="canhao">canhao</string>
+    <string name="solicitado">solicitado</string>
+    <string name="realizado">realizado</string>
+</resources>

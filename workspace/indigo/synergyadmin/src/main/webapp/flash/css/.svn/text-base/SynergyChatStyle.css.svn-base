@@ -1,0 +1,127 @@
+
+@font-face {
+	src:url("MyriadPro_embed.swf");
+	fontFamily: "Myriad Pro";
+}
+
+@font-face {
+	src:url("MyriadPro_embed.swf");
+	fontFamily: "Myriad Pro";
+	fontWeight: bold;
+}
+
+@font-face {
+	src:url("MyriadPro_embed.swf");
+	fontFamily: "Myriad Pro";
+	fontStyle: italic;
+}
+
+@font-face {
+	src:url("MyriadPro_embed.swf");
+	fontFamily: "Myriad Pro";
+	fontWeight: bold;
+	fontStyle: italic;
+}
+.myTabBar {
+	horizontalGap: 5;
+	tabStyleName: "myTabs";
+	selectedTabTextStyleName: "mySelectedTabs";
+}
+
+.myTabs {
+   	cornerRadius: 5;
+   	borderColor: #B6CBD9;
+   	color:#FFFFFF;
+	selectedUpSkin: Embed(source="tabskin.swf", symbol="selected_tab_up");
+	selectedDownSkin: Embed(source="tabskin.swf", symbol="selected_tab_up");
+	selectedOverSkin: Embed(source="tabskin.swf", symbol="selected_tab_up");	
+	upSkin: Embed(source="tabskin.swf", symbol="tab_up");
+	downSkin: Embed(source="tabskin.swf", symbol="tab_up");
+	overSkin: Embed(source="tabskin.swf", symbol="tab_up"); 
+}
+.mySelectedTabs {
+	color: #103E60;
+	disabledColor:#111111;
+}
+.OrangeButton {
+   cornerRadius: 12;
+   fillAlphas: 1, 1, 1, 1;
+   fillColors: #FCD100, #ffb500, #FF9400, #FF8900;
+   color: #ffffff;
+   textRollOverColor: #ffffff;
+   textSelectedColor: #ffffff;
+   borderColor: #cc650b;
+   themeColor: #cc650b;
+   fontFamily: Myriad Pro;
+   fontSize: 12;
+   fontWeight: bold;
+}
+.contentTextInput {
+   borderStyle: solid;
+   borderColor: #b1ab8d;
+   color: #000000;
+   fontFamily: Georgia;
+   fontSize: 11;
+   dropShadowEnabled: false;
+}
+
+ ScrollBar
+{
+	downArrowDisabledSkin: Embed(source="CommonStyle.swf", symbol="ScrollArrowDown_disabledSkin");
+	downArrowDownSkin: Embed(source="CommonStyle.swf", symbol="ScrollArrowDown_downSkin");
+	downArrowOverSkin: Embed(source="CommonStyle.swf", symbol="ScrollArrowDown_overSkin");
+	downArrowUpSkin: Embed(source="CommonStyle.swf", symbol="ScrollArrowDown_upSkin");
+	
+	thumbDownSkin: Embed(source="CommonStyle.swf", symbol="ScrollThumb_downSkin");
+	thumbOverSkin: Embed(source="CommonStyle.swf", symbol="ScrollThumb_overSkin");
+	thumbUpSkin: Embed(source="CommonStyle.swf", symbol="ScrollThumb_upSkin");
+	thumbDisabledSkin: Embed(source="CommonStyle.swf", symbol="ScrollThumb_disableSkin");
+
+	trackSkin: Embed(source="CommonStyle.swf", symbol="ScrollTrack_Skin");
+	
+	upArrowDisabledSkin: Embed(source="CommonStyle.swf", symbol="ScrollArrowUp_disabledSkin");
+    upArrowDownSkin: Embed(source="CommonStyle.swf", symbol="ScrollArrowUp_downSkin");
+	upArrowOverSkin: Embed(source="CommonStyle.swf", symbol="ScrollArrowUp_overSkin");
+	upArrowUpSkin: Embed(source="CommonStyle.swf", symbol="ScrollArrowUp_upSkin");
+	
+} 
+ FixedSizeScrollThumb
+{
+	thumbWidth: 19;
+	thumbHeight: 21;
+	hitAreaPadding : 10;
+}
+
+.chatButton
+{
+	upSkin: Embed(source="CommonStyle.swf", symbol="chat_up");
+	overSkin: Embed(source="CommonStyle.swf", symbol="chat_over");
+	downSkin: Embed(source="CommonStyle.swf", symbol="chat_over");
+	disabledSkin: Embed(source="CommonStyle.swf", symbol="chat_up");
+	selectedUpSkin: Embed(source="CommonStyle.swf", symbol="chat_over");
+	selectedOverSkin: Embed(source="CommonStyle.swf", symbol="chat_over");
+	selectedDownSkin: Embed(source="CommonStyle.swf", symbol="chat_over");
+	selectedDisabledSkin: Embed(source="CommonStyle.swf", symbol="chat_up");
+}
+.mailButton
+{
+	upSkin: Embed(source="CommonStyle.swf", symbol="mail_up");
+	overSkin: Embed(source="CommonStyle.swf", symbol="mail_over");
+	downSkin: Embed(source="CommonStyle.swf", symbol="mail_over");
+	disabledSkin: Embed(source="CommonStyle.swf", symbol="mail_up");
+	selectedUpSkin: Embed(source="CommonStyle.swf", symbol="mail_over");
+	selectedOverSkin: Embed(source="CommonStyle.swf", symbol="mail_over");
+	selectedDownSkin: Embed(source="CommonStyle.swf", symbol="mail_over");
+	selectedDisabledSkin: Embed(source="CommonStyle.swf", symbol="mail_up");
+}
+.confButton
+{
+	upSkin: Embed(source="CommonStyle.swf", symbol="conf_up");
+	overSkin: Embed(source="CommonStyle.swf", symbol="conf_over");
+	downSkin: Embed(source="CommonStyle.swf", symbol="conf_over");
+	disabledSkin: Embed(source="CommonStyle.swf", symbol="conf_up");
+	selectedUpSkin: Embed(source="CommonStyle.swf", symbol="conf_over");
+	selectedOverSkin: Embed(source="CommonStyle.swf", symbol="conf_over");
+	selectedDownSkin: Embed(source="CommonStyle.swf", symbol="conf_over");
+	selectedDisabledSkin: Embed(source="CommonStyle.swf", symbol="conf_up");
+}

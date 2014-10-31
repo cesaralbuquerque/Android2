@@ -1,0 +1,99 @@
+@charset "utf-8";
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial;
+	font-size: 12px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.advises {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial;
+	font-size: 12px;
+	color: #666666;
+}
+.advisesM {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial;
+	font-size: 11px;
+	color: #666666;
+}
+
+.send {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial;
+	font-size: 12px;
+	color: #666666;
+	background-image: url(image/bgbut.png);
+	border: 1px solid #999999;
+	height: 22px;
+}
+.field {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial;
+	font-size: 12px;
+	background-image: url(image/bgfield.png);
+	background-repeat: repeat-x;
+	height: 15px;
+	border: 1px solid #777777;
+}
+.tags {
+	color: #666666;
+}
+.selectD {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial;
+	font-size: 12px;
+}
+.style1 {
+	color: #717171;
+	font-size: 11px;
+}
+.style2 {
+	color: #F87A26;
+	text-decoration: none;
+}
+.style2:visited {
+	color: #F87A26;
+	text-decoration: none;
+}
+.style2:hover {
+	color: #F87A26;
+	text-decoration: underline;
+}
+.style3 {
+	color: #287237;
+	text-decoration: underline;
+}
+.style3:visited {
+	color: #287237;
+	text-decoration: underline;
+}
+.style3:hover {
+	color: #287237;
+	text-decoration: none;
+}
+.style4 {
+	color: #F87A26;
+	text-decoration: none;
+	font-size: 16px;
+}
+.style4:visited {
+	color: #F87A26;
+	text-decoration: none;
+	font-size: 16px;
+}
+.style4:hover {
+	color: #F87A26;
+	text-decoration: underline;
+	font-size: 16px;
+}
+.style5 {
+	font-size: 16px;
+}
+.style6 {
+	color: #F87A26;
+	font-size: 14px;
+}
+.style7 {
+	font-size: 24px;
+}
+.style8 {
+	font-size: 19px;
+}

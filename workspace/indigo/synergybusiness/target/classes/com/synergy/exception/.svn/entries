@@ -1,0 +1,54 @@
+8
+
+dir
+576
+https://synergychat.svn.cvsdude.com/synergychat/synergybusiness/target/classes/com/synergy/exception
+https://synergychat.svn.cvsdude.com/synergychat
+
+
+
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+45c3e2bf-c045-4bd1-baaf-4b6e865f7e0a
+
+SynergyException.class
+file
+
+
+
+
+2011-11-29T23:44:38.253000Z
+1b870228912bcc3256178927664079f6
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+has-props
+
+UserUnavailableException.class
+file
+
+
+
+
+2011-11-29T23:44:38.270000Z
+3400d0fbff313757f73ff512b0f8275d
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+has-props
+

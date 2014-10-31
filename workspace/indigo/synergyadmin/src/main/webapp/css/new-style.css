@@ -1,0 +1,84 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 12px;
+	font-family: Tahoma;
+	color: #444444;
+	vertical-align: baseline;
+	}
+a {
+	cursor:pointer;
+	border: 0px;		
+}
+
+p {margin:0px; padding:0px; border:0px;}
+img {margin:0px; padding:0px; border:0px;}
+
+div.spacer { clear: both; }
+
+div.description {	
+	text-align: right;
+	padding-right: 5px;
+}
+
+div.inputArea {
+	width: 250px;
+}
+
+div.description, div.inputArea {
+	margin-bottom: 18px;
+	float: left;
+}
+
+form.memberForm {
+	padding: 0px;
+	margin: 0px;
+	color: #555;
+}
+
+table#tableCloud td{
+	padding: 5px;
+}
+
+table#tableContact td{
+	padding: 10px;
+}
+
+.clearflot {clear:both;}
+
+.main {width:956px; margin:0 auto;}
+
+.banner {margin:0 0 40px 0;}
+
+.content {}
+.content .left-cnt {float:left; width:333px;}
+.content .left-cnt .hd {margin:0 0 5px 0; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#15a1dc;}
+.cnt-txt {line-height:20px;}
+
+.yello-box {margin:20px 0 25px 0;}
+.yello-box .top-bg {background:url(../images/yello-top-left-cove-bg.jpg) right top no-repeat;}
+.yello-box .bot-bg {background:url(../images/yello-bot-left-cove-bg.jpg) right top no-repeat;}
+.yello-box .mid-bg {background:#fdf9e0; border-left:1px solid #ffec78; border-right:1px solid #ffec78; padding:10px 20px; color:#1c1c1c; line-height:20px;}
+.yello-box .mid-bg span {color:#fe9500; font-weight:bold;}
+.yello-box .mid-bg span a {color:#fe9500; text-decoration:none;}
+.yello-box .mid-bg span a:hover {color:#074470; text-decoration:none;}
+
+
+.chat-box {}
+.chat-box {padding:15px 0 0 0;}
+.chat-box .cnt-left {float:left; width:50px; padding:10px 0 0 0;}
+.chat-box .cnt-right {float:right; width:260px; font-size:12px; color:#1c1c1c; line-height:18px;}
+.chat-box .cnt-right .title {color:#15a1dc; font-weight:bold;}
+.chat-box .cnt-right2 {float:right; width:380px; font-size:12px; color:#1c1c1c; line-height:18px;}
+.chat-box .cnt-right2 .title {color:#15a1dc; font-weight:bold;}

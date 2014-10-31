@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <script type="text/javascript" src="js/synergy.js"></script>
+  <link href="css/new-style.css" rel="stylesheet" type="text/css" media="screen" />
+ </head>
+
+ <body style="background-color: #9AC6C8;">
+ <center>
+ <div style="width:955px;text-align:left;padding:3px">
+ <!--BEGIN TOP-->
+  <div style="height:173px;background-image:url(img/top-section.png)">
+	<div style="padding-top:40px;padding-left:30px;">
+	
+	<div style="width:270px;float:left">
+	<img src="img/syn-logo.gif"/>
+	</div>
+	<div style="float:left;padding-left:170px;width:200px;">
+	<a target="_blank" onclick="openSynergyWindow(0,4,true,'')">
+	<img src="img/chat-login-button.gif"/>
+	</a>
+	</div>
+
+	<div style="padding-left:100px">
+	<div>
+	<a wicket:id="adminloginLink" style="padding-left:160px">
+	<img wicket:id="adminImg" />
+	</a>
+	</div>
+	<div>
+    	<form wicket:id="loginForm" method="post">
+        <span wicket:id="feedbackLogin"></span><br>
+        Username: <input class="login" size="10" onclick="clearField(this)" wicket:id="email" name="email" type="text" /><br>
+        Password: <input class="login" size="10" type="password" name="password" wicket:id="password" />
+        <input type="submit" value="Login" name="submit_btn" />
+  		<br/>
+
+  		<input wicket:id="rememberme" type="checkbox"/>Remember me &nbsp;&nbsp;
+
+  		<a wicket:id="forgotPass" style="color: #0000FF;text-decoration:underline" href="#">Forgot Password</a>
+        </form>
+    </div>    
+
+	</div>
+	</div>
+  </div>
+<!-- END TOP-->
+<!--BEGIN MIDDLE-->
+<div style="background-image:url(img/mid-section.png);background-repeat:repeat-y">
+<!--BEGIN MENU-->
+<div style="padding-left:15px;">
+<a wicket:id="homeLink"><img wicket:id="homeLinkImg" src="img/home-button.gif" style="width:128px"></a>
+<a wicket:id="aboutusLink"><img wicket:id="aboutusLinkImg" src="img/about-us-button.gif" style="width:128px"></a>
+<a wicket:id="howitworksLink"><img wicket:id="howitworksLinkImg" src="img/how-it-works-button.gif" style="width:128px"></a>
+<a wicket:id="technologyLink"><img wicket:id="technologyLinkImg" src="img/technology-button.gif" style="width:128px"></a>
+<a wicket:id="thecloudLink"><img wicket:id="thecloudLinkImg" src="img/the-cloud-button.gif" style="width:128px"></a>
+<a wicket:id="freebetaLink"><img wicket:id="freebetaLinkImg" src="img/free-beta-button.gif" style="width:128px"></a>
+<a wicket:id="helpLink"><img wicket:id="helpLinkImg" src="img/help-button.gif" style="width:128px"></a>
+</div>
+<div style="position:relative">
+<div style="position:absolute;top:50px;left:20px;float:left">
+<a wicket:id="betaButton"><img src="img/new-free-beta-button.gif" alt="Beta Sign Up" /></a>
+</div>
+<div style="position:absolute;top:20px;left:780px">
+<a target="_blank" onclick="openSynergyWindow(97,'','true');" style="cursor:pointer">
+<img wicket:id="imgDemo" src="img/live-preview-button.gif" alt="Click Here"/></a>
+</div>
+<div style="text-align:center">
+<br/><br/><br/>
+<div>
+<wicket:child/>
+</div>
+</div>
+</div>
+<div style="height:100px">
+
+</div>
+</div>
+<!--END MIDDLE-->
+ <!--BEGIN BOTTOM-->
+<div style="clear:both;text-align:center;height:55px;background-image:url(img/bottom-section.png)">
+<div style="float:left;width:830px">
+<div style="padding-left:135px">
+	<a wicket:id="faqLink" style="width:80px;padding-right:10px"><img src="img/faq-button.gif" ></a>
+	<a wicket:id="contactLink" style="width:80px;padding-right:10px"><img src="img/contact-us-button.gif" ></a>
+	<a wicket:id="privacyLink" style="width:80px;padding-right:10px"><img src="img/privacy-button.gif" ></a>
+	<a wicket:id="termsLink" style="width:80px;padding-right:10px"><img src="img/terms-button.gif" ></a>
+	<a wicket:id="sitemapLink" style="width:80px;padding-right:10px"><img src="img/sitemap-button.gif" ></a>
+	
+</div>
+<div style="vertical-align:bottom;padding-left:115px">
+	<p style="font-size:11px">Copyright &copy;2009 Synergy Chat</p>
+</div>
+</div>
+<div style="float:right;padding-right:30px">
+    <a style="width:80px;padding-right:10px" target="_blank" href="http://twitter.com/synergychat1">
+    <img src="img/twitter-button.gif"/></a>
+	<a style="width:80px;padding-right:10px" target="_blank" href="http://synergychatblog.blogspot.com/"><img src="img/blogspot.gif" ></a>
+</div>
+</div>
+<!--END BOTTOM-->
+</div>
+</center>
+<!-- Start Quantcast tag --> 
+<script type="text/javascript"> _qoptions={ qacct:"p-f6guzos4cxKUQ" }; </script> <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> <noscript> <img src="http://pixel.quantserve.com/pixel/p-f6guzos4cxKUQ.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/> </noscript> 
+<!-- End Quantcast tag -->
+<!-- Start Proactive SynergyChat -->
+<script type="text/javascript" src="http://www.synergychat.com/js/pchatsynergy.js"></script>
+<script>initProactiveChat("5");</script>
+<!-- End Proactive SynergyChat -->
+
+ <!-- Start Google Analytics -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13147553-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+<!-- End Google Analytcis -->
+ </body>
+</html>

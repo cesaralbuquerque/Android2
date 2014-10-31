@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView 
+	android:text="NOME" 
+	android:id="@+id/TextViewNome" 
+    android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<EditText  
+	android:id="@+id/EditTextNome" 
+    android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</EditText>
+
+<TextView 
+	android:text="SOBRENOME" 
+	android:id="@+id/TextViewSobrenome" 
+    android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<EditText 
+	android:id="@+id/EditTextSobrenome" 
+    android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</EditText>
+
+<TextView android:text="Mostrar Nome Completo" 
+	android:id="@+id/TextView03" 
+    android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<CheckBox 
+	android:text="@+id/CheckBox01" 
+	android:id="@+id/CheckBox01" 
+    android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</CheckBox>
+
+<Button 
+	android:text="Mostrar" 
+	android:id="@+id/ButtonMostrar" 
+    android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+
+<TextView  
+	android:id="@+id/TextViewMostrar" 
+    android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</TextView>
+
+</LinearLayout>

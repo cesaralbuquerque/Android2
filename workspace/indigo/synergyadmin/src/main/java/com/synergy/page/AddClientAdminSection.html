@@ -1,0 +1,85 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+	<div>
+	<form wicket:id="cliForm" class="memberForm">
+    			
+				<span wicket:id="feedback"></span><br>
+    			
+    			<div style="display:none">
+    			<div class="description">Developer ID</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="developerId" class="borderGray" size="30" name="developerId"/>
+    				<span style="color: blue;font-size:10px">*Only for developers</span>
+    			</div>
+    			<div class="spacer"></div>
+    			</div>
+    			
+    			<div class="description">First Name</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="firstName" class="borderGray" size="30" name="firstName"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Last Name</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="lastName" class="borderGray" size="30" name="lastName"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">E-Mail</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="email" class="borderGray" size="30" name="email"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Company Name</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="companyName" class="borderGray" size="30" name="companyName"/>
+    			</div>
+    			
+    			<div class="description">Company Website</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="www" class="borderGray" size="30" name="www"/>
+    			</div>
+    			
+    			<div class="spacer"></div>
+    			
+				<div class="description">Personal Page</div>
+    			<div class="inputArea">
+    				<span style="font-size:10px">http://www.synergychat.com/chat/</span>
+    				<input type="text" wicket:id="personalPage" class="borderGray" size="10" maxlength="10" name="personalPage"/>
+    			</div>
+    			<div class="spacer"></div>
+
+    			<div class="description">Username</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="username" class="borderGray" size="30" name="username"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Password</div>
+    			<div class="inputArea">
+    				<input type="password" wicket:id="pass" class="borderGray" size="30" name="pass"/>
+    			</div>
+    			<div class="spacer"></div>	
+    			
+    			<div class="description">Retype Password</div>
+    			<div class="inputArea">
+    				<input type="password" wicket:id="repass" class="borderGray" size="30" name="repass"/>
+    			</div>
+    			
+    			<div class="inputArea" style="display:none">
+    			<input wicket:id="conteudo" size="10" type="text" name="textfield2" id="textfield3" class="text-lower"/>
+	    		<img style="padding-top:100px" wicket:id="captchaImage" height="150" width="200" />	
+    			</div>
+    			
+    			<div class="description">&nbsp;</div>
+    			<div class="inputArea">
+    				<input type="submit" name="submit" value="Save"/>
+    			</div>
+    			<div class="spacer"></div>	
+    		</form>
+	</div>
+</wicket:extend>
+
+</html>

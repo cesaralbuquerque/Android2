@@ -1,0 +1,35 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+<p class="hd"><img src="images/payment-upgrade.jpg" alt="" /></p>
+          
+          
+          
+          <p>&nbsp;</p>
+          
+          
+          
+            <ul class="TabbedPanelsTabGroup">
+              <li class="TabbedPanelsTabSelected">Current Plan Status</li>
+              <li class="TabbedPanelsTab"><a wicket:id="buyLink">Buy More Connection</a></li>
+              <li class="TabbedPanelsTab"><a wicket:id="historyLink">Connections Purchase History</a></li>
+            </ul>
+            <div class="TabbedPanelsContentGroup">
+              <div class="TabbedPanelsContent">
+              	<h1>Current Plan Status</h1>    
+                
+                <p>&nbsp;</p>
+                <p class="details"><span>Plan Type:</span> <label wicket:id="plantype"></label></p>
+                <p class="details"><span>Number of connections:</span> <label wicket:id="nconns"></label></p>
+                <p class="details"><span>Number of connections in use:</span> <label wicket:id="nconnsu"></label></p>
+                <p class="details"><span>Monthly Payment :</span> <label wicket:id="price"></label></p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+              </div>
+	</div>
+
+</wicket:extend>
+</html>

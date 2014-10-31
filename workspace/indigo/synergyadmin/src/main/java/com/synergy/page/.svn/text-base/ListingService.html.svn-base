@@ -1,0 +1,83 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:head>
+<TITLE>Synergy Chat How It Works | Cloud Computing | Internet Video Chat, Mail & Conference</TITLE>
+<META NAME="Keywords" CONTENT="synergy, chat, cloud, computing, how, it, works, technology, specs, video, chat, email, conference, usage "/>
+<META NAME="Description" CONTENT="Synergy Chat How It Works Page. How Synergy Chat works. Its technology and what cloud computing is."/>
+<META NAME="Classification" CONTENT="Cloud Computing"/>
+<META NAME="Abstract" CONTENT="How Synergy Chat's cloud computing applications work and what cloud computing is all about."/>
+<META NAME="Copyright" CONTENT="© 2008 Synergy Chat"/>
+<META NAME="Contact" CONTENT="support@synergychat.com"/>
+<META NAME="Publisher" CONTENT="Synergy Chat"/>
+<META NAME="Robots" CONTENT="ALL"/>
+<META NAME="Robots" CONTENT="INDEX,FOLLOW"/>
+<META NAME="Distribution" CONTENT="Global"/>
+<META NAME="Rating" CONTENT="General"/>
+</wicket:head>
+
+    <wicket:extend>
+    <!--
+   <body style="background-image:url(../img/vert-bg2.gif); background-repeat: repeat-x;">
+   -->
+   <body style="background: #d4ebf9; background-image:url(../img/bg-slice.jpg); background-repeat: repeat-y; background-position:center; ">
+	<center>
+   <div id="outterHowWrap">
+   <div id="headerWrap" style="height: 96px">
+    
+		<div id="logoWrapper">
+		<br/>    
+    	<img src="img/syn-logo.gif" alt="synergy chat"/><!--
+    
+		--></div><!--end logoWrapper-->
+  	</div>
+	<div id="navWrapper">
+    
+    <a wicket:id="homeLink"><img src="img/home-off.gif" alt="home" width="148" height="30" /></a><!--
+    --><a wicket:id="aboutusLink"><img src="img/about-off.gif" alt="about us" width="147" height="30" /></a><!--
+    --><a wicket:id="howitworksLink"><img src="img/how-it-on.gif" alt="how it works" width="175" height="30" /></a><!--
+    --><a href="core-tech" wicket:id="coretechLink"><img width="189" height="30" src="img/core-tech-off.gif"/></a>
+    <a wicket:id="contactusLink"><img src="img/contact-off.gif" width="151" height="30" /></a>
+    </div>
+<!--end navWrapper-->
+<div id="auxContent">
+
+	<div style="width:100px" id="auxLeft">
+    
+    </div><!--end auxLeft-->
+    
+    <div id="auxRight" style="width:750px">
+  		<h3>List Service Websites</h3>
+  		<table>
+  		<tr wicket:id="clients">
+  		<td style="width:250px">
+  		<span wicket:id="cname" style="font-weight:bold"></span><br>
+  		<span style="width:250px" wicket:id="cdesc"></span><br>
+  		<span wicket:id="curl"></span><br>
+  		</td>
+  		<td>
+  		<span wicket:id="cbutton"></span>
+  		</td>
+  		</tr>
+  		</table>	
+    </div><!--end auxRight-->
+</div><!--end auxContent-->
+</div>
+    <div id="copyRight">
+     <p>Copyright &copy;2008 Synergy Chat. All rights reserved.</p>
+     </div>
+     </center>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10703188-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Start Quantcast tag --> 
+<script type="text/javascript"> _qoptions={ qacct:"p-f6guzos4cxKUQ" }; </script> <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> <noscript> <img src="http://pixel.quantserve.com/pixel/p-f6guzos4cxKUQ.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/> </noscript> 
+<!-- End Quantcast tag -->
+</body>
+
+</wicket:extend>
+</html>

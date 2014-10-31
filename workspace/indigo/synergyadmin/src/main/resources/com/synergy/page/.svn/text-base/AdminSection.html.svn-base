@@ -1,0 +1,74 @@
+<html xmlns:wicket="http://wicket.apache.org">
+	<body style="background-image:url(../img/vert-bg2.gif); background-repeat: repeat-x;">
+	<div id="logoWrapper">
+    	<br>
+    	<img src="img/syn-logo.gif" alt="synergy chat"/> Admin Area    
+  	</div>
+	<hr>
+	<form wicket:id="login">
+	<span wicket:id="feedback"></span><br>
+	Email: <input wicket:id="email"><br>
+	Password: <input wicket:id="pass" type="password"><br>
+	<input type="submit" value="Login">
+	</form>
+	
+	<span wicket:id="panel"> </span>
+	<wicket:fragment wicket:id="fragmain">
+	<div style="float:left;border-right:1px solid black">
+		
+	<span wicket:id="pmenu"></span>
+	<wicket:fragment wicket:id="fragsales">
+	<span>Salesperson<br></span>
+	<ul>
+		<li><a href="#" wicket:id="addsales">Add Salesperson</a></li>
+		<li><a href="#" wicket:id="viewsales">View Salespersons</a></li>	
+	</ul>
+	<br>
+	</wicket:fragment>
+	<span wicket:id="pmenu2"></span>
+	<wicket:fragment wicket:id="fragdeveloper">
+	<span>Developer</span>
+	<ul>
+		<li><a href="#" wicket:id="adddeveloper">Add Developers</a></li>
+		<li><a href="#" wicket:id="viewdeveloper">View Developers</a></li>	
+	</ul>
+	<br>
+	</wicket:fragment>
+	<span wicket:id="pmenu3"></span>
+	<wicket:fragment wicket:id="fragcustomer">
+	<span>Customer</span>
+	<ul>
+		<li><a href="#" wicket:id="addcustomer">Add Customer</a></li>
+		<li><a href="#" wicket:id="viewcustomer">View Customers</a></li>	
+	</ul>
+	<br>
+	</wicket:fragment>
+	<span wicket:id="pmenu4"></span>
+	<wicket:fragment wicket:id="fragmonitor">
+	<span>Monitor</span>
+	<ul>
+		<li><a href="#" wicket:id="viewmonitor">View Reports</a></li>	
+	</ul>
+	<br>
+	</wicket:fragment>
+	<a wicket:id="logout">Logout</a>
+	</div>
+	<div style="margin-left: 150px">
+	<wicket:child/>
+	</div>
+	</wicket:fragment>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10703188-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Start Quantcast tag --> 
+<script type="text/javascript"> _qoptions={ qacct:"p-f6guzos4cxKUQ" }; </script> <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> <noscript> <img src="http://pixel.quantserve.com/pixel/p-f6guzos4cxKUQ.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/> </noscript> 
+<!-- End Quantcast tag -->
+	
+	</body>
+</html>

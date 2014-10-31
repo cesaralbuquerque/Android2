@@ -1,0 +1,260 @@
+/* CSS file */
+Application {
+   backgroundGradientColors: #fcfff4, #e9e9ce;
+   themeColor: #993300;
+}
+ApplicationControlBar {
+   highlightAlphas: 0, 0;
+   fillAlphas: 1, 1;
+   fillColors: #575757, #0f0f0f;
+   shadowDistance: 1;
+   dropShadowColor: #666666;
+}
+.myPopupwindow{
+	borderAlpha: 1;
+	modalTransparencyBlur: 0;	
+}
+/* .myPanel {
+	
+	
+   	borderAlpha: 1;
+   	borderThicknessLeft: 0;
+   	borderThicknessTop: 0;
+   	borderThicknessBottom: 0;
+   	borderThicknessRight: 0;
+ 	headerHeight: 0;   
+ 	cornerRadius: 0;
+ 	dropShadowEnabled: false;
+   	shadowDistance: 0; 	
+   	/*roundedBottomCorners: true;
+   	backgroundAlpha: 1;
+   	highlightAlphas: 0, 0;
+   	backgroundColor: #ffffff;
+   	headerColors: #971714, #c23b38;
+   	footerColors: #ffffff, #ffffff;
+   	shadowDistance: 0;
+   	dropShadowColor: #666666;
+   	titleStyleName: "mypanelTitle";*//*
+   	borderSkin: Embed(source="portfolioStyle.swf", symbol="Panel_borderSkin");
+} */
+.myPanel {
+	
+	
+   	
+   	borderThicknessLeft: 0;
+   	borderThicknessTop: 0;
+   	borderThicknessBottom: 0;
+   	borderThicknessRight: 0;
+ 	headerHeight: 0;   
+ 	cornerRadius: 0;
+ 	dropShadowEnabled: false;
+   	shadowDistance: 0; 	
+   	/*roundedBottomCorners: true;
+   	backgroundAlpha: 1;
+   	highlightAlphas: 0, 0;
+   	backgroundColor: #ffffff;
+   	headerColors: #971714, #c23b38;
+   	footerColors: #ffffff, #ffffff;
+   	shadowDistance: 0;
+   	dropShadowColor: #666666;
+   	titleStyleName: "mypanelTitle";*/
+ /*   	borderSkin: Embed(source="portfolioStyle.swf", symbol="Panel_borderSkin"); */
+}
+.mypanelTitle {
+   color: #ffffff;
+   fontFamily: Tahoma;
+   fontSize: 11;
+   fontWeight: bold;
+}
+
+.myLinkBar {
+   borderStyle: none;
+   cornerRadius: 4;
+   separatorColor: #696969;
+   color: #c8c8c8;
+   textSelectedColor: #ffffff;
+   disabledColor: #ffffff;   
+   rollOverColor: #767676;
+   textRollOverColor: #ffffff;
+   fontFamily: Tahoma;
+   fontWeight: bold; 
+   fontSize: 11;
+   horizontalGap: 15;  
+}
+.locationButton{
+   cornerRadius: 7;
+   highlightAlphas: 0, 0;
+   fillAlphas: 1, 1, 0.75, 0.65;
+   fillColors: #f3f9fb, #bee1e9, #f3f9fb, #bee1e9;
+   borderColor: #77a0ab;
+   themeColor: #669999;
+}	
+
+@font-face {
+	src:url("MyriadPro_embed.swf");
+	fontFamily: "Myriad Pro";
+}
+
+@font-face {
+	src:url("MyriadPro_embed.swf");
+	fontFamily: "Myriad Pro";
+	fontWeight: bold;
+}
+
+@font-face {
+	src:url("MyriadPro_embed.swf");
+	fontFamily: "Myriad Pro";
+	fontStyle: italic;
+}
+
+@font-face {
+	src:url("MyriadPro_embed.swf");
+	fontFamily: "Myriad Pro";
+	fontWeight: bold;
+	fontStyle: italic;
+}
+
+@font-face {
+	src:url("Notepad_embed.swf");
+	fontFamily: "Notepad";
+}
+
+@font-face {
+	src:url("Notepad_embed.swf");
+	fontFamily: "Notepad";
+	fontWeight: bold;
+}
+
+@font-face {
+	src:url("Notepad_embed.swf");
+	fontFamily: "Notepad";
+	fontStyle: italic;
+}
+
+@font-face {
+	src:url("Notepad_embed.swf");
+	fontFamily: "Notepad";
+	fontWeight: bold;
+	fontStyle: italic;
+}
+
+.redLabel{
+	color: #A20804;
+	fontSize: 14;
+	fontFamily: "Myriad Pro";
+}
+.redLabelBold{
+	color: #A20804;
+	fontSize: 14;
+	fontFamily: "Myriad Pro Black";
+}
+
+
+.textMatter{
+	color: #404040;
+	fontSize:14;
+	fontFamily: "Myriad Pro";
+}
+.textMatterBold{
+	color: #404040;
+	fontSize:14;
+	fontFamily: "Myriad Pro Black";
+}
+.textheader{
+	color: #6F1B2B;
+	fontSize:22;
+	fontFamily: "Notepad";
+}
+ComboBox {
+   borderColor: #999999;
+   highlightAlphas: 0, 0.75;
+   fillAlphas: 1, 1, 1, 1;
+   fillColors: #cccccc, #eaeaea, #ffffff, #eeeeee;
+   fontFamily: "Myriad Pro";
+   fontSize:12;
+}	
+
+CheckBox {
+   highlightAlphas: 0, 0.74;
+   fillAlphas: 1, 1, 1, 1;
+   fillColors: #cccccc, #eaeaea, #ffffff, #eeeeee;
+   borderColor: #999999;
+   fontFamily: "Myriad Pro";
+   fontSize:12;
+}
+
+ToggleButtonBar {
+        buttonStyleName: "buttonBarButton"; 
+        firstButtonStyleName: "firstButtonBarButton"; 
+        lastButtonStyleName: "lastButtonBarButton";
+}
+.firstButtonBarButton 
+{ 
+        disabledSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_firstUpSkin"); 
+        downSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_firstUpSkin"); 
+        overSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_firstOverSkin"); 
+		upSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_firstUpSkin");
+		
+        selectedDisabledSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_firstSelectedUpSkin"); 
+        selectedDownSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_firstSelectedUpSkin"); 
+        selectedOverSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_firstSelectedUpSkin");
+        selectedUpSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_firstSelectedUpSkin");
+        
+        color: #ffffff;
+		textRollOverColor: #ffffff;
+		textSelectedColor: #ffffff;
+		disabledColor:#444444;
+}
+.buttonBarButton 
+{ 
+        disabledSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_buttonUpSkin"); 
+        downSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_buttonUpSkin"); 
+        overSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_buttonOverSkin"); 
+		upSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_buttonUpSkin");
+		
+        selectedDisabledSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_buttonSelectedUpSkin"); 
+        selectedDownSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_buttonSelectedUpSkin"); 
+        selectedOverSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_buttonSelectedUpSkin");
+        selectedUpSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_buttonSelectedUpSkin");
+        
+        color: #ffffff;
+		textRollOverColor: #ffffff;
+		textSelectedColor: #ffffff;
+		disabledColor:#444444;
+}
+
+.lastButtonBarButton 
+{ 
+        disabledSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_lastUpSkin"); 
+        downSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_lastUpSkin"); 
+        overSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_lastOverSkin"); 
+        upSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_lastUpSkin");
+        
+        selectedDisabledSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_lastSelectedUpSkin"); 
+        selectedDownSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_lastSelectedUpSkin"); 
+        selectedOverSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_lastSelectedUpSkin");
+        selectedUpSkin: Embed(source="portfolioStyle.swf", symbol="ButtonBar_lastSelectedUpSkin");
+        
+        color: #ffffff;
+		textRollOverColor: #ffffff;
+		textSelectedColor: #ffffff;
+		disabledColor:#444444; 
+}
+ScrollBar
+{
+
+	downArrowDisabledSkin: Embed(source="portfolioStyle.swf", symbol="ScrollArrowDown_disabledSkin");
+	downArrowDownSkin: Embed(source="portfolioStyle.swf", symbol="ScrollArrowDown_downSkin");
+	downArrowOverSkin: Embed(source="portfolioStyle.swf", symbol="ScrollArrowDown_overSkin");
+	downArrowUpSkin: Embed(source="portfolioStyle.swf", symbol="ScrollArrowDown_upSkin");
+	thumbDownSkin: Embed(source="portfolioStyle.swf", symbol="ScrollThumb_downSkin");
+	thumbIcon: Embed(source="portfolioStyle.swf", symbol="ScrollBar_thumbIcon");
+	thumbOverSkin: Embed(source="portfolioStyle.swf", symbol="ScrollThumb_overSkin");
+	thumbUpSkin: Embed(source="portfolioStyle.swf", symbol="ScrollThumb_upSkin");
+	trackSkin: Embed(source="portfolioStyle.swf", symbol="ScrollTrack_Skin");
+	upArrowDisabledSkin: Embed(source="portfolioStyle.swf", symbol="ScrollArrowUp_disabledSkin");
+	upArrowDownSkin: Embed(source="portfolioStyle.swf", symbol="ScrollArrowUp_downSkin");
+	upArrowOverSkin: Embed(source="portfolioStyle.swf", symbol="ScrollArrowUp_overSkin");
+	upArrowUpSkin: Embed(source="portfolioStyle.swf", symbol="ScrollArrowUp_upSkin");
+
+}

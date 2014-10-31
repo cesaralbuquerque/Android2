@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/util
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/util/Util.java
+END
+SessionToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/util/SessionToken.java
+END
+BCrypt.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/util/BCrypt.java
+END
+LocalEncrypter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/util/LocalEncrypter.java
+END
+SendMail.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/util/SendMail.java
+END
+SynergyConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/util/SynergyConfig.java
+END
+SendMessageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/util/SendMessageException.java
+END
+CipherUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/util/CipherUtil.java
+END
+SynergyMailUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/util/SynergyMailUtil.java
+END
+SessionIdUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/util/SessionIdUtil.java
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/util/Test.java
+END

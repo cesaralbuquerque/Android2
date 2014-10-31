@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!--
+		<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:lang="http://www.springframework.org/schema/lang"
+		xmlns:tx="http://www.springframework.org/schema/tx"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-2.0.xsd"
+		default-autowire="byName">
+	-->
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd                            
+    http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-3.0.xsd 
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd"
+	default-autowire="byName">
+
+	<bean id="placeholderConfig"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location" value="/WEB-INF/red5-web.properties" />
+		<!--
+			<property name="systemPropertiesModeName"
+			value="SYSTEM_PROPERTIES_MODE_OVERRIDE"/>
+		-->
+	</bean>
+
+	<bean id="web.context" class="org.red5.server.Context" autowire="byType" />
+
+	<bean id="web.scope" class="org.red5.server.WebScope" init-method="register">
+		<property name="server" ref="red5.server" />
+		<property name="parent" ref="global.scope" />
+		<property name="context" ref="web.context" />
+		<property name="handler" ref="web.handler" />
+		<property name="contextPath" value="${webapp.contextPath}" />
+		<property name="virtualHosts" value="${webapp.virtualHosts}" />
+	</bean>
+
+
+	<bean id="vmail.service" class="com.synergychat.VMailManager">
+		<property name="application" ref="web.handler" />
+	</bean>
+	<bean id="vchat.service" class="com.synergychat.VChatManager">
+		<property name="application" ref="web.handler" />
+	</bean>
+
+	<bean id="web.handler" class="com.synergychat.Application">
+	</bean>
+
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass" value="${jdbc.driver}" />
+		<property name="jdbcUrl" value="${jdbc.url}" />
+		<property name="user" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="idleConnectionTestPeriod" value="10800" />
+		<property name="maxIdleTime" value="21600" />
+	</bean>
+
+	<!-- End transaction management -->
+
+	<bean id="entityManagerFactory"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+				<property name="showSql" value="${jdbc.show_sql}" />
+				<property name="generateDdl" value="true" />
+				<property name="databasePlatform" value="${jdbc.dialect}" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<!--  
+-->
+	<tx:annotation-driven />
+
+	<bean
+		class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
+	<bean
+		class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator" />
+
+	<bean
+		class="org.springframework.transaction.interceptor.TransactionAttributeSourceAdvisor">
+		<property name="transactionInterceptor" ref="transactionInterceptor" />
+	</bean>
+
+	<bean id="transactionInterceptor"
+		class="org.springframework.transaction.interceptor.TransactionInterceptor">
+		<property name="transactionManager" ref="transactionManager" />
+		<property name="transactionAttributeSource">
+			<bean
+				class="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource" />
+		</property>
+	</bean>
+	<!-- End transaction management -->
+
+	<!-- Services -->
+	<bean id="guestChatService" class="com.synergy.service.impl.GuestChatServiceImpl">
+		<property name="guestChatDao" ref="guestChatDAO" />
+	</bean>
+	<bean id="purchaseService" class="com.synergy.service.impl.PurchaseServiceImpl">
+		<property name="purchaseDao" ref="purchaseDAO" />
+	</bean>
+	<bean id="groupService" class="com.synergy.service.impl.GroupServiceImpl">
+		<property name="groupDao" ref="groupDAO" />
+	</bean>
+	<bean id="companyService" class="com.synergy.service.impl.CompanyServiceImpl">
+		<property name="companyDao" ref="companyDAO" />
+		<property name="groupService" ref="groupService" />
+	</bean>
+	<bean id="braintreeService" class="com.synergy.service.impl.BrainTreeServiceImpl">
+	</bean>
+	<bean id="subscriberService" class="com.synergy.service.impl.SubscriberServiceImpl">
+		<property name="companyService" ref="companyService" />
+		<property name="subscriberDao" ref="subscriberDAO" />
+		<property name="groupService" ref="groupService" />
+	</bean>
+	<bean id="authenticateService" class="com.synergy.service.impl.AuthenticateServiceImpl">
+		<property name="subscriberService" ref="subscriberService" />
+	</bean>
+	<bean id="mailContactService" class="com.synergy.service.impl.MailContactServiceImpl">
+		<property name="mailContactDao" ref="mailContactDAO" />
+	</bean>
+	<bean id="messageService" class="com.synergy.service.impl.MailMessageServiceImpl">
+		<property name="messageDao" ref="messageDAO" />
+		<property name="videoDao" ref="videoDAO" />
+		<property name="subscriberService" ref="subscriberService" />
+		<property name="mailContactService" ref="mailContactService" />
+	</bean>
+	<bean id="videoService" class="com.synergy.service.impl.VideoServiceImpl">
+		<property name="videoDao" ref="videoDAO" />
+	</bean>
+	<bean id="chatService" class="com.synergy.service.impl.ChatServiceImpl">
+		<property name="chatDao" ref="chatDAO" />
+	</bean>
+	<bean id="userService" class="com.synergy.service.impl.UserServiceImpl">
+		<property name="userDao" ref="userDAO" />
+	</bean>
+	<bean id="productService" class="com.synergy.service.impl.ProductServiceImpl">
+		<property name="productDao" ref="productDAO" />
+		<property name="subCompDao" ref="subCompDAO" />
+	</bean>
+
+	<!-- End Services -->
+
+	<!-- DAOs -->
+	<bean id="guestChatDAO" class="com.synergy.dao.impl.GuestChatDaoImpl" />
+	<bean id="purchaseDAO" class="com.synergy.dao.impl.PurchaseDaoImpl" />
+	<bean id="mailContactDAO" class="com.synergy.dao.impl.MailContactDaoImpl" />
+	<bean id="subscriberDAO" class="com.synergy.dao.impl.SubscriberDaoImpl" />
+	<bean id="companyDAO" class="com.synergy.dao.impl.CompanyDaoImpl" />
+	<bean id="videoDAO" class="com.synergy.dao.impl.VideoDaoImpl" />
+	<bean id="messageDAO" class="com.synergy.dao.impl.MailMessageDaoImpl" />
+	<bean id="groupDAO" class="com.synergy.dao.impl.GroupDaoImpl" />
+	<bean id="chatDAO" class="com.synergy.dao.impl.ChatDaoImpl" />
+	<bean id="userDAO" class="com.synergy.dao.impl.UserDaoImpl"/>
+	<bean id="productDAO" class="com.synergy.dao.impl.ProductDaoImpl" />
+	<bean id="subCompDAO" class="com.synergy.dao.impl.ProductSubscriberCompanyDaoImpl" />
+	<!-- End DAOs -->
+
+</beans>

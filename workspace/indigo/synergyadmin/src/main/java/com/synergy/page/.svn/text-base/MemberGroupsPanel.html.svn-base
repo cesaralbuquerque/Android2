@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.sourceforge.net/" xml:lang="en" lang="en">
+<body>
+<wicket:panel>
+
+
+	<div class="popup">
+	<p align="right"><a wicket:id="addGroupLink" href="#"> <img
+		src="images/btn-add-group.gif" alt="" /> </a></p>
+		<div wicket:id="addGroupPanel" style="display: block"></div>
+	</div>
+
+
+	<h1>Setup Groups</h1>
+	<p>&nbsp;</p>
+	<p>Click on the Add Group and create a group. You may add as many groups as you wish.</p>
+
+
+	<br />
+	<div class="detail-4">
+	<div
+		style="text-align: center; width: 100%; background-color: #FFFFCC; font-weight: bold">
+	<span style="" wicket:id="feedback"></span></div>
+	<div class="hds">
+	<div class="row-1" style="width:110px">Group</div>
+	<div class="row-2" style="width:200px">Email <img src="images/question.jpg"
+		class="mid-img" alt="" /></div>
+	<div class="row-1" style="width:90px">Privacy <img src="images/question.jpg"
+		class="mid-img" alt="" /></div>
+	<div class="row-3">Actions</div>
+	<div class="clearflot"></div>
+	</div>
+
+	<div class="row" wicket:id="groups">
+	<div class="row-1" style="width:110px" wicket:id="gname"></div>
+	<div class="row-2" wicket:id="gemail" style="width:200px"></div>
+	<div class="row-1" style="width:90px" wicket:id="gpublic"></div>
+	<div class="row-3" style="width:200px"><a style="display: " wicket:id="editGroup"
+		href="#"><img src="images/icon-edit.gif" alt="edit" width="15"
+		height="16" />&nbsp;Edit</a> &nbsp;&nbsp; <a wicket:id="delGroup" href="#"><img
+		src="images/icon-delete.gif" alt="delete" width="15" height="16" />&nbsp;Delete</a>
+	</div>
+	<div class="clearflot"></div>
+	</div>
+
+	</div>
+</wicket:panel>
+</body>
+</html>

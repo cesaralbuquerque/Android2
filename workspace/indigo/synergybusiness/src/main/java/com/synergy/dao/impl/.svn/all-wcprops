@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl
+END
+GroupDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/GroupDaoImpl.java
+END
+MailContactDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/MailContactDaoImpl.java
+END
+GuestChatDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/GuestChatDaoImpl.java
+END
+PurchaseDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/PurchaseDaoImpl.java
+END
+VideoDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/VideoDaoImpl.java
+END
+ProductDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/ProductDaoImpl.java
+END
+ChatDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/ChatDaoImpl.java
+END
+UserDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/UserDaoImpl.java
+END
+CompanyDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/CompanyDaoImpl.java
+END
+ProductSubscriberCompanyDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/ProductSubscriberCompanyDaoImpl.java
+END
+AbstractBasicHibernateDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/AbstractBasicHibernateDao.java
+END
+SubscriberDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/SubscriberDaoImpl.java
+END
+MailMessageDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/impl/MailMessageDaoImpl.java
+END

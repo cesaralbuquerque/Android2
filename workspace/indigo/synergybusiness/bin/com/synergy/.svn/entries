@@ -1,0 +1,54 @@
+8
+
+dir
+576
+https://synergychat.svn.cvsdude.com/synergychat/synergybusiness/bin/com/synergy
+https://synergychat.svn.cvsdude.com/synergychat
+
+
+
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+45c3e2bf-c045-4bd1-baaf-4b6e865f7e0a
+
+App.class
+file
+
+
+
+
+2011-11-29T23:44:43.097000Z
+1bcd2e7f756628bf8b4881552a4d82c3
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+has-props
+
+AppTest.class
+file
+
+
+
+
+2011-11-29T23:44:43.115000Z
+b6ac06fdf5656e69fcae15f50c12b58a
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+has-props
+

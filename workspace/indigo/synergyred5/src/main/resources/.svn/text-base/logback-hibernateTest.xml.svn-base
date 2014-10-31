@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="DBCONSOLE"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>[%p] [%thread] %logger - %msg%n</Pattern>
+		</layout>
+	</appender>
+	
+	<appender name="DBFILE" 
+		class="ch.qos.logback.core.rolling.RollingFileAppender"> 
+		<File>log/hibernateTest.log</File>
+		<rollingPolicy 
+			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy"> 
+			<FileNamePattern>log/hibernateTest.%d{yyyy-MM-dd}.log.gz</FileNamePattern> 
+		</rollingPolicy>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>DEBUG</level>
+		</filter>
+		<layout class="ch.qos.logback.classic.PatternLayout"> 
+			<Pattern>%date [%thread] %-5level %logger{35} - %msg%n</Pattern> 
+		</layout> 
+	</appender> 
+	
+	<root>
+		<appender-ref ref="DBFILE" />
+		<appender-ref ref="DBCONSOLE" />
+	</root>	
+	
+	<logger name="org.red5.server.webapps.hibernateTest">
+		<level value="DEBUG"/>
+	</logger>
+	
+</configuration>

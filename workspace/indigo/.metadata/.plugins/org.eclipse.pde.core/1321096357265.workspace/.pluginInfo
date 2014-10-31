@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="773" localization="OSGI-INF/l10n/bundle" name="Registro_de_Avistagem" project="Registro de Avistagem">
+		<library name="Registro de Avistagem.jar"/>
+		<library name="libs/android-support-v4.jar"/>
+	</bundle>
+</map>

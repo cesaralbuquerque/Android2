@@ -1,0 +1,52 @@
+8
+
+dir
+576
+https://synergychat.svn.cvsdude.com/synergychat/synergybusiness/src/main/java/com/synergy/exception
+https://synergychat.svn.cvsdude.com/synergychat
+
+
+
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+45c3e2bf-c045-4bd1-baaf-4b6e865f7e0a
+
+SynergyException.java
+file
+
+
+
+
+2011-11-29T23:44:41.539000Z
+0e82e45d7e049cc14408b97e893eded8
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+
+UserUnavailableException.java
+file
+
+
+
+
+2011-11-29T23:44:41.551000Z
+3cbc612926530842e0e0ecd9383a49c0
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+

@@ -1,0 +1,35 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+<p class="hd"><img src="images/payment-upgrade.jpg" alt="" /></p>
+          
+          
+          
+          <p>&nbsp;</p>
+          
+          
+          
+            <ul class="TabbedPanelsTabGroup">
+              <li class="TabbedPanelsTab"><a wicket:id="planLink">Current Plan Status</a></li>
+              <li class="TabbedPanelsTabSelected">Buy More Connection</li>
+              <li class="TabbedPanelsTab"><a wicket:id="historyLink">Connections Purchase History</a></li>
+            </ul>
+            <div class="TabbedPanelsContentGroup">
+              <div class="TabbedPanelsContent">
+              	<h1>Buy More Connection</h1>               
+                
+                <p>&nbsp;</p>
+              	<div style="color:#FF0000;background-color:#FFFFCC">
+              	<div wicket:id="feedback" style="font-size:12px; padding-left:120px;"></div>
+              	</div>
+    			<p class="details"><span>Connections:</span> <input type="text" class="short borderGray" wicket:id="quantity" name="quantity" value="5" size="3" maxlength="3"/></p>
+				
+		    	<p class="details"><span>Price:</span> <label wicket:id="price"></label><br>
+	    		<br/>
+	    		<p style="font-size:11px; padding-left:120px; color:#0000FF">The "Purchase" button will redirect you to the billing system.</p><br>
+	    		<p class="details" style="padding-left:100px"><span><a wicket:id="cancelLink" style="color:blue;display:none" href="#">Cancel</a></span><span><a href="_blank" wicket:id="checkoutLink"><img src="images/purchase.jpg" class="mid-img" alt="" /></a></span>
+	    		</p>
+	    		
+              </div>
+	</div>
+</wicket:extend>
+</html>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/synergychat/!svn/ver/573/synergyred5/target/classes/com/synergychat/dto
+END
+GroupDTO.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/573/synergyred5/target/classes/com/synergychat/dto/GroupDTO.class
+END
+SubscriberDTO.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/573/synergyred5/target/classes/com/synergychat/dto/SubscriberDTO.class
+END
+MailContactDTO.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/573/synergyred5/target/classes/com/synergychat/dto/MailContactDTO.class
+END
+SentMailMessageDTO.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/573/synergyred5/target/classes/com/synergychat/dto/SentMailMessageDTO.class
+END
+VideoDTO.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/573/synergyred5/target/classes/com/synergychat/dto/VideoDTO.class
+END
+MailMessageDTO.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/573/synergyred5/target/classes/com/synergychat/dto/MailMessageDTO.class
+END
+ViewVideoDTO.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/573/synergyred5/target/classes/com/synergychat/dto/ViewVideoDTO.class
+END
+DtoUtil.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/573/synergyred5/target/classes/com/synergychat/dto/DtoUtil.class
+END
+InboxMailMessageDTO.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/573/synergyred5/target/classes/com/synergychat/dto/InboxMailMessageDTO.class
+END

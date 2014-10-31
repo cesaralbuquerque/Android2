@@ -1,0 +1,125 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:head>
+<TITLE>Synergy Chat How It Works | Cloud Computing | Internet Video Chat, Mail & Conference</TITLE>
+<META NAME="Keywords" CONTENT="synergy, chat, cloud, computing, how, it, works, technology, specs, video, chat, email, conference, usage "/>
+<META NAME="Description" CONTENT="Synergy Chat How It Works Page. How Synergy Chat works. Its technology and what cloud computing is."/>
+<META NAME="Classification" CONTENT="Cloud Computing"/>
+<META NAME="Abstract" CONTENT="How Synergy Chat's cloud computing applications work and what cloud computing is all about."/>
+<META NAME="Copyright" CONTENT="© 2008 Synergy Chat"/>
+<META NAME="Contact" CONTENT="support@synergychat.com"/>
+<META NAME="Publisher" CONTENT="Synergy Chat"/>
+<META NAME="Robots" CONTENT="ALL"/>
+<META NAME="Robots" CONTENT="INDEX,FOLLOW"/>
+<META NAME="Distribution" CONTENT="Global"/>
+<META NAME="Rating" CONTENT="General"/>
+</wicket:head>
+
+    <wicket:extend>
+    <div style="text-align:left; padding:20px">
+    <div style="text-align:center">
+    <br/><br/>
+    <img src="img/how-it-works-header.gif"/>
+    </div>
+    <br/><br/><br/><br/><br/><br/><br/>
+              <table id="tableCloud">
+              <tr style="display:none">
+              <td><img src="img/syn-logo.gif" style="margin-top:50px"/>
+              <br><br><br><br>
+              </td>
+              <td>
+    	        <h3>Cloud Computing and Synergy Chat</h3>
+               Cloud Computing is a relatively new term for internet users. The concept of cloud computing is relatively simple: Instead of running programs and storing information on your desktop you instead run programs and store information directly on the internet using only your browser. There are many advantages to cloud computing: Local servers are not needed, valuable information is stored securely offsite, and best of all you can access the cloud from anywhere on any computer with internet access. The technological advantages provide a more efficient, productive and cost effective method of computing. Synergy Chat utilizes the cloud in a very unique way:
+               <br><br><br><br><br>
+               </td>
+               </tr>
+               <tr>
+               <td>
+              <img src="img/face-to-face-chat.gif" >
+              <br><br><br><br><br>
+              </td>
+              <td style="vertical-align:top">
+    	        <img src="img/video-chat-title.gif"/><br/><br/>
+With Synergy Chat it is extremely easy to video chat face to face. When a Synergy Chat member is logged into the member interface they can easily chat with other members from their group as well as guests. A Synergy Chat member simply clicks on another member&#39;s name on the member list or clicks on a guest name from the guest waiting list. Once a video chat is initiated you can chat as long as you wish. There is also the option to type using the text chat window. A webcam is not required in order to conduct a video chat. Anyone can use the audio signal to verbally communicate or use just the text chat box.
+               <br><br><br><br><br>
+               </td>
+               </tr>
+               <tr>
+               <td>
+              <img src="img/video-conference.gif" >
+              <br><br><br><br><br>
+              </td>
+              <td style="vertical-align:top">
+<img src="img/video-conference-title.gif"/><br/><br/>
+SynergyChat also offers the ability to video conference with up to nine people at the same time. Only one Synergy Chat member is required in order to schedule a video conference. Up to eight guests may join the video conference. The Synergy Chat member clicks create conference, enters all attendees email adresses, titles the conference, selected the date and time, and then clicks create. Once the conference is created every attendee with recieve an email with the conference information as well as a link to enter the conference. Once inside of the video conference all attendees can hear each other simultaneously.
+               <table cellspacing="10"><tr>
+               <td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/create-conference-filled-in.gif" ></td>
+               <td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/conference-entry.gif" ></td>
+               </tr></table>
+               <br><br><br><br><br>
+               </td>
+               </tr>
+               <tr>
+               <td>
+              <img src="img/create-video-mail-not-recorded.gif" >
+              <br><br><br><br><br>
+              </td>
+              <td style="vertical-align:top">
+<img src="img/video-email-title.gif"/><br><br/>
+Every Synergy Chat member can easily record a video email to send to anyone they wish.  The video message is stored on the cloud and does not require the recipient to download anything. They simply click the link in the email and are directed to our servers for playback. Recording a video email is easy. Click on the envelope icon, click record, click stop, save the video, click send and enter the email addresses of the people you wish to have view the video message. You can also see your saved video messages by clicking on the View Video Mail tab. It is all that easy!
+    			<table cellspacing="10"><tr>
+               <td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/view-video-mail.gif"></td>
+               <td>&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/send-video-email.gif" ></td>
+               </tr></table>
+               <br><br><br><br><br>
+               </td>
+               </tr>
+               <tr>
+               <td>
+              <img src="img/guest-interface.gif" >
+              <br><br><br><br><br>
+              </td>
+              <td style="vertical-align:top">
+    	        <img src="img/public-interface-title.gif"/><br><br/>
+Upon registering with Synergy Chat each  account will create users as well as groups for their account and then will select their chat button. The chat button is a unique code for each Synergy Chat account and only shows the users/groups that were created upon registering.
+    		 When a Synergy Chat member or a guest click on the chat button the guest interface will appear showing the online and offline users of the respective account. A Synergy Chat member simply clicks on the member login button on the top right of the interface to login to the member interface. A guest simply clicks on any available name/group on the list of the guest interface and will be prompted to enter their name as well as email address to begin communicating. 
+    		It may sound confusing but is actually very simple. Using the guest interface once or twice is all it takes to understand how it works.
+          
+               <br><br><br><br><br>
+               </td>
+               </tr>
+               <tr>
+               <td>
+              <img src="img/member-login.gif" >
+              <br><br><br><br><br>
+              </td>
+              <td style="vertical-align:top">
+    	        <img src="img/member-interface-title.gif"/><br><br/>
+After a member has clicked on the member login button, entered their email and password, they will enter the member interface. The member interface offers each many different options and unique features for communicating with other members as well as guests. The member interface shows the groups and any other members that are online. The guest wait list shows any guests who are waiting to speak to a member. Members can either set their account to automatically answer the first waiting guest, or they can click on the guest name to communicate. The member interface also has a toolbar which shows four separate buttons: Face to Face Chat; Video Email; Video Conference; Settings.
+				<br/><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/member-interface.gif" >
+				<br><br><br><br><br>
+               </td>
+               </tr>
+               <tr>
+               <td>
+              </td>
+              <td style="vertical-align:top">
+    	        <img src="img/unlimited-usage-title.gif"/><br><br/>
+SynergyChat customers can video chat, video conference and store as many video emails as they wish.
+<br><br><br><br><br>
+				</td>
+               </tr>
+               <tr>
+               <td>
+              </td>
+              <td style="vertical-align:top">
+    	       <img src="img/privacy-title.gif"/><br><br/>
+SynergyChat highly values its customers privacy. Each SynergyChat account is a private system. Our top of the line cloud security, backed by numerous firewalls, ensures that your video chat, video conferences and video emails are only viewed by those you wish. We do not sell or advertise any of our customers information or cloud content.
+				<br><br><br><br><br>
+				</td>
+               </tr>
+               </table>
+	
+    </div>
+</wicket:extend>
+</html>

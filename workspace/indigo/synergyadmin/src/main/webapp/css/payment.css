@@ -1,0 +1,125 @@
+a{ outline:none;}
+img{ border:0px;}
+ul, li{ margin:0px; padding:0px; list-style:none;}
+.cls{ overflow:hidden; clear:both; padding:0; margin:0; height:0; width:0; font-size:0; float:0;}
+*{ margin:0; padding:0;}
+button{ padding:0; margin:0;}
+
+.left_bar_links ul{}
+.left_bar_links ul li{ height:33px; background:url(../images/left_bar_link_bg.gif) no-repeat; padding:7px 0 0 20px;font-weight:bold;}
+.left_bar_links ul li a{ color:#CCCCCC; text-decoration:none; font-weight:bold;}
+
+/*.....................buttons.......................*/
+.add_user{ height:32px; width:148px; float:right;  }
+.calculate_monthly_income{ width:207px; height:37px;  margin:260px 0 0 560px;}
+.save{ width:106px; height:44px;margin:0px 0 0 660px;}
+.save_info{ width:106px; height:44px;margin:30px 0 0 450px;}
+.total_monthyly{color:#666666; font-size:14px; font-weight:bold;}
+.calculate_btn{ margin-top:10px;}
+
+.purchase{ float:right;margin:445px 120px 0 0; }
+.options{ margin:5px 0px; width:250px; background:#1f4663; height:20px; border:none; margin-left:5px; color:#FFFFFF;} 
+
+.form{ width:500px; padding:100px 21px 0px 100px ;}
+.form ul{}
+.form ul li{ width:200px; float:left;}
+.input_feild{ height:20px; width:250px; border:none; margin:5px; background:#1f4663; color:#FFFFFF; font-size:11px;}
+.account_created_text{ color:#ffca02; font-size:16px; font-weight:bold;}
+/*.....................................new css*/
+.line{ border-top: 1px solid #e0e0e0; margin-top:20px;}
+.account_titles{ border-bottom: 1px solid #e0e0e0; height:26px; padding-top:10px;color:#338ccd;}
+
+.user_email{ width:370px; float:left;}
+/*edited*/
+.user_access{ height:26px; padding-top:10px;border-bottom:1px dotted #e0e0e0;}
+.user_email ul{}
+.user_email .last{ padding-left:70px; float:left;}
+
+.user_email ul li{  float:left; text-align:left;} 
+.access_actions{ width:313px; float:left;}
+.access_actions ul{}
+.access_actions ul li:first-child{ padding:0; float:left}
+.access_actions ul li{ float:left; padding-left:10px;}
+.access_actions ul li a{ float:left; color:#274b65; text-decoration:none;}
+.account_titles ul{ }
+.account_titles ul li{ width:200px; float:left; }
+.account_titles .last{ width:50px;  float:left; }
+.access_actions ul .last a{ margin-left:30px; color:#6be5ea;}
+.account_titles ul li a{ width:200px; float:left; color:#274b65; }
+h2{ padding:0; margin:0; color:#224764; font-weight:normal; font-size:24px;}
+.payments_accounts_nav{ border-bottom: 1px solid #e0e0e0; padding:30px 0 25px 0; }
+.payments_accounts_nav ul{}
+.payments_accounts_nav ul li:first-child{ float:left; padding-left:15px;}
+.payments_accounts_nav ul li{ float:left; padding:0 30px;}
+.payments_accounts_nav ul li a{ color:#000000; font-size:14px; font-weight:bold; text-decoration:none;}
+.account_management_text{ font-size:18px; border:none; padding:15px 0 0px 0; margin-top:15px; color:#ffb960;  }
+.account_management_text_bot{ font-size:14px; border:none; padding:15px 0 0px 0; margin-top:15px; float:left; color:#ffb960;  }
+.upgrade_text{ font-size:14px; color:#CCCCCC; line-height:22px;}
+.what_happens_text{ width:300px; float:left; padding-top:30px; font-size:12px; color:#000000; font-weight:bold;}
+
+.what_happens_text_detail{ color:#666; font-weight:normal; padding-top:10px;}
+.calculation{ width:230px; float:left; margin-left:174px;} 
+.calculation ul{ }
+.calculation ul li{ padding:10px 0 0 50px; color:#666666; font-size:16px; font-weight:bold; }
+.calculation ul li:last-child{ padding-left:100px;}
+.calculation ul li:first-child{ padding-top:10px;}
+
+.content_bottom{ padding:0 85px 0 20px;}
+
+.purchase_btn{ width:165px; float:left;  margin:20px 0px; margin-left:150px;}
+.btn {background: url(../images/purchase_btn.gif) no-repeat scroll 0 0 transparent;border: medium none;
+    height: 52px;width: 172px;cursor:pointer;}
+.product{ width:300px; float:left; padding-left:15px;}
+.users{ width:185px; float:left;}
+.monthly_payments{ width:125px; float:left;}
+.product_detail {margin-top:10px; }
+.product_detail ul{ }
+.product_detail ul li{ float:left;}
+.product_detail{ width:300px; float:left; padding-left:15px;}
+.users_detail{ width:185px; float:left; padding-top:5px;}
+
+.shopping_cards ul{ margin:10px 0;}
+.shopping_cards ul li{ float:left;}
+
+
+/* Products start */
+
+.products_form{ width:625px;}
+.products_nav{ background:url(../images/product_bg.gif) repeat-x; height:25px; padding-top:10px; color:#000000; font-size:12px; font-weight:bold;}
+.products_nav ul{ }
+
+.products_detail{ background:url(../images/product_details_bg.gif) repeat-x; height:46px; padding-top:10px;}
+.text_box{ width:48px; height:25px; border:1px solid #CCCCCC; color:#666; text-align:center;}
+.plans_select{ width:120px; height:25px; border:1px solid #CCCCCC; color:#666; text-align:center;}
+
+.monthly_payments_detail{ width:125px; float:left; text-align:center; font-size:14px; padding-top:10px; color:#ff8410; font-weight:bold;}
+
+.total_product_purchase{ color: #666666;
+    font-size: 16px;
+    font-weight: bold;
+    height: 25px;
+    padding-left: 158px;
+    padding-right: 27px;
+    text-align: right;color: #666666;
+    font-size: 15px;
+    font-weight: bold;
+    height: 25px;
+    padding-left: 400px;
+    padding-right: 27px;
+    padding-top: 16px;
+    text-align: right;
+    margin-top:10px;}
+
+.total_text{ font-size:16px; color:#000000; font-weight:bold; padding-right:30px; float:left;}
+
+.dollar_text{color:#fd7f00; font-size:16px; font-weight:bold; }
+
+/* Products end */
+
+
+
+.form-left-pay {float:left; width:120px; text-align:right; color:#1c1c1c; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding:3px 5px 15px 0;}
+
+.form-left-input-pay {margin:0px; padding:5px 5px; border:1px solid #d3d3d3; width:170px; background:#fff; color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-style:italic;}
+ul.pay-form{}
+ul.pay-form li{ padding:10px 0px; list-style:none;}

@@ -1,0 +1,32 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+	<div>
+	<table border="1">
+		<tr>
+			<th style="width: 160px">Name</th>
+			<th style="width: 140px">Email</th>
+			<th style="width: 160px">Website</th>
+			<th style="width: 60px">Date</th>
+			<th style="width: 200px">Plan</th>
+			<th style="width: 100px">Price</th>
+			<th style="width: 100px">Status On/Off</th>
+			<!--  
+			<th style="width: 80px">Actions</th>
+			-->
+		</tr>
+		<tr wicket:id="users">
+			<td wicket:id="cname"></td>
+			<td wicket:id="cemail"></td>
+			<td wicket:id="cwww"></td>
+			<td wicket:id="cdate"></td>
+			<td wicket:id="cplan"></td>
+			<td wicket:id="cprice"></td>
+			<td ><a wicket:id="cactivelink"><span wicket:id="conoff"></span></a></td>
+			<!--  
+			<td><a wicket:id="viewCustomers">View Customers</a></td>
+			-->
+		</tr>
+	</table>
+	</div>
+</wicket:extend>
+</html>

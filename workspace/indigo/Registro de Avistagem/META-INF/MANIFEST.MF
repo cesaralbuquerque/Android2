@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Registro_de_Avistagem
+Bundle-SymbolicName: Registro_de_Avistagem
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: Registro de Avistagem.jar,
+ libs/android-support-v4.jar
+Export-Package: android.support.v4.app,
+ android.support.v4.content,
+ android.support.v4.util,
+ android.support.v4.view,
+ android.support.v4.widget,
+ com.registro.principal

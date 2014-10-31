@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<wicket:head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Client Register Page</title>
+<link href="css/cstyle.css" rel="stylesheet" type="text/css" />
+</wicket:head>
+
+<wicket:extend>
+<table width="300" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="0%" height="22"><img src="image/bglt.png" width="10" height="27" /></td>
+    <td width="100%" height="27" background="image/bgind.png" class="advises"><strong>Client Register</strong></td>
+    <td width="0%" height="22"><img src="image/bglr.png" width="10" height="27" /></td>
+  </tr>
+  <tr>
+    <td background="image/bgl.png">&nbsp;</td>
+    <td>
+    <span wicket:id="feedback">Feedback</span>
+    <form wicket:id="form" name="login" onsubmit="return validate(this);">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr class="tags">
+        <td height="32" align="right">Name:</td>
+        <td height="32" align="left"><label>
+          &nbsp; 
+          <input name="name" wicket:id="name" type="text" class="field" id="name" size="60" />
+          </label>
+          <br /></td>
+      </tr>
+      <tr class="tags">
+        <td height="32" align="right">E-Mail:</td>
+        <td height="32" align="left">&nbsp;
+          <input name="email" type="text" class="field" id="email" wicket:id="email" size="60" /></td>
+      </tr>
+      <tr class="tags">
+        <td height="32" align="right">Website:</td>
+        <td height="32" align="left">&nbsp;
+          <input name="www" type="text" class="field" id="www" wicket:id="www" value="http://" size="60" /></td>
+      </tr>
+      <tr class="tags">
+        <td height="32" align="right">Password:</td>
+        <td height="32" align="left">&nbsp;
+          <input name="pass" type="password" class="field" id="pass" wicket:id="pass" size="15" /></td>
+      </tr>
+      <tr class="tags">
+        <td height="32" align="right">Re-Type:</td>
+        <td height="32" align="left">&nbsp;
+          <input name="repass" type="password" class="field" id="repass" wicket:id="repass" size="10" /></td>
+      </tr>
+      <tr>
+        <td height="27">&nbsp;</td>
+        <td height="27" align="right"><input name="Register" type="submit" class="send" id="Register" value="Register" /></td>
+      </tr>
+    </table>
+    </form>
+    </td>
+    <td background="image/bgr.png">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><img src="image/bgrb.png" width="10" height="22" /></td>
+    <td align="right" background="image/bgb.png"><label class="send"></label></td>
+    <td><img src="image/bglb.png" width="10" height="22" /></td>
+  </tr>
+</table>
+<br />
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10703188-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Start Quantcast tag --> 
+<script type="text/javascript"> _qoptions={ qacct:"p-f6guzos4cxKUQ" }; </script> <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> <noscript> <img src="http://pixel.quantserve.com/pixel/p-f6guzos4cxKUQ.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/> </noscript> 
+<!-- End Quantcast tag -->
+</wicket:extend>
+</html>

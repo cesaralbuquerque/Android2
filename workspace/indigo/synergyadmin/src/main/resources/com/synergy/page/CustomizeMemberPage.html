@@ -1,0 +1,24 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+    	<div class="boxTop">&nbsp;</div>
+    	<div class="boxContent">
+    		
+    		<img class="heading" src="img/backend/heading-appearance.gif" alt="appearance &amp; installation"/>
+    		Branding Image:
+    		<img wicket:id="brandingImage"/><br><br>
+    		<form wicket:id="ajax-simpleUpload">
+		     <fieldset>
+		      <legend></legend>
+		        <p>
+		        <label for="upload">Image</label>
+		        <input wicket:id="fileInput" id="upload" type="file"/>
+		        </p>
+		        <input type="submit" value="Upload!"/>
+		        <span wicket:id="progress">[[ajax upload progressbar]]</span>
+		     </fieldset>
+		    </form>
+
+    	</div>
+    	<div class="boxBottom"></div>    	
+    </wicket:extend>
+</html>

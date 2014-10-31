@@ -1,0 +1,83 @@
+8
+
+dir
+576
+https://synergychat.svn.cvsdude.com/synergychat/synergyred5
+https://synergychat.svn.cvsdude.com/synergychat
+
+
+
+2011-11-28T17:44:38.891479Z
+575
+fabianomodos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+45c3e2bf-c045-4bd1-baaf-4b6e865f7e0a
+
+.classpath
+file
+
+
+
+
+2011-11-30T01:18:43.802000Z
+37d4c185ba11958cbc175b2afb4eed7f
+2011-11-28T17:19:02.401589Z
+573
+fabianomodos
+
+.project
+file
+
+
+
+
+2011-11-30T01:18:43.817000Z
+1f6f6af3d23010dd7ebda036f8abef24
+2011-11-28T17:19:02.401589Z
+573
+fabianomodos
+
+pom.xml
+file
+
+
+
+
+2011-11-30T01:18:46.475000Z
+bdec07de3111398f928f20e54dacadb0
+2011-11-28T17:19:02.401589Z
+573
+fabianomodos
+
+red5.jar
+file
+
+
+
+
+2011-11-30T01:18:48.492000Z
+32f4d67d09d7b2a6d70437dd45dfe956
+2011-11-28T17:19:02.401589Z
+573
+fabianomodos
+has-props
+
+src
+dir
+
+target
+dir
+

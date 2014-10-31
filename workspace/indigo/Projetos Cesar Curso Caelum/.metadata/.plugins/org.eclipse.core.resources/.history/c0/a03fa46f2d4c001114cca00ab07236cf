@@ -1,0 +1,12 @@
+package br.com.caelum.modelo;
+
+public class Aluno {
+	private Long id;
+	private String nome;
+	private String telefone;
+	private String endereco;
+	private String site;
+	private double nota;
+	private String foto;
+
+}

@@ -1,0 +1,39 @@
+package br.com.caelum;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class Inicio extends Activity {
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        final EditText nomeEdit = (EditText) findViewById(R.id.EditTextNome);
+        final EditText sobrenomeEdit = (EditText) findViewById(R.id.EditTextSobrenome);
+        final TextView mostrarNome = (TextView) findViewById(R.id.TextViewMostrar);
+        final CheckBox checkBox = (CheckBox) findViewById(R.id.CheckBox01);
+        final Button botao = (Button) findViewById(R.id.ButtonMostrar);
+        botao.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v) {
+				if(checkBox.isChecked()==true){
+					mostrarNome.setText(nomeEdit.getText().toString()+" "+sobrenomeEdit.getText().toString());
+				}else{
+					mostrarNome.setText(nomeEdit.getText().toString());
+				}
+				Toast.makeText(Inicio.this, " ola ", Toast.LENGTH_SHORT).show();
+			}
+		});
+        	
+        }
+        
+    }

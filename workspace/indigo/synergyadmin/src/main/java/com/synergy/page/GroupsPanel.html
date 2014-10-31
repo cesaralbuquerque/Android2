@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    
+<html 
+	xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:wicket="http://wicket.sourceforge.net/" 
+	xml:lang="en" 
+	lang="en">  
+<body>
+	<wicket:panel>
+<div style="position:absolute; margin:0 0 0 712px; .margin:0 0 0 674px; _margin:0 0 0 674px;">
+    
+    	<!-- onclick="document.getElementById('menuDiv').style.display='';" -->
+    	<p align="right"> <a wicket:id="addGroupLink" href="#"><img src="images/btn-add-group.gif" alt="" /></a></p>
+    
+    
+    
+    <div wicket:id="addGroupPanel" style="display: block">
+    </div>
+    </div>
+    
+    
+    <div class="stepsraw">
+    <div class="stepcont">
+    <p class="text">
+    <span>Setup Groups</span><br />
+    Click on the Add Group and create a group. You may add as many groups as you wish.
+    </p>
+    </div>
+    
+    <div class="clear"></div>
+    </div>
+    <br/>
+    <div style="text-align: center;width:100%;background-color:#FFFFCC;font-weight:bold">
+    <span style="" wicket:id="feedback"></span>
+    </div>
+    
+    <div class="rawline">
+    <div class="lines">
+    <p class="first">Group</p>
+    <p class="second">Email&nbsp;<img src="images/question.gif" alt="question" width="13" height="13" /></p>
+    <p class="third">Privacy <img src="images/question.gif" alt="" width="13" height="13" /></p>
+    <p class="fourth">Action</p>
+    </div>
+    
+    <div class="lines1" wicket:id="groups" >
+    <p class="first" wicket:id="gname"></p>
+    <p class="second" wicket:id="gemail"></p>
+    <p class="third" wicket:id="gpublic"></p>
+    <p class="fourth"><a wicket:id="editGroup" href="#"><img src="images/icon-edit.gif" alt="edit" width="15" height="16" /> &nbsp;Edit </a>
+    &nbsp;&nbsp;
+    <a wicket:id="delGroup" href="#"><img src="images/icon-delete.gif" alt="delete" width="15" height="16" />&nbsp;Delete</a></p>
+    </div>
+    </div>    
+	</wicket:panel>
+</body>
+</html>

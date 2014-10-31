@@ -1,0 +1,150 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+   <body style="background-image:url(../img/vert-bg2.gif); background-repeat: repeat-x;">
+   <div id="outterAboutWrap">
+   <div id="headerWrap" style="height: 96px">
+   <!-- 
+		<div id="memLogin">
+    
+    	<form wicket:id="loginForm" method="post">
+        Member Login : <input class="login" wicket:id="email" name="email" type="text" />
+        <input class="login" type="password" name="password" wicket:id="password" />
+        <input type="submit" value="Go" wicket:id="submit" name="submit_btn" />
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  		<input wicket:id="rememberme" type="checkbox"/>Remember me
+        <div style="display:none">
+        <a wicket:id="passwordLink" class="style3">Click Here</a>
+        <a wicket:id="register"><wicket:message key="register">Register</wicket:message></a>
+        </div>
+        </form>
+        <a wicket:id="logout" style="display:none"><span wicket:id="label">[[logout]]</span></a>
+    
+    </div>--><!--end memLogin-->
+    
+		<div id="logoWrapper">
+    
+    	<img src="img/syn-logo.gif" alt="synergy chat"/><!--
+    
+		--></div><!--end logoWrapper-->
+  	</div>
+	<div id="navWrapper">
+    
+    <a wicket:id="homeLink"><img src="img/home-off.gif" alt="home" width="148" height="30" /></a><!--
+    --><a wicket:id="aboutusLink"><img src="img/about-off.gif" alt="about us" width="147" height="30" /></a><!--
+    --><a wicket:id="howitworksLink"><img src="img/how-it-off.gif" alt="how it works" width="175" height="30" /></a><!--
+    --><a href="core-tech" wicket:id="coretechLink"><img width="189" height="30" src="img/core-tech-off.gif"/></a>
+    <a wicket:id="contactusLink"><img src="img/contact-off.gif" width="151" height="30" /></a>
+    </div>
+<!--end navWrapper-->
+<div id="auxContent">
+
+	<div id="auxRight">
+    
+    	<div class="boxTop">&nbsp;</div>
+    	<div class="boxContent">
+    		
+    		<img class="heading" src="img/backend/heading-signup.gif" alt="Sign up"/><br/>
+    		
+    		<div class="formsLeft wide">
+    		
+    		<form wicket:id="form" class="memberForm">
+    			
+				<span wicket:id="feedback"></span><br>
+    			
+    			<div style="display:none">
+    			<div class="description">Developer ID</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="developerId" class="borderGray" size="30" name="developerId"/>
+    				<span style="color: blue;font-size:10px">*Only for developers</span>
+    			</div>
+    			<div class="spacer"></div>
+    			</div>
+    			
+    			<div class="description">First Name</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="firstName" class="borderGray" size="30" name="firstName"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Last Name</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="lastName" class="borderGray" size="30" name="lastName"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">E-Mail</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="email" class="borderGray" size="30" name="email"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Company Name</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="companyName" class="borderGray" size="30" name="companyName"/>
+    			</div>
+    			
+    			<div class="description">Company Website</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="www" class="borderGray" size="30" value="http://" name="www"/>
+    			</div>
+    			
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Username</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="username" class="borderGray" size="30" name="username"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Password</div>
+    			<div class="inputArea">
+    				<input type="password" wicket:id="pass" class="borderGray" size="30" name="pass"/>
+    			</div>
+    			<div class="spacer"></div>	
+    			
+    			<div class="description">Retype Password</div>
+    			<div class="inputArea">
+    				<input type="password" wicket:id="repass" class="borderGray" size="30" name="repass"/>
+    			</div>
+    			<div class="spacer"></div>	
+    			<div style="font-size:11px">By clicking Sign Up, you are indicating that you have read and agree to the 
+    			<a href="html/terms_of_use.html" target="_blank" style="color:blue;text-decoration:underline">Terms of Use</a>
+    			and <a href="html/privacy_policy.html" target="_blank" style="color:blue;text-decoration:underline">Privacy Policy</a>.</div>
+    			<div class="description">&nbsp;</div>
+    			<div class="inputArea">
+    				<input type="submit" name="submit" value="Sign Up"/>
+    			</div>
+    			<div class="spacer"></div>	
+    		</form>
+
+    		</div>
+    		<div class="formsRight narrow">
+    		
+    			<img src="img/backend/profile-default.jpg" alt=""/>
+    		
+    		</div>
+    		<div class="spacer"></div>
+
+    	</div>
+    	<div class="boxBottom">&nbsp;</div>
+    	
+    </div>
+</div><!--end auxContent-->
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10703188-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Start Quantcast tag --> 
+<script type="text/javascript"> _qoptions={ qacct:"p-f6guzos4cxKUQ" }; </script> <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> <noscript> <img src="http://pixel.quantserve.com/pixel/p-f6guzos4cxKUQ.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/> </noscript> 
+<!-- End Quantcast tag -->
+</body>
+
+</wicket:extend>
+</html>

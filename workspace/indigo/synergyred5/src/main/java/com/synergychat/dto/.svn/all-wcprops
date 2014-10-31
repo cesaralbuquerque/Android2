@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/synergychat/!svn/ver/573/synergyred5/src/main/java/com/synergychat/dto
+END
+SubscriberDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/573/synergyred5/src/main/java/com/synergychat/dto/SubscriberDTO.java
+END
+DtoUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/573/synergyred5/src/main/java/com/synergychat/dto/DtoUtil.java
+END
+SentMailMessageDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/573/synergyred5/src/main/java/com/synergychat/dto/SentMailMessageDTO.java
+END
+MailContactDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/573/synergyred5/src/main/java/com/synergychat/dto/MailContactDTO.java
+END
+GroupDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/synergychat/!svn/ver/573/synergyred5/src/main/java/com/synergychat/dto/GroupDTO.java
+END
+VideoDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/synergychat/!svn/ver/573/synergyred5/src/main/java/com/synergychat/dto/VideoDTO.java
+END
+ViewVideoDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/573/synergyred5/src/main/java/com/synergychat/dto/ViewVideoDTO.java
+END
+MailMessageDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/573/synergyred5/src/main/java/com/synergychat/dto/MailMessageDTO.java
+END
+InboxMailMessageDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/573/synergyred5/src/main/java/com/synergychat/dto/InboxMailMessageDTO.java
+END

@@ -1,0 +1,15 @@
+webapp.contextPath=/synergychattest
+webapp.virtualHosts=*, localhost, localhost:8088, 127.0.0.1:8088
+
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql:///synergychattest
+jdbc.username=root
+jdbc.password=
+
+jdbc.dialect=org.hibernate.dialect.MySQL5Dialect
+jdbc.show_sql=false
+
+deployment.type=DEPLOYMENT
+update.schema=true
+
+mail.host=mail

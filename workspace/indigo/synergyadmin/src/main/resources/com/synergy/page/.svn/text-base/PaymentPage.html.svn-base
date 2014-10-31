@@ -1,0 +1,81 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+	
+	<div class="content">
+	<div class="account_management_text">Product Payment</div>
+	<br />
+	<div style="color:#FF0000"><span wicket:id="feedback">feedback messages will be
+	put here</span></div>
+	<span style="font-weight:bold">Payment <span wicket:id="amountLbl"></span></span><br/>
+	<br/>
+	<div style="padding-left:100px;font-size:11px">
+		<div wicket:id="cardList"> 
+			<form wicket:id="cardForm">
+			<span wicket:id="nameLbl"></span>&nbsp;
+			<span wicket:id="maskedNumberLbl"></span>&nbsp;
+			<input type="submit" value="Purchase with this card"/>			
+			</form>
+		</div>
+	</div>
+	<br/>
+<hr>
+<br/>
+	<div class="products_form">
+	
+	<div style="float: left; width: 350px">
+
+	<form wicket:id="paymentForm">
+
+	<div wicket:id="payments">
+	<h3 style="text-align:center">Credit Card Information</h3>
+	<ul class="pay-form">
+		<li>
+		<div class="form-left-pay">Card Holder Name:</div>
+		<div><input wicket:id="cardHolderName"
+			class="form-left-input-pay" type="text" maxlength="32" size="30" /></div>
+		</li>
+
+		<li>
+		<div class="form-left-pay">Credit Card Number:</div>
+		<div><input wicket:id="creditCardNo" class="form-left-input-pay"
+			type="text" maxlength="32" size="30" /></div>
+		</li>
+
+		<li>
+		<div class="form-left-pay">Expiry(MM/YYYY):</div>
+		<div><input wicket:id="cardExpiryDate"
+			class="form-left-input-pay" type="text" maxlength="32" size="30" />
+		</div>
+		</li>
+
+		<li>
+		<div class="form-left-pay">CVV:</div>
+		<div><input wicket:id="cvv" class="form-left-input-pay"
+			type="text" maxlength="32" size="30" /></div>
+		</li>
+
+	</ul>
+
+	<div class="purchase_btn" style="margin-left: 150px;"><input type="submit"
+		class="btn" value="" /></div>
+	</div>
+	</form>
+
+	<div
+		style="text-align: center; width: 100%; background-color: #FFFFCC; font-weight: bold">
+	</div>
+	</div>
+	<div style="font-size:11px">
+	<span style="font-weight:bold">What happens if we upgrade, downgrade, or cancel in the middle of a billing cycle?</span><br/><br/>  
+	If you upgrade or downgrade you'll be charged the new rate for your new plan starting on your next billing cycle. 
+	If you cancel you'll be cancelled immediately and you won't be charged again.<br/><br/>
+	<span style="font-weight:bold">We accept</span><br/> 
+	<img src="images/cards.jpg"/><br/>
+	Visa, Mastercard, and American Express. We don't accept PayPal, checks or POs, sorry.
+	</div>
+	<div class="clear"></div>
+	</div>
+	</div>
+</wicket:extend>
+
+</html>

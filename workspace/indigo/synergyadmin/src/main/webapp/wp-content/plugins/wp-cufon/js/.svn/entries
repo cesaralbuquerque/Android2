@@ -1,0 +1,52 @@
+8
+
+dir
+576
+https://synergychat.svn.cvsdude.com/synergychat/synergyadmin/src/main/webapp/wp-content/plugins/wp-cufon/js
+https://synergychat.svn.cvsdude.com/synergychat
+
+
+
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+45c3e2bf-c045-4bd1-baaf-4b6e865f7e0a
+
+LICENSE.txt
+file
+
+
+
+
+2011-11-29T23:49:01.295000Z
+78c9d44ff9742d5aa74c8f1091d04caf
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+cufon-yui.js
+file
+
+
+
+
+2011-11-29T23:49:01.309000Z
+7e47005ed153f788718c10e97da829b3
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+

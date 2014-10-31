@@ -1,0 +1,172 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<link href="css/main-style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<wicket:head>
+<TITLE>Synergy Chat Core Technology | Cloud Computing | Internet Video Chat, Mail & Conference</TITLE>
+<META NAME="Keywords" CONTENT="synergy, chat, core, technology, nap, bandwidth, server, location, security, video, compression"/>
+<META NAME="Description" CONTENT="Synergy Chat Core Technology Page. Where we are located, our bandwidth capacity, video compression, security and more."/>
+<META NAME="Classification" CONTENT="Cloud Computing"/>
+<META NAME="Abstract" CONTENT="Synergy Chat Core Technology Page. Where we are located, our bandwidth capacity, video compression, security and more."/>
+<META NAME="Copyright" CONTENT="© 2008 Synergy Chat"/>
+<META NAME="Contact" CONTENT="support@synergychat.com"/>
+<META NAME="Publisher" CONTENT="Synergy Chat"/>
+<META NAME="Robots" CONTENT="ALL"/>
+<META NAME="Robots" CONTENT="INDEX,FOLLOW"/>
+<META NAME="Distribution" CONTENT="Global"/>
+<META NAME="Rating" CONTENT="General"/>
+</wicket:head>
+
+    <wicket:extend>
+    <!--  
+	<body style="background: #d4ebf9; background-image:url(../img/vert-bg2.gif); background-repeat: repeat-x;">
+	-->
+	<body style="background-position:center; background: #d4ebf9; background-image:url(../img/bg-slice.jpg); background-repeat: repeat-y;">
+	<center>
+		
+	<div id="outterAboutWrap">
+   <div id="headerWrap" style="height: 96px">
+	<!--
+		<div id="memLogin">
+    
+    	<form wicket:id="loginForm" method="post">
+        Member Login : <input class="login" wicket:id="email" name="email" type="text" />
+        <input class="login" type="password" name="password" wicket:id="password" />
+        <input type="submit" value="Go" wicket:id="submit" name="submit_btn" />
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  		<input wicket:id="rememberme" type="checkbox"/>Remember me
+        <div style="display:none">
+        <a wicket:id="passwordLink" class="style3">Click Here</a>
+        <a wicket:id="register"><wicket:message key="register">Register</wicket:message></a>
+        </div>
+        </form>
+        <a wicket:id="logout" style="display:none"><span wicket:id="label">[[logout]]</span></a>
+    
+    </div>end memLogin-->
+    
+		<div id="logoWrapper">
+    	<br/>
+    	<img src="img/syn-logo.gif" alt="synergy chat"/><!--
+    
+		--></div><!--end logoWrapper-->
+  	</div>
+	<div id="navWrapper">
+    
+    <a wicket:id="homeLink"><img src="img/home-off.gif" alt="home" width="148" height="30" /></a><!--
+    --><a wicket:id="aboutusLink"><img src="img/about-off.gif" alt="about us" width="147" height="30" /></a><!--
+    --><a wicket:id="howitworksLink"><img src="img/how-it-off.gif" alt="how it works" width="175" height="30" /></a><!--
+	--><a href="core-tech" wicket:id="coretechLink"><img width="189" height="30" src="img/core-tech-on.gif"/></a>
+    <a wicket:id="contactusLink"><img src="img/contact-off.gif" width="151" height="30" /></a>
+    </div>
+<!--end navWrapper-->
+<div id="auxContent">
+
+	<div id="auxLeft">
+		<!--     
+    	<a href="client-beta-register" wicket:id="startButton"><img width="236" height="357" class="getStarted" src="img/get-started.gif" alt="get started"/></a>    
+		-->
+		<a wicket:id="startButton"><img src="img/60-day-free-button.jpg" alt="Beta Sign Up" /></a>
+		<script>
+		function openSynergyWindow(cid,confid,visitor){
+			var n = 'wnd_'+Math.floor(Math.random()*1000);
+			window.open('http://www.synergychat.com/chat?op=openSynergyPanel&cid='+cid+'&confid='+confid+'&visitor='+visitor,n,'width=550,height=500,resizable=1');
+		}
+		</script>
+		<a target="_blank" onclick="openSynergyWindow(97,'','true');" style="cursor:pointer">
+		<img src="img/live-preview-button.gif" alt="Click Here"/></a>
+		</div>
+	<!--end auxLeft-->
+    
+    <div id="auxRight">
+
+    <img class="heading" src="img/heading-core-tech.png" alt="Core Technology"/>
+
+      <p><span class="headingOne">The Cloud</span><br />
+Cloud computing is a virtual based application rich  technology that allows users to access and interact via online hosted services.  
+The benefits to Cloud Computing are numerous. 
+Cloud Computing does not require  the user to download software, download content, 
+process applications or worry  about losing valuable information. 
+The Cloud hosts everything which allows the  user to simply access the services through any web browser. 
+The main benefit is  that you can access your applications and information from any computer with an  internet connection. 
+For more information please visit this <a target="_blank" style="color:#0000FF; text-decoration:underline" href="http://en.wikipedia.org/wiki/Cloud_computing">Wikipedia Page on Cloud  Computing</a>.</p>
+        
+        <p><span class="headingOne">Server Location and  Security</span><br />
+  SynergyChat's servers are hosted within the <a target="_blank" style="color:#0000FF; text-decoration:underline" href="http://www.terremark.com/technology-platform/nap-of-the-americas.aspx">Terremark NAP of the Americas</a>,  a Tier 4 datacenter. 
+  More than 160 global carriers exchange data at the NAP of  the Americas.&nbsp;  
+  Currently, seven Tier 1 service providers provide this location with upstream  access to the global Internet. 
+  Terremark requires these service providers to  have at least OC-48 capacity to maintain connectivity to Terremark's network.  With such a wide selection of 15 domestic fiber backbones, this unique facility  provides SynergyChat with secure and reliable direct backbone access to the  world. To read more please visit the <a href="http://www.terremark.com/technology-platform/nap-of-the-americas.aspx">NAP  of the Americas Website.</a></p>
+        <p><span class="headingOne">Live Video</span><br />
+        Our service allows you to chat in real time with anyone,  
+        anywhere around the world without any software necessary. 
+        SynergyChat does not  require that only members can conduct a live video chat. 
+        One member is able to  video chat with a guest or even video conference with up to 
+        8 guests at the  same time. SynergyChat's cloud service ensures that video chat and video  
+        conferences run smoothly due to the fact that there is no software required.</p>
+        <p><span class="headingOne">Video Compression in  the Cloud</span><br />
+        SynergyChat currently uses VP6 video compression technology.  We are constantly researching better compression 
+        technologies in order to  provide improved live video quality. 
+        As newer compression capabilities emerge  you can be assured that SynergyChat will work to integrate them. 
+        To learn more  about video compression and VP6 technology please 
+        <a style="color:#0000FF; text-decoration:underline" target="_blank" href="http://www.dspdesignline.com/211100053;jsessionid=TQGW5EIFOADSYQSNDLRSKHSCJUNN2JVN?printableArticle=true">click  here</a>.</p>
+        <p>&nbsp;</p>    
+	    
+    </div><!--end auxRight-->
+</div><!--end auxContent-->
+</div>
+<div id="copyRight">
+           <p>Copyright &copy;2008 Synergy Chat. All rights reserved.</p>
+
+           </div>
+          </center>
+<script type="text/javascript">
+
+  var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+
+  document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+
+</script>
+
+<script type="text/javascript">
+
+UserVoice.Tab.show({
+
+  /* required */
+
+  key: 'synergychat',
+
+  host: 'synergychat.uservoice.com',
+
+  forum: '29350',
+
+  /* optional */
+
+  alignment: 'left',
+
+  background_color:'#f00',
+
+  text_color: 'white',
+
+  hover_color: '#06C',
+
+  lang: 'en'
+
+})
+
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10703188-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Start Quantcast tag --> 
+<script type="text/javascript"> _qoptions={ qacct:"p-f6guzos4cxKUQ" }; </script> <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> <noscript> <img src="http://pixel.quantserve.com/pixel/p-f6guzos4cxKUQ.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/> </noscript> 
+<!-- End Quantcast tag -->
+</body>
+</wicket:extend>
+</html>

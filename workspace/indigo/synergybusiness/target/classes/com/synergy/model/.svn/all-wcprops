@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model
+END
+SentMailMessage.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/SentMailMessage.class
+END
+Product.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/Product.class
+END
+Persistent.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/Persistent.class
+END
+InboxMailMessage.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/InboxMailMessage.class
+END
+Video.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/Video.class
+END
+ProductSubscriber.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/ProductSubscriber.class
+END
+MailContact.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/MailContact.class
+END
+Company.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/Company.class
+END
+Chat.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/Chat.class
+END
+MailMessage.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/MailMessage.class
+END
+Purchase.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/Purchase.class
+END
+AbstractPersistent.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/AbstractPersistent.class
+END
+GuestChat.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/GuestChat.class
+END
+User.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/User.class
+END
+Subscriber.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/Subscriber.class
+END
+Group.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/model/Group.class
+END

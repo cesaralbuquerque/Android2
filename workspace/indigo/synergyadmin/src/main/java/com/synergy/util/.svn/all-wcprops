@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/util
+END
+UtilOld.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/util/UtilOld.java
+END
+BCrypt.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/util/BCrypt.java
+END
+LocalEncrypter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/util/LocalEncrypter.java
+END
+TestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/util/TestService.java
+END
+HibernateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/util/HibernateUtil.java
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/util/Test.java
+END
+StringValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/util/StringValidator.java
+END

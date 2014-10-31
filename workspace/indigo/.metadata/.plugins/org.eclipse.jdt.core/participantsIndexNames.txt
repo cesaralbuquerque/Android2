@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+C:\Users\Cesar\workspace\indigo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\323078668.index
+\synergyadmin\src\main\java

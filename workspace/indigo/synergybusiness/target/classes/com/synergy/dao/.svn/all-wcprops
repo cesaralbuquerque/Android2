@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao
+END
+SubscriberDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/SubscriberDao.class
+END
+ChatDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/ChatDao.class
+END
+MailMessageDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/MailMessageDao.class
+END
+ProductSubscriberCompanyDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/ProductSubscriberCompanyDao.class
+END
+CompanyDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/CompanyDao.class
+END
+UserDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/UserDao.class
+END
+VideoDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/VideoDao.class
+END
+PurchaseDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/PurchaseDao.class
+END
+GuestChatDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/GuestChatDao.class
+END
+GroupDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/GroupDao.class
+END
+ProductDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/ProductDao.class
+END
+BaseDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/BaseDao.class
+END
+MailContactDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/MailContactDao.class
+END

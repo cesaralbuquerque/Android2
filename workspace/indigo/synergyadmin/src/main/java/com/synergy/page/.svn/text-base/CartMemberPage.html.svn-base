@@ -1,0 +1,79 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+		<div class="boxTop">&nbsp;</div>
+    	<div class="boxContent">
+    		
+    		<div>
+    		<h3>Current Plan Status</h3>
+    		Plan Type: <span style="color:blue" wicket:id="plantype"></span><br>
+    		Number of connections: <span style="color:blue" wicket:id="nconns"></span><br>
+    		Number of connections in use: <span style="color:blue" wicket:id="nconnsu"></span><br>
+    		Total Price: <span style="color:blue" wicket:id="price"></span><br>   		
+    		</div>
+    		<br>
+    		<div style="border:1px solid black">
+    		<a wicket:id="upgradePlanLink" href="#" style="color:#0000FF; text-decoration:underline">Click here to upgrade your plan to buy more connections.</a>
+    		<h3><span wicket:id="buyLabel">Buy more connections: </span></h3>
+    		<form wicket:id="fiveConForm">
+    			<span wicket:id="feedback"></span><br>
+    			Connections: <input type="text" class="short borderGray" wicket:id="quantity" name="quantity" value="5" size="3" maxlength="3"/>
+				<input type="image" style="position: absolute" name="purchase" src="img/backend/button-purchasesm.gif"/>
+    		</form>
+    		</div>
+    		<br>
+    		<h3>History of connections:</h3>
+    		<table class="shoppingList">
+				<tr>
+					<th style="width: 40px; text-align: left">&nbsp; Date</th>
+					<th style="width: 10px">Quantity</th>
+					<th style="width: 30px">Price</th>
+					<th style="width: 100px">Status</th>
+					<th style="width: 150px">Subscription Id</th>
+				</tr>
+				<tr wicket:id="conns">
+					<td style="text-align: left" wicket:id="cdate"></td>
+					<td wicket:id="cqtde"></td>
+					<td wicket:id="cprice"></td>
+					<td wicket:id="cstatus"></td>
+					<td wicket:id="csubid"></td>
+				</tr>
+				<tr>
+						<td colspan=“4”>
+						<span wicket:id="navegacao">
+						navegacao
+						</span>
+						</td>
+					</tr>
+				<!--  
+				<tr>
+					<td style="text-align: left">Platinum Account</td>
+					<td><input type="text" class="borderGray" name="qty" size="3" maxlength="3" value="1"/><br/>
+						<a href="#">Remove</a></td>
+					<td>$50.00</td>
+					<td>$50.00</td>
+
+				</tr>
+				<tr id="listBottom">
+					<td style="text-align: left" colspan="2"><img src="img/backend/button-updatesm.gif" alt="update item"/></td>
+					<td class="large">Total</td>
+					<td>$50.00</td>
+				</tr>
+				<tr id="footer">
+					<td colspan="3" style="display:none">
+
+						Coupon Code &nbsp;&nbsp;
+						<input type="text" class="borderGray" name="ccode" size="20"/> &nbsp;&nbsp;
+						<img style="position: absolute" src="img/backend/button-applysm.gif" alt="apply"/>
+					</td>
+					<td style="text-align: center">
+						<input type="image" src="img/backend/button-checkoutsm.gif" alt="check out"/>
+					</td>
+				</tr>
+				-->
+
+			</table>
+
+    	</div>
+    	<div class="boxBottom">&nbsp;</div>	
+    </wicket:extend>
+</html>

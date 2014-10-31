@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+/*******************************************************************************
+*  skidoo_redux_theme.css : 2007.01.31 : ruthsarian@gmail.com
+* -----------------------------------------------------------------------------
+*  
+*  This stylesheet provides the theme of the layout. The theme includes
+*  anything that controls the presentation of the page, but typically it's just
+*  for setting colors, fonts, borders, and gutter space. 
+*
+*  It is possible to offer multiple themes for a single page and allow the
+*  user to pick the one that best fits their needs. 
+*  
+* ------------------------------------------------------------------------------
+*  This stylesheet is released into the public domain.
+*******************************************************************************/
+
+@import "../../utility_css/common_tricks.css";
+
+body
+{
+	background-color: #ccc;
+}
+#page-container
+{
+	min-height: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	border-top-width: 0;
+	border-color: #bbb;
+	background-color: #fff;
+	padding: 0 5px;
+	font-size: 80%;
+	font-family: arial, helvetica, sans-serif;
+}
+
+
+
+#outer-column-container
+{
+	border-width: 0 0 0 190px;
+	border-left-color: #ed9;
+}
+#inner-column-container, #footer
+{
+	border: none;
+	margin: 0;
+	position: relative;
+}
+#left-column
+{
+	width: 190px;
+	margin-left: -190px;
+	border-top: solid 5px #fff;
+}
+#right-column
+{
+	display: none; 
+}
+#source-order-container
+{
+	margin: 0;
+}
+#masthead
+{
+	background-color: #900;
+	color: #fff;
+	margin: 0;
+	border-bottom: solid 1px #900;
+	background: #900 url('../images/bsc_logo.jpg') 9px 9px no-repeat;
+	/* height: 208px; */
+	padding: 0 10px 0 200px;
+	border-top: solid 5px #fff;
+}
+#masthead h1
+{
+	display: none;
+}
+#masthead h2
+{
+	margin: 0;
+	padding: 50px 0 99px 0;
+	font-size: 34px;
+	font-family: Bembo, Times New Roman, Times, Serif;
+}
+#top-out
+{
+	border: solid 5px #fff;
+	margin: -100px 25px 10px 20px;
+	padding: 1px 10px;
+	background-color: #ddd;
+	position: relative;
+}
+#footer
+{
+	background-color: #666;
+	color: #fff;
+	margin: 5px 0 0 0;
+	border-bottom: solid 5px #fff;
+	padding: 0; /* the two columns bit does its own padding */
+}
+#footer a:link, 
+#footer a:visited,
+#footer a:active
+{
+	color: #ffc;
+}
+#footer a:hover
+{
+	color: #ff0;
+	text-decoration: none;
+}
+#footer div.right-column
+{
+	text-align: right;
+}
+
+/* Left Menu
+ */
+#especially-for
+{
+	margin: 0;
+	padding: 4px 5px 5px 5px;
+	background-color: #900;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	font-size: 120%;
+	color: #ff0;
+	font-style: italic;
+}
+#left-column ul.rMenu
+{
+	margin: 0;
+	background-color: #900;
+	padding: 0 0 5px 0;
+	border: none;
+	border-bottom: solid 5px #fff;
+}
+#left-column ul.rMenu li
+{
+	margin: 0 5px;
+}
+#left-column ul.rMenu li a
+{
+	font-size: 120%;
+	padding: 4px 5px 5px 5px;
+	border: solid 1px #900;
+}
+#left-column ul.rMenu li a:link, 
+#left-column ul.rMenu li a:visited,
+#left-column ul.rMenu li a:active
+{
+	border-width: 1px 0;
+	border-top-color: #c66;
+	border-bottom-color: #600;
+	background-color: #900;
+	color: #fff;
+	font-weight: bold;
+}
+#left-column ul.rMenu li a:hover
+{
+	background-color: #000;
+	color: #fff;
+}
+
+
+/* Two Columns
+ */
+div.two-columns, 
+div.two-columns div.left-column,
+div.two-columns div.right-column
+{
+	border: none;
+}
+div.two-columns div.left-column
+{
+	margin: 0;
+	width: 60%;
+}
+div.two-columns div.right-column
+{
+	width: 40%;
+}
+#middle-column div.two-columns div.left-column div.inside-column
+{
+	padding-left: 0;
+}
+#middle-column div.two-columns div.right-column div.inside-column
+{
+	padding-right: 0;
+}
+
+/* Global Nav
+ */
+#globalnav
+{
+	background-color: #ccc;
+	color: #999;
+	padding: 0 0 3px 0;
+	margin: 0 -6px;
+	border-bottom: solid 1px #bbb;
+}
+#globalnav ul, #globalnav li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#globalnav ul.left-globalnav
+{
+	float: left;
+}
+#globalnav form.right-globalnav
+{
+	display: inline;
+	float: right;
+	padding-right: 5px;
+}
+#globalnav form.right-globalnav input
+{
+	border-width: 1px;
+}
+#globalnav li
+{
+	display: inline;
+	padding: 0 5px;
+}
+#globalnav li a
+{
+	padding-bottom: 0;
+	padding-top: 0;
+}
+#globalnav ul.left-globalnav li
+{
+	border-right: solid 1px #999;
+}
+#globalnav a:link, #globalnav a:visited, #globalnav a:active
+{
+	color: #343;
+	font-weight: bold;
+	text-decoration: none;
+}
+#globalnav a:hover
+{
+	color: #009;
+	text-decoration: underline;
+}
+
+
+/* HACKS
+ */
+* html body #page-container
+{
+	width: 800px !important;
+}
+* html body #top-out
+{
+	height: 0.1%;
+}
+
+/******************************************************************************/

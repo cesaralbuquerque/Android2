@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <EditText
+    	android:id="@+id/editText1"
+    	android:layout_height="wrap_content"		
+    	android:layout_width="fill_parent">	
+    </EditText>	
+    
+	<Button 
+		android:text="Copiar texto"
+		android:text="@+id/button1" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_content" 
+		android:id="@+id/Button01">
+	</Button>
+
+	<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@+id/textView1">
+    </TextView>
+    
+</LinearLayout>

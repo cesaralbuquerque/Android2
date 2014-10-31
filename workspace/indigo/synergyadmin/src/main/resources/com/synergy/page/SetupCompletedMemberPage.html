@@ -1,0 +1,51 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+    	<div class="boxTop">&nbsp;</div>
+    	<div class="boxContent">
+    		  
+    		<img class="heading" style="visibility:hidden" src="img/backend/heading-appearance.gif" alt="appearance &amp; installation"/>
+    		<h3 style="color:#00FF00">Congratulations! You have successfully completed the wizard.</h3>
+    		<br/>
+    		<span style="font-weight:bold">Below is the button for your account</span><br/>
+    		To login to the user interface simply click the button and enter the email
+			and password of the user you created.<br>
+    		<span wicket:id="previewBt"></span>
+    		<br/>
+    		
+    		<br/>
+    		Below is the button code. Insert the code on your webpage where you want the button to appear.
+    		<textarea wicket:id="buttonCode" cols="60" rows="5"></textarea>
+    		<br/>
+    		<span style="color:#FF0000;font-size:11px">
+    		Please note that the interface login is different from the SynergyChat site login.<br/>
+			The SynergyChat site login is the original login and password created during registration.<br/>
+			The interface login is the user information you created during setup.<br/>
+			The interface login will always be an email address and password.<br/>
+			</span>
+			
+    		<br/><br>
+			<script>
+			function checkMaxLength(obj) {
+				var maxLength = obj.getAttribute('maxlength');
+				var currentLength = obj.value.length;
+				if (currentLength > maxLength){
+					obj.value = obj.value.substring(0, maxLength);
+				}
+			}
+			</script>
+    		<form wicket:id="listingForm" style="display:none">
+    		<h4>Listing Service</h4>
+    		We also offer a free listing service to our clients into 
+    		<a target="_blank" href="http://www.synergychat.com/listing-service">synergychat.com/listing-service</a>.<br>
+    		If you agree to have your website listed on this page.<br>
+    		Just type a brief description about your website and confirm it.
+    		<textarea wicket:id="description" cols="60" ROWS="5" maxlength="250" onchange="checkMaxLength(this)" onkeyup="checkMaxLength(this)">
+    		Brief description(maximum 250 characters)</textarea><br/>
+    		<input type="submit" value="Confirm"/>
+    		</form>
+			
+			
+    	</div>
+    	<div class="boxBottom">&nbsp;</div>    	
+    </wicket:extend>
+</html>

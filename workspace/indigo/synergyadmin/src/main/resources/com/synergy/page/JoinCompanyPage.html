@@ -1,0 +1,59 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+    	<div style="text-align:center">
+    		<br/><br/>
+    		<div style="text-align:left;padding-left:250px">
+    		<form wicket:id="regForm" class="memberForm">
+    			
+				<p>Please setup your registration information.</p>
+    			<br/>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Name</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="name" class="borderGray" size="30" name="name"/>
+    			</div>
+    			<div class="description">Email</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="email" class="borderGray" size="30" name="email"/>
+    			</div>
+    			<div class="description">Password</div>
+    			<div class="inputArea">
+    				<input type="password" wicket:id="pass" class="borderGray" size="30" name="pass"/>
+    			</div>
+    			<div class="description">Retype Password</div>
+    			<div class="inputArea">
+    				<input type="password" wicket:id="repass" class="borderGray" size="30" name="repass"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">&nbsp;</div>
+    			<div class="inputArea">
+    				<input type="submit" name="submit" value="Confirm"/>
+    			</div>
+    			<div class="spacer"></div>	
+    		</form>
+    		<form wicket:id="acpForm" class="memberForm">
+    			
+				<p>You were invited to join the company: <span wicket:id="compName"></span></p>
+				<br/>
+    			<div class="spacer"></div>
+    			
+    			<div class="inputArea">
+    				<input type="submit" name="submit" value="Accept"/>
+    				<button wicket:id="denyBt">Deny</button>
+    			</div>
+    			<div class="spacer"></div>	
+    		</form>
+
+
+    	</div>
+    	<div>
+    	<span wicket:id="feedback"></span>
+    	<a wicket:id="btLogin" href="#">Click here to login</a>
+    	</div>
+    	<div class="boxBottom">&nbsp;</div>
+    	
+    </div>
+</wicket:extend>
+</html>

@@ -1,0 +1,779 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page
+END
+CoreTechPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/CoreTechPage.html
+END
+EditUserMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/EditUserMemberPage.html
+END
+RegisterClient.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterClient.html
+END
+RegisterBetaClientOld.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterBetaClientOld.html
+END
+SetupCompletedMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/SetupCompletedMemberPage.html
+END
+RegisterBetaClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterBetaClient.java
+END
+ProactiveMessagePanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ProactiveMessagePanel.html
+END
+RegisterUserPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterUserPanel.java
+END
+SelectOption.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/SelectOption.java
+END
+MonitorChatAdminSection.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/MonitorChatAdminSection.html
+END
+ForgotPassword.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ForgotPassword.html
+END
+AboutUs.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/AboutUs.html
+END
+AppearanceMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/AppearanceMemberPage.html
+END
+MemberGroupsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/MemberGroupsPanel.java
+END
+ContactsMemberPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ContactsMemberPage.java
+END
+ConnectionsHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ConnectionsHistory.java
+END
+JoinCompanyPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/JoinCompanyPage.java
+END
+WizardRegisterUser.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/WizardRegisterUser.html
+END
+RegisterBetaClient.html.svntmp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterBetaClient.html.svntmp
+END
+CurrentPlan.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/CurrentPlan.java
+END
+ProfileMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ProfileMemberPage.html
+END
+PaymentPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/PaymentPage.java
+END
+RegisterBetaClient.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterBetaClient.html
+END
+ChatLogMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ChatLogMemberPage.html
+END
+WizardPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/WizardPanel.html
+END
+CurrentPlan.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/CurrentPlan.html
+END
+RegisterUserPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterUserPanel.html
+END
+RegisterBuyClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterBuyClient.java
+END
+ListingService.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ListingService.html
+END
+CustomizeMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/CustomizeMemberPage.html
+END
+GroupWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/GroupWrapper.java
+END
+FAQS.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/FAQS.html
+END
+PaymentSuccessPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/PaymentSuccessPage.html
+END
+ProcessImportContactsMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ProcessImportContactsMemberPage.html
+END
+ViewSalesperson.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ViewSalesperson.html
+END
+WizardUserPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/WizardUserPanel.html
+END
+AdminSection.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/AdminSection.html
+END
+ChatPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ChatPanel.html
+END
+UserPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/UserPanel.java
+END
+RegisterGroupPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterGroupPanel.java
+END
+CurrentPlan.html.svntmp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/CurrentPlan.html.svntmp
+END
+WelcomeAdminSection.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/WelcomeAdminSection.html
+END
+ViewDevelopers.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ViewDevelopers.html
+END
+ForgotPassword.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ForgotPassword.java
+END
+TheCloud.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/TheCloud.html
+END
+TermsAndUse.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/TermsAndUse.html
+END
+MemberAdminLogin.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/MemberAdminLogin.html
+END
+WelcomeMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/WelcomeMemberPage.html
+END
+MemberUserPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/MemberUserPanel.html
+END
+EmailLogMemberPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/EmailLogMemberPage.java
+END
+CartMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/CartMemberPage.html
+END
+PaymentVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/PaymentVO.java
+END
+ContactUs.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ContactUs.html
+END
+SiteMap.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/SiteMap.html
+END
+ImportContactsMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ImportContactsMemberPage.html
+END
+EditUserMemberPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/EditUserMemberPage.java
+END
+BasePageMemberAdminLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/BasePageMemberAdminLogin.java
+END
+BasePage.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/BasePage.html
+END
+ChatLogMemberPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ChatLogMemberPage.java
+END
+MemberBasePage.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/MemberBasePage.html
+END
+ContactsMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ContactsMemberPage.html
+END
+FormRedirect.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/FormRedirect.java
+END
+PermissionDeniedMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/PermissionDeniedMemberPage.html
+END
+ClientRegisteredSuccess.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ClientRegisteredSuccess.java
+END
+PaymentPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/PaymentPage.html
+END
+EmailLogMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/EmailLogMemberPage.html
+END
+WizardWelcome.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/WizardWelcome.html
+END
+ProfileMemberPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ProfileMemberPage.java
+END
+BasePageMemberAdminLogin.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/BasePageMemberAdminLogin.html
+END
+CoreTechPage.html.bak
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/CoreTechPage.html.bak
+END
+PermissionDeniedMemberPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/PermissionDeniedMemberPage.java
+END
+ProductVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ProductVO.java
+END
+Help.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/Help.html
+END
+ClientForgotUsername.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ClientForgotUsername.html
+END
+WizardCreateButton.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/WizardCreateButton.html
+END
+MemberUserPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/MemberUserPanel.java
+END
+ContactUs.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ContactUs.java
+END
+HomePage.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/HomePage.html
+END
+GroupsPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/GroupsPanel.html
+END
+BasePageRegistering.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/BasePageRegistering.java
+END
+ConnectionsHistory.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ConnectionsHistory.html
+END
+DeveloperContact.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/DeveloperContact.java
+END
+AddClientAdminSection.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/AddClientAdminSection.html
+END
+ClientForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ClientForm.java
+END
+StaticImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/StaticImage.java
+END
+RegisterProactiveMessagePanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterProactiveMessagePanel.html
+END
+HowItWorks.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/HowItWorks.html
+END
+ClientRegisteredSuccess.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ClientRegisteredSuccess.html
+END
+RegisterGroupPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterGroupPanel.html
+END
+ChangePasswordMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ChangePasswordMemberPage.html
+END
+PaymentSuccessPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/PaymentSuccessPage.java
+END
+WizardSuccessfull.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/WizardSuccessfull.html
+END
+BasePageRegistering.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/BasePageRegistering.html
+END
+NewUserMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/NewUserMemberPage.html
+END
+RegisterBetaUser.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterBetaUser.html
+END
+PurchaseMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/PurchaseMemberPage.html
+END
+ViewCustomers.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ViewCustomers.html
+END
+ProactiveChatMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ProactiveChatMemberPage.html
+END
+DeveloperContact.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/DeveloperContact.html
+END
+GroupsMemberPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/GroupsMemberPage.java
+END
+MemberGroupsPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/MemberGroupsPanel.html
+END
+PrivacyPolicy.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/PrivacyPolicy.html
+END
+CheckOutConnectionMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/CheckOutConnectionMemberPage.html
+END
+CheckOutConnectionPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/CheckOutConnectionPanel.html
+END
+ProductsPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ProductsPage.java
+END
+GroupsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/GroupsPanel.java
+END
+AddSalesDevAdminSection.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/AddSalesDevAdminSection.html
+END
+MonitorAdminSection.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/MonitorAdminSection.html
+END
+MemberBasePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/MemberBasePage.java
+END
+RegisterCompany.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterCompany.java
+END
+MultipleSelectDropDown.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/MultipleSelectDropDown.html
+END
+PaymentConfirmPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/PaymentConfirmPage.java
+END
+NewGroupMemberPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/NewGroupMemberPage.java
+END
+BuyConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/BuyConnection.html
+END
+ViewCustomersMonthlyPrice.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ViewCustomersMonthlyPrice.html
+END
+ProcessImportContactsMemberPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ProcessImportContactsMemberPage.java
+END
+WelcomeMemberPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/WelcomeMemberPage.java
+END
+PaymentConfirmPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/PaymentConfirmPage.html
+END
+MemberAdminLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/MemberAdminLogin.java
+END
+JoinCompanyPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/JoinCompanyPage.html
+END
+MultipleSelectDropDown.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/MultipleSelectDropDown.java
+END
+ImportContactsMemberPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ImportContactsMemberPage.java
+END
+BasePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/BasePage.java
+END
+WizardRegisterGroup.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/WizardRegisterGroup.html
+END
+GroupsMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/GroupsMemberPage.html
+END
+RegisterBuyClient.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/RegisterBuyClient.html
+END
+ClientPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ClientPage.html
+END
+NewGroupMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/NewGroupMemberPage.html
+END
+ProductsPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/page/ProductsPage.html
+END

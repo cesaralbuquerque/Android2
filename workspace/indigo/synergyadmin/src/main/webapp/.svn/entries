@@ -1,0 +1,139 @@
+8
+
+dir
+576
+https://synergychat.svn.cvsdude.com/synergychat/synergyadmin/src/main/webapp
+https://synergychat.svn.cvsdude.com/synergychat
+
+
+
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+45c3e2bf-c045-4bd1-baaf-4b6e865f7e0a
+
+GuestChatUser.jsp
+file
+
+
+
+
+2011-11-29T23:48:33.521000Z
+a131367769212645a60e41fa4e926b3e
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+LoginSynergyChat.jsp
+file
+
+
+
+
+2011-11-29T23:48:33.535000Z
+52952948c1d8156ac7329b9fa1d0388e
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+OutlookVMail.jsp
+file
+
+
+
+
+2011-11-29T23:48:33.509000Z
+2a878bcda11ba53b6e4d125bb3c7e798
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+ShareScreenViewer.jsp
+file
+
+
+
+
+2011-11-29T23:48:33.497000Z
+3467a37c1fd06347efe0ecfa36b5aa36
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+SynergyChat.jsp
+file
+
+
+
+
+2011-11-29T23:48:35.678000Z
+51441ded5ab2883b42f8a426de32c79a
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+ViewVMail.jsp
+file
+
+
+
+
+2011-11-29T23:48:57.581000Z
+d99c95c54a7a73a242e374e9d006e6a7
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+WEB-INF
+dir
+
+css
+dir
+
+flash
+dir
+
+flowplayer
+dir
+
+html
+dir
+
+images
+dir
+
+index.jsp
+file
+
+
+
+
+2011-11-29T23:49:16.987000Z
+13d4ecc5feccc7195c50732907f98df2
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+js
+dir
+
+thirdparty
+dir
+
+wp-content
+dir
+

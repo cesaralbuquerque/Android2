@@ -1,0 +1,73 @@
+8
+
+dir
+576
+https://synergychat.svn.cvsdude.com/synergychat/synergyadmin
+https://synergychat.svn.cvsdude.com/synergychat
+
+
+
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+45c3e2bf-c045-4bd1-baaf-4b6e865f7e0a
+
+.classpath
+file
+
+
+
+
+2011-11-29T23:48:25.404000Z
+829882f39cb718ecc86cd71b297e40ca
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+.project
+file
+
+
+
+
+2011-11-29T23:48:25.413000Z
+1209feb7827ee4a27b42188fd0527e0b
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+bin
+dir
+
+pom.xml
+file
+
+
+
+
+2011-11-29T23:49:28.921000Z
+d6bbce4cae749956b584118594a723d8
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+src
+dir
+
+target
+dir
+

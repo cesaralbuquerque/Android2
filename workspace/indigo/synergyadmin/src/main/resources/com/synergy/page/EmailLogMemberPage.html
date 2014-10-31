@@ -1,0 +1,40 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+    	<p class="hd"><img src="images/logs.jpg" alt="" /></p>
+          
+          
+          
+          <p>&nbsp;</p>
+          
+            <ul class="TabbedPanelsTabGroup">
+              <li class="TabbedPanelsTab"><a wicket:id="chatLogsLink">Search Chat Logs</a></li>
+              <li class="TabbedPanelsTabSelected">Guest Email Logs</li>
+            </ul>
+            <div class="TabbedPanelsContentGroup">
+              <div class="TabbedPanelsContent">
+              	<h1>Search Chat Logs</h1>
+              	
+              	<div class="detail-2">
+                    	<div class="hds">
+                        	<div class="row-1">Name</div>
+                            <div class="row-2">Email</div>
+                            <div class="row-3">Date</div>
+                            <div class="clearflot"></div>
+                        </div>
+                        
+                        <div class="row" wicket:id="users">
+                       	  <div class="row-1" wicket:id="uname">Same Sales Repres</div>
+                          <div class="row-2"><a target="_blank" wicket:id="emailLink"><span wicket:id="uemail"></span></a></div>
+                          <div class="row-3" wicket:id="udate">Apr 9, 2010</div>
+                            <div class="clearflot"></div>
+                      </div>
+					<div>
+						<span wicket:id="navegacao">
+						navegacao
+						</span>
+					</div>    		    				
+    		</div>
+    	</div>
+    	</div>
+    </wicket:extend>
+</html>

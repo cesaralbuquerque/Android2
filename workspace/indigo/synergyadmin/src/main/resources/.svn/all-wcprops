@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources
+END
+hibernate.reveng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/hibernate.reveng.xml
+END
+application.properties_local
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/application.properties_local
+END
+synergyengine.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/synergyengine.properties
+END
+application-override.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/application-override.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/log4j.properties
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/hibernate.cfg.xml
+END
+synergyengine.properties_local
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/synergyengine.properties_local
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/application.properties
+END
+dwr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/dwr.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/applicationContext.xml
+END

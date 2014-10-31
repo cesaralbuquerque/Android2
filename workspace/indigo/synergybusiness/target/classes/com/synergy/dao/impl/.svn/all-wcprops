@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl
+END
+GroupDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/GroupDaoImpl.class
+END
+ChatDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/ChatDaoImpl.class
+END
+CompanyDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/CompanyDaoImpl.class
+END
+ProductSubscriberCompanyDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/ProductSubscriberCompanyDaoImpl.class
+END
+GuestChatDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/GuestChatDaoImpl.class
+END
+ProductDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/ProductDaoImpl.class
+END
+VideoDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/VideoDaoImpl.class
+END
+MailMessageDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/MailMessageDaoImpl.class
+END
+PurchaseDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/PurchaseDaoImpl.class
+END
+UserDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/UserDaoImpl.class
+END
+MailContactDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/MailContactDaoImpl.class
+END
+AbstractBasicHibernateDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/AbstractBasicHibernateDao.class
+END
+SubscriberDaoImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/dao/impl/SubscriberDaoImpl.class
+END

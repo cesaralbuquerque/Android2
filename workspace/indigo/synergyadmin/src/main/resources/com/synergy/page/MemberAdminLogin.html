@@ -1,0 +1,108 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+		<div class="content">
+		<form wicket:id="msgBox">
+    	<div class="yello-box">
+          	<p class="top-bg"><img src="images/yello-top-left-cove.jpg" /></p>
+            <div class="mid-bg" style="padding:0; padding-left:30px">             
+            Congratulations! You have activated the account with username: 
+            <span style="color:#FF0000" wicket:id="lblUserName"></span>. 
+            Please login below to access your account 
+            </div>
+            <p class="bot-bg"><img src="images/yello-bot-left-cove.jpg" /></p>
+      </div>
+      </form>
+    	
+        
+        <div>
+        <div class="sign-in-left">
+          	<p><img src="images/chat-made-simple2.jpg" alt="" /></p>
+            
+            <div class="chat-box">
+            	<div class="cnt-left"><img src="images/icon-1.jpg" alt="" /></div>
+              <div class="cnt-right2">
+                  <p class="title">Pure Cloud Communication</p>
+                  <p> Synergy Chat was started with the goal of creating rich cloud computing applications for video communication.</p>
+              </div>
+                <div class="clearflot"></div>
+            </div>
+            
+            <div class="chat-box">
+            	<div class="cnt-left"><img src="images/icon-2.jpg" alt="" /></div>
+              <div class="cnt-right2">
+                  <p class="title">Server Location & Security</p>
+                  <p>SynergyChat's servers are hosted within the Terremark NAP of the Americas, a Tier 4 datacenter. </p>
+              </div>
+                <div class="clearflot"></div>
+            </div>
+            
+            <div class="chat-box">
+            	<div class="cnt-left"><img src="images/icon-3.jpg" alt="" /></div>
+              <div class="cnt-right2">
+                  <p class="title">Video Compression</p>
+                  <p>SynergyChat currently uses VP6 video compression technology.</p>
+              </div>
+                <div class="clearflot"></div>
+            </div>
+            
+          </div>
+          
+          
+          
+        <div class="sign-in-right">
+        	<p><img src="images/login-top.jpg" /></p>
+          <div class="login-bg" style="height:200px">
+            <form wicket:id="loginForm" method="post">
+            <span
+		wicket:id="feedbackLogin"></span><br>
+            <p class="title"><img src="images/sign-in.jpg" width="81" height="27" /></p>
+            <p><span style="width:70px; padding:8px 0 0 0; float:left;">Username :</span> 
+            <input type="text" wicket:id="email" name="email" /></p>
+            <p><span style="width:70px; padding:8px 0 0 0; float:left;">Password :</span> 
+            <input type="password" name="password" wicket:id="password" /></p>
+            <p><span style="width:70px; padding:8px 0 0 0; float:left;">&nbsp;</span> 
+            <p><span style="width:70px; padding:8px 0 0 0; float:left;">&nbsp;</span> 
+            <input type='image' name='submit' src="images/login.jpg" style="vertical-align:middle;width:82px" /> &nbsp; 
+            <!--  
+            <input name="" type="checkbox" value="" class="checkbox" /> Remember Me?</p>
+			-->
+            </form>
+          </div>
+            <p><img src="images/mous.gif" style="position:absolute; margin:-65px 0 0 302px;" /> <img src="images/login-bot.jpg" /></p>        
+        </div>
+        <br class="clearflot" />
+        </div>
+        
+  </div>
+	<!--  
+	<center>
+	<div
+		style="width: 300px; text-align: center; font-size: 15px; font-family: Tahoma">
+	<form wicket:id="loginForm" method="post">
+	<div style="padding: 5px"><span
+		wicket:id="feedbackLogin"></span><br>
+	<div class="description">Username:</div>
+	<div style="float: left"><input class="login" size="10"
+		onclick="clearField(this)" wicket:id="email" name="email" type="text" />
+	</div>
+	<div class="spacer"></div>
+	<div class="description">Password:</div>
+	<div style="float: left"><input class="login" size="10"
+		type="password" name="password" wicket:id="password" /><input
+		type="submit" value="Login" name="submit_btn" /></div>
+	<div class="spacer"></div>
+	<br />
+
+	<a wicket:id="forgotPass"
+		style="color: #0000FF; text-decoration: underline" href="#">Forgot
+	Password</a>
+	</div>
+	</form>
+	</div>
+	</center>
+	<br />
+	<br />
+	<br />
+	-->
+</wicket:extend>
+</html>

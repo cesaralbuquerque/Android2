@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    
+<html 
+	xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:wicket="http://wicket.sourceforge.net/" 
+	xml:lang="en" 
+	lang="en">  
+<body>
+<wicket:extend>
+<div style="width:900px; margin:0 auto;">
+<div style="position:absolute; width:900px; float:left; text-align:right;">
+<a wicket:id="exitWizard" href="#"><img src="images/cancel.png" alt="cancel" /></a></div>
+<p>&nbsp;</p>
+<p class="clear"></p>
+</div>
+
+<div id="wrapper">
+	<div class="wizard">
+    <p class="top"><img src="images/wizard-top.gif" alt="" /></p>
+    <div class="rp">
+    <div class="contwrapper">
+    	<div class="head" style="padding-bottom:10px;">
+    	<p class="acsetup"><img src="images/img-account-setup.gif" alt="" /></p>
+        <p class="stepspart"><img src="images/step-1-1.gif" alt="step1" /><img src="images/step-2-2-g.gif" alt="step2" /><img src="images/step-3-3.gif" alt="step3" /></p>
+   		<p class="clear"></p>
+        <p class="divider"><img src="images/divider-raw.gif" alt="" /></p>
+        </div>
+    	<p class="clear"></p>
+    </div>
+    <p class="clear"></p>
+    
+    <div class="stepsraw">
+    <div class="stepcont">
+    <p class="text">
+    <span>Congratulations! You have successfully completed the wizard.</span><br />
+    <strong>Below is the button for your account</strong><br />
+    To login to the user interface simply click the button and enter the email and password of the user you created.<br />
+    <br />
+    </p>
+    <p><span wicket:id="previewBt"></span></p>
+    <p class="suxesline">Below is the button code. Insert the code on your webpage where you want the button to appear.</p>
+    <div><textarea wicket:id="buttonCode" cols="60" rows="5"></textarea></div>
+    <div class="pointline">
+    <p class="ponts">Please note that the interface login is different from the SynergyChat site login.</p>
+    <p class="ponts">The SynergyChat site login is the original login and password created during registration.</p>
+    <p class="ponts">The interface login is the user information you created during setup.</p>
+    <p class="ponts">The interface login will always be an email address and password.</p>
+    </div>
+    </div>
+    <p class="adgroup">&nbsp;</p>
+    <p class="clear"></p>
+    </div>
+    
+    <div class="rawlinestp2"></div>
+    <div class="rawline" style="padding:0 0 15px 36px; text-align:right;">&nbsp;&nbsp;
+    <a wicket:id="previousStep" href="#">
+    <img src="images/btn-prev.gif" alt="previous" width="96" height="29" />
+    </a>
+    &nbsp;&nbsp;&nbsp;
+    <a wicket:id="finishWizard" href="#">
+    <img src="images/btn-finish.jpg" alt="previous" width="97" height="29" />
+    </a>
+    </div>
+    </div>
+    <p class="btm"><img src="images/wizard-btm.gif" alt="" width="900" height="14" /></p>
+  </div>
+  <p class="clear"></p>
+</div>
+</wicket:extend>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+    
+    	  
+    <p class="hd">
+    	<span style="display:none">
+    	<img src="images/welcome-username.jpg" alt="" /><span wicket:id="unameProfile"/>
+    	</span></p>
+          <div class="box-text" style="display:none">
+          	<p></p>
+          </div>
+          
+          <p class="hd"><img src="images/what-would-you-like-to-do.jpg" alt="" /></p>
+          
+          <div class="yellow-box">
+              <p class="top-bg"><img src="images/yellow-top-left.jpg" alt=""  /></p>
+              <div class="mid-bg">
+                  <div class="left-box"><img src="images/yello-box-thumb.jpg" alt="" /></div>
+                  <div class="right-box">
+                  <p>Set up or edit information for your profile and company</p>
+                  <p>&nbsp;</p>
+                  <p><a wicket:id="profileLink2" href="#"><img src="images/profile.jpg" alt="" /></a></p>
+                  </div>
+                  <div class="clearflot"></div>
+              </div>
+              <p class="bot-bg"><img src="images/yellow-bot-left.jpg" alt="" /></p>
+          </div>
+		  
+		  <div class="yellow-box">
+              <p class="top-bg"><img src="images/yellow-top-left.jpg" alt="" /></p>
+              <div class="mid-bg">
+                  <div class="left-box"><img src="images/yello-box-thumb2.jpg" alt="" /></div>
+                  <div class="right-box">
+                  <p>View your account finances, or add more users to your account</p>
+                  <p>&nbsp;</p>
+                  <p><a wicket:id="paymentLink2" href="#"><img src="images/payment-activation.jpg" alt="" /></a></p>
+                  </div>
+                  <div class="clearflot"></div>
+              </div>
+              <p class="bot-bg"><img src="images/yellow-bot-left.jpg" alt="" /></p>
+          </div>
+			          
+          <!--  
+          <div class="yellow-box">
+              <p class="top-bg"><img src="images/yellow-top-left.jpg" alt="" /></p>
+              <div class="mid-bg">
+                  <div class="left-box"><img src="images/yello-box-thumb2.jpg" alt="" /></div>
+                  <div class="right-box">
+                  <p>View your account finances, or add more users to your account</p>
+                  <p>&nbsp;</p>
+                  <p><a wicket:id="paymentLink2" href="#"><img src="images/payment-activation.jpg" alt="" /></a></p>
+                  </div>
+                  <div class="clearflot"></div>
+              </div>
+              <p class="bot-bg"><img src="images/yellow-bot-left.jpg" alt="" /></p>
+          </div>
+          
+          <div class="yellow-box">
+              <p class="top-bg"><img src="images/yellow-top-left.jpg" alt="" /></p>
+              <div class="mid-bg">
+                  <div class="left-box"><img src="images/wizard-button.jpg" alt="" /></div>
+                  <div class="right-box">
+                  <p>Start Wizard to set up your groups and users.</p>
+                  <p>&nbsp;</p>
+                  <p><a wicket:id="startWizardLink" href="#"><img src="images/start-wizard.jpg" alt="" /></a></p>
+                  </div>
+                  <div class="clearflot"></div>
+              </div>
+              <p class="bot-bg"><img src="images/yellow-bot-left.jpg" alt="" /></p>
+          </div>	
+    		-->
+    	
+</wicket:extend>
+</html>

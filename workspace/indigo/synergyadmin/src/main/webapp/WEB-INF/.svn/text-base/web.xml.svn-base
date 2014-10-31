@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4">
+	<display-name>SynergyChat Web Application</display-name>
+	<distributable />
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:applicationContext.xml
+		</param-value>
+	</context-param>
+
+	<filter>
+		<filter-name>OEMiV</filter-name>
+		<filter-class>
+			org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter
+		</filter-class>
+		<init-param>
+			<param-name>entityManagerFactoryBeanName
+			</param-name>
+			<param-value>entityManagerFactory</param-value>
+		</init-param>
+		<init-param>
+			<param-name>singleSession</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+
+	<filter>
+		<filter-name>QwicketApplication</filter-name>
+		<filter-class>org.apache.wicket.protocol.http.WicketFilter
+		</filter-class>
+		<init-param>
+			<param-name>applicationClassName</param-name>
+			<param-value>com.synergy.app.QwicketApplication
+			</param-value>
+		</init-param>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>OEMiV</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>QwicketApplication</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<servlet>
+		<servlet-name>Login Servlet</servlet-name>
+		<servlet-class>com.synergy.app.LoginServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login Servlet</servlet-name>
+		<url-pattern>/login/*</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Chat Servlet</servlet-name>
+		<servlet-class>com.synergy.app.BasicServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Chat Servlet</servlet-name>
+		<url-pattern>/chat/*</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>VMail Servlet</servlet-name>
+		<servlet-class>com.synergy.app.VMailServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VMail Servlet</servlet-name>
+		<url-pattern>/ui/*</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Outlook Servlet</servlet-name>
+		<servlet-class>com.synergy.app.OutlookServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Outlook Servlet</servlet-name>
+		<url-pattern>/outlook/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Authenticate Servlet</servlet-name>
+		<servlet-class>com.synergy.app.AuthenticateServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Authenticate Servlet</servlet-name>
+		<url-pattern>/authenticate/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Authenticate Servlet Encrypted
+		</servlet-name>
+		<servlet-class>com.synergy.app.AuthenticateServletEncrypted
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Authenticate Servlet Encrypted
+		</servlet-name>
+		<url-pattern>/encauth/*</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Billing Servlet</servlet-name>
+		<servlet-class>com.synergy.app.BillingServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Billing Servlet</servlet-name>
+		<url-pattern>/billing/*</url-pattern>
+	</servlet-mapping>
+	<init-param>
+		<param-name>initApplicationScopeCreatorsAtStartup
+		</param-name>
+		<param-value>true</param-value>
+	</init-param>
+
+	<init-param>
+		<param-name>maxWaitAfterWrite</param-name>
+		<param-value>-1</param-value>
+	</init-param>
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+	<welcome-file-list>
+		<welcome-file>/index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
+

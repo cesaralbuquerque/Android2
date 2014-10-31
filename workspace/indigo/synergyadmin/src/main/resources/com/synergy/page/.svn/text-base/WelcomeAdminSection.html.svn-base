@@ -1,0 +1,5 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+	<div>Welcome, on your left you have the menu.</div>
+</wicket:extend>
+</html>

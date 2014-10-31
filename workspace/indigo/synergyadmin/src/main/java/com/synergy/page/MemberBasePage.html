@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Members</title>
+<!--  
+<link href="css/main-style.css" rel="stylesheet" type="text/css" media="screen" />
+-->
+<link href="css/member-area-style.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/payment.css" type="text/css" media="screen" />
+<script>
+function openSynergyWindow(cid,confid,visitor){
+	var n = 'wnd_'+Math.floor(Math.random()*1000);
+	window.open('http://www.synergychat.com/chat?op=openSynergyPanel&cid='+cid+'&confid='+confid+'&visitor='+visitor,n,'width=550,height=500,resizable=1');
+}
+</script>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<link href="css/master.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/png.js"></script>
+
+</head>
+<body onload="MM_preloadImages('images/login.jpg')">
+<div class="wapper">
+  <div class="login-btn">
+  <!--  
+    <a href="#" wicket:id="logout" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','images/login.jpg',1)">
+  -->  
+  <a href="#" wicket:id="logout">
+  <img src="images/logout.jpg" alt="" id="Image2" /></a></div>
+  <div class="logo" style="margin-left:20px"><img src="images/synergy-chat-logo.jpg" alt="" /></div>
+  <div class="content" style="margin-left:20px">
+    <div class="content-left">
+      <div class="left-link">
+        <p class="top-bg"><img src="images/welcome-top-left.jpg" alt="" /></p>
+        <div class="welcome-bg"><img src="images/welcome-thumb.jpg" class="thumb" alt="" />
+          <div class="welcome-text">
+            <span wicket:id="usernameLbl">Username</span></div>
+          <div class="clearflot"></div>
+        </div>
+        <div class="welcome-bg2">
+          <ul>
+            <li><a wicket:id="profileLink" href="#">Profile</a></li>
+            <li><a wicket:id="contactsLink" href="#">Users &amp; Groups</a></li>
+            <li><a wicket:id="paymentLink" href="#">Payment &amp; Upgrade</a></li>
+            <li class="no-brd"><a wicket:id="logsLink" href="#">Logs</a></li>
+          </ul>
+          <div class="clearflot"></div>
+        </div>
+        <p class="bot-bg"><img src="images/welcome-bot-left.jpg" alt="" /></p>
+      </div>
+    </div>
+    <div class="content-right" style="min-width:650px">    
+      
+      <div class="white-box" style="background-color:white">
+      	<div>
+        <p class="top-bg"><img src="images/whitebox-top-left.jpg" alt="" /></p>
+        </div>
+        <div class="mid-bg" style="float: left; width:1px; height:600px; padding:0"></div>
+	      <div style="float:left;margin:10px">
+	      <wicket:child/>
+          </div>
+        <div style="float:right; width:1px;height:600px;padding:0px" class="mid-bg">  
+        </div>
+        <div class="clear"></div>
+        <div>
+        <p class="bot-bg"><img src="images/whitebox-bot-left.jpg" alt="" /></p>
+        </div>
+      </div>
+      
+      
+      
+      
+    </div>
+    <div class="clearflot"></div>
+  </div>
+  
+  
+  <div class="footer">Copyrights ©2011 Synergy Chat. All rights reserved.</div>
+  
+</div>
+</body>
+</html>

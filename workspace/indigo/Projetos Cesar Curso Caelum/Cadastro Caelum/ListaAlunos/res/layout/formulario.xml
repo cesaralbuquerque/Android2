@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+ 	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+  
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+  		android:orientation="vertical">
+  
+  		<ImageButton
+  			android:id="@+id/imagem"
+  			android:src="@drawable/smile"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_gravity="center_horizontal"
+  			/>
+  		<TextView
+  			android:text="Nome: "
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  		/>
+  		<EditText
+  			android:id="@+id/nome"
+  			android:hint="Digite o nome aqui..."
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  		/>
+  		
+  		<TextView
+  			android:text="Telefone: "
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  		/>
+  		<EditText
+  			android:id="@+id/telefone"
+  			android:hint="Digite o telefone aqui..."
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  		/>
+  		
+  		<TextView
+  			android:text="Endereço: "
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  		/>
+  		<EditText
+  			android:id="@+id/endereco"
+  			android:hint="Digite o telefone aqui..."
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  		/>
+  		
+  		<TextView
+  			android:text="Site: "
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  		/>
+  		<EditText
+  			android:id="@+id/site"
+  			android:hint="Digite o site aqui..."
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  		/>
+  		
+  		<RatingBar
+  			android:id="@+id/nota"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:numStars="5"
+  		/>
+  		<Button
+  			android:id="@+id/botao"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:text="Inserir"
+  		/>
+  		
+  		
+	</LinearLayout>
+</ScrollView>

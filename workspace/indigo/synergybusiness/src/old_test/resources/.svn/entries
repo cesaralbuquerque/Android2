@@ -1,0 +1,79 @@
+8
+
+dir
+576
+https://synergychat.svn.cvsdude.com/synergychat/synergybusiness/src/old_test/resources
+https://synergychat.svn.cvsdude.com/synergychat
+
+
+
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+45c3e2bf-c045-4bd1-baaf-4b6e865f7e0a
+
+META-INF
+dir
+
+application-override.properties
+file
+
+
+
+
+2011-11-29T23:44:42.629000Z
+707f0b8258b97aab15217fe2aa0a37cf
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+
+application.properties
+file
+
+
+
+
+2011-11-29T23:44:42.641000Z
+8a362955569694c6c796089f315be1c5
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+
+applicationContext.xml
+file
+
+
+
+
+2011-11-29T23:44:42.618000Z
+61fca789d2d0a07109d26f34d79a2d22
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+
+synergyengine.properties
+file
+
+
+
+
+2011-11-29T23:44:42.605000Z
+ebdde3124a44c2bc9d03b67d2c4e747a
+2011-11-24T22:04:00.224002Z
+561
+fabianomodos
+

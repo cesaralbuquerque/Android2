@@ -1,0 +1,81 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+	<p class="hd"><img src="images/payment-upgrade.jpg" alt="" /></p>
+
+	<p>&nbsp;</p>
+
+	<ul class="TabbedPanelsTabGroup">
+		<li class="TabbedPanelsTab"><a wicket:id="currentLink">Current Seats</a></li>
+		<li class="TabbedPanelsTabSelected">Upgrade/Downgrade</li>
+		<li class="TabbedPanelsTab"><a wicket:id="historyLink">Purchase History</a></li>
+	</ul>
+	<div class="TabbedPanelsContentGroup">
+	<div class="TabbedPanelsContent">
+	<div class="content">
+    <div class="account_management_text">
+	Upgrade/Downgrade
+	
+    </div>
+	<br />
+	<div><span wicket:id="feedback">feedbackmessages will be put here</span></div>
+
+		<div class="products_form">
+		
+			<div class="products_nav">
+			<div class="product">Products</div>
+			<div class="users"> # of Users/Monthly Payment</div>
+			</div>
+		
+			<div class="products_detail">
+		
+			<form wicket:id="form1">
+			
+			<div wicket:id="products">
+			<div class="products_detail">
+			<ul>
+				<li class="product_detail" wicket:id="name"></li>
+				<li class="users_detail">
+				    <select wicket:id="noOfUsers" class="plans_select" onchange="calculateTotal();" style="width: 160px;"></select>
+				</li>
+			</ul>
+			</div></div>
+		    <div
+		        style="text-align: center; width: 100%; background-color: #FFFFCC; font-weight: bold">
+		    </div>
+	<div class="clear"></div>
+	
+	<div style="float:left; width:300px">
+<br/>
+<h3>Need Help? Here's Some Instructions</h3>
+<table style="font-size:11px; width:330px;" cellspacing="5px">
+<tr><td><img src="images/bullet1.jpg"/></td>
+<td><b>Check the number of seats</b> you own for each product in the current seats section.</td>
+</tr>
+<tr><td><img src="images/bullet2.jpg"/></td>
+<td><b>Choose the new number of seats</b> you would like to license for each product.</td>
+</tr>
+<tr><td><img src="images/bullet3.jpg"/></td>
+<td><b>Verify the new monthly total</b> and then click on the purchase button to confirm your new product configuration.</td>
+</tr>
+</table>
+</div>	
+<div>
+		    <div class="total_product_purchase">
+		    <div class="total_text">Total Monthly Cost</div>
+		    <span wicket:id="totalVal" id="totalVal"  class="dollar_text"></span></div>
+			<div class="purchase_btn">
+               <input type="submit" class="btn" value="" />
+            </div>
+</div>			
+			</form>
+	
+		   </div>
+	    
+	
+		</div>
+
+	</div>
+	</div>
+	</div>
+</wicket:extend>
+</html>

@@ -1,0 +1,47 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+	<p class="hd"><img src="images/payment-upgrade.jpg" alt="" /></p>
+
+
+
+	<p>&nbsp;</p>
+
+
+
+	<ul class="TabbedPanelsTabGroup">
+		<li class="TabbedPanelsTabSelected">Current Seats</li>
+		<li class="TabbedPanelsTab"><a wicket:id="buyLink">Upgrade/Downgrade</a></li>
+		<li class="TabbedPanelsTab"><a wicket:id="historyLink">Purchase History</a></li>
+	</ul>
+	<div class="TabbedPanelsContentGroup">
+	<div class="TabbedPanelsContent">
+	<h1>Seats Purchased</h1>
+	<div class="detail-4">
+	<p>&nbsp;</p>
+	<div class="hds">
+	<div class="row-1" style="width:150px">Seat Type</div>
+	<div class="row-2" style="width:150px">Number of seats</div>
+	<div class="row-3" style="width:180px">Number of seats in use</div>
+	<div class="row-3" style="width:150px">Price</div>
+	<div class="clearflot"></div>
+	</div>
+	<div class="row" wicket:id="purchases">
+	<div class="row-1" style="width:150px" wicket:id="plantype">Shahil Kajj</div>
+	<div class="row-2" style="width:150px" wicket:id="nconns">Indian Office Team Mates,
+	Team Leads</div>
+	<div class="row-3" style="width:180px" wicket:id="nconnsu"></div>
+	<div class="row-3" style="width:150px" wicket:id="price"></div>
+	<div class="clearflot"></div>
+	</div>
+	</div>
+	<div class="clear"></div>
+	<div class="total_product_purchase">
+	<div class="total_text">Total</div>
+	<span id="totalVal" class="dollar_text">USD<span
+		wicket:id="totalPrice"></span></span> / Monthly</div>
+
+	</div>
+	</div>
+
+</wicket:extend>
+</html>

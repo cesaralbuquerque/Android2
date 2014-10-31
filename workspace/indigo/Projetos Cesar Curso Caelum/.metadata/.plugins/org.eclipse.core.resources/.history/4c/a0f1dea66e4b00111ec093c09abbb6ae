@@ -1,0 +1,27 @@
+package br.com.caelum.cadastro;
+
+import java.util.Arrays;
+import java.util.List;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.Toast;
+
+public class ListaAlunos extends Activity {
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.lista);
+        
+        List<String> alunos = Arrays.asList("Anderson", "Filipe", "Filipe", "Filipe", "Filipe", "Filipe", "Filipe", "Filipe");
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, alunos);
+        
+       ListView listaAlunos = (ListView)findViewById(R.id.listaAlunos);
+       listaAlunos.setAdapter(adapter);
+       
+       Toast.makeText(getBaseContext(), "Meu texto de aviso", 4).show();
+    }
+}

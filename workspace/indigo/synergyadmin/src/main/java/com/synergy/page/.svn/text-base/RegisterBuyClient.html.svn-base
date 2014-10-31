@@ -1,0 +1,92 @@
+
+<wicket:extend>  
+<div id="content" role="main"> 
+ 
+ 
+				<div id="post-83" class="post-83 page type-page status-publish hentry"> 
+											<h1 class="entry-title"></h1> 
+					
+					<div class="entry-content"> 
+						<div class="content"> 
+<div class="wrap"> 
+<div class="content-mid"> 
+<div class="content-top-heading"> 
+<div class="content-top-heading"> 
+<div class="why-syn">Registration</div> 
+<p><!--end of head links--></p> 
+</div> 
+</div> 
+<div class="content-top"> 
+<div class="content-main-left"> 
+<h1>Pure Cloud Communication Tools</h1> 
+<h2>The future is online video communication!</h2> 
+<p>All SynergyChat products are true "in the cloud" applications that run virtually over the internet.  No Downloads, no complicated setup and implementation &#8211; just sign up and go!</p> 
+<p>&nbsp;</p> 
+<form wicket:id="form"> 
+<span wicket:id="feedback" style="color: #FF0000; font-size:14px;"></span><br> 
+<div class="registration-form">
+<ul> 
+<li class="label">Name:</li> 
+<li> 
+<input class="box" wicket:id="name" type="text" /></li> 
+<li class="label">Company Name:</li> 
+<li> 
+<input class="box" wicket:id="companyName" type="text" /></li> 
+<li class="label">Company Website:</li> 
+<li> 
+<input class="box" wicket:id="www" type="text" /></li> 
+<li class="label">Email Address:</li> 
+<li> 
+<input class="box" wicket:id="email" type="text" /><span wicket:id="lblUnameInUse" style="color: #FF0000;font-size:11px"></span></li> 
+<li class="label">Phone Number:</li> 
+<li> 
+<input class="box" wicket:id="phone" type="text" /></li> 
+<li class="label">Password:</li> 
+<li> 
+<input class="box" wicket:id="pass" type="password" /></li> 
+<li class="label">Retype Password:</li> 
+<li> 
+<input class="box" wicket:id="repass" type="password" /></li> 
+<li class="label">Enter CAPTCHA:</li> 
+<li class="captcha"> 
+<input class="captcha-input" wicket:id="conteudo" type="text" /></li> 
+<li class="captcha-lettor">
+<table><tr><td><img wicket:id="captchaImage" width="120" height="50" alt="" /></td><td>
+<a wicket:id="genCaptcha"><img src="images/refresh.jpg" width="20" height="30" style="vertical-align:middle" /></a>
+</td></tr></table>
+</li> 
+<li class="terms-privacy-policy"> 
+<input wicket:id="acceptTerms" type="checkbox" /> By Clicking Sign Up you are indicating that you have read and agreed to the<span><a href="https://www.synergychat.com:8443/html/terms_of_use.html">Terms of Use</a></span> and<span> <a href="https://www.synergychat.com:8443/html/privacy_policy.html">Privacy Policy</a></span></li> 
+<li class="terms-privacy-policy">
+<input name="submit" src="https://www.synergychat.com:8443/wp-content/themes/synergychat-public/images/signup.gif" type="image" style="cursor:hand" class="button" /></li> 
+</ul> 
+</div> 
+</form>
+<p><!--end of registration-form--></p> 
+</div> 
+<p><!--end of main-left--></p> 
+<div class="content-main-right"> 
+<div class="chat-box"> 
+<div class="chat-box-top">.</div> 
+<div class="chat-box-bg"><img src="https://www.synergychat.com:8443/wp-content/themes/synergychat-public/images/registration-icon.jpg" alt="" /></div> 
+</div> 
+<p><!--end of chat-box--></p> 
+<div class="chat-box-bot">.</div> 
+</div> 
+<p><!--end of content-main-right--></p> 
+<div class="clear">.</div> 
+</div> 
+<div class="comtent-bottom">.</div> 
+</div> 
+</div> 
+<p><!--end of wrap--></p> 
+</div> 
+<p><!--end of content--></p> 
+																	</div><!-- .entry-content --> 
+				</div><!-- #post-## --> 
+ 
+				
+ 
+			</div><!-- #content --> 
+
+</wicket:extend>

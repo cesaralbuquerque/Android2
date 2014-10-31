@@ -1,0 +1,46 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+    	<p class="hd"><img src="images/appearance.jpg" alt="" /></p>
+          
+          
+          <p>&nbsp;</p>
+          
+          
+            <ul class="TabbedPanelsTabGroup">
+              <li class="TabbedPanelsTab"><a wicket:id="liveLink">Live Button</a></li>
+              <li class="TabbedPanelsTabSelected">Proactive Chat</li>
+            </ul>
+            <div class="TabbedPanelsContentGroup">
+              <div class="TabbedPanelsContent">
+              <h1>Proactive Chat</h1>
+    	
+    	<p>If you would like to install the Proactive Chat (?)</p>
+                <p>&nbsp;</p>
+    		
+    		<form wicket:id="form">
+    		<div style="">
+    		<div wicket:id="group">    		
+    		<span><input type='radio' wicket:id="1" ><img src="img/chatbuttons/proactive1.JPG" width="250px" height="130px"/></span>
+    		<span><input type='radio' wicket:id="2" ><img src="img/chatbuttons/proactive2.JPG" width="150px" height="200px"/></span>
+    		<!--  
+    		<input type='radio' wicket:id="3" ><img src="img/chatbuttons/proactive3.JPG" width="250px" height="100px"/><hr/>
+    		<input type='radio' wicket:id="4" ><img src="img/chatbuttons/proactive4.JPG" width="200px" height="100px"/>
+    		-->
+    		</div>
+    		</div>
+    		
+    		<p>&nbsp;</p>
+                <p align="center"><input type="image" src="images/get-layout-code.jpg" name="submit"/></p>
+    		<p>&nbsp;</p>
+    		</form>
+    		<textarea wicket:id="buttonCode" cols="45" rows="8" class="textarea"></textarea>
+    		
+    		<img src="images/question.jpg" title="Add this code to the pages you want Proactive Chat." alt="" />
+                
+                <p>&nbsp;</p>
+                <br/><br/>
+                <div wicket:id="proactiveMessagePanel"></div>
+    	</div>
+	</div>
+	</wicket:extend>
+</html>

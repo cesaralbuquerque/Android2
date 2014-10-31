@@ -1,0 +1,80 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+    	    
+        
+           <p class="hd"><img src="images/logs.jpg" alt="" /></p>
+          
+          
+          
+          <p>&nbsp;</p>
+          
+            <ul class="TabbedPanelsTabGroup">
+              <li class="TabbedPanelsTabSelected">Search Chat Logs</li>
+              <li class="TabbedPanelsTab"><a wicket:id="emailLogsLink">Guest Email Logs</a></li>
+            </ul>
+            <div class="TabbedPanelsContentGroup">
+              <div class="TabbedPanelsContent">
+              	<h1>Search Chat Logs</h1>
+              	
+              	
+    		
+    			<form wicket:id="formSearch">
+    		
+    			
+    			                <div class="le-cal-form">
+                    <label class="label">User</label>
+                    <select name="" wicket:id="user" ></select><br/><br/>
+                    
+                    
+                    <label class="label">Find Text</label>
+                    <input name="" type="text" class="input" wicket:id="text" /> &nbsp; &nbsp; 
+                    <input type="image" name="submit" border="0" style="width:87px;height:30px" src="images/search.jpg" class="top-img" alt="" /><br />
+                    
+                <div class="detail-2">
+                    	<div class="hds">
+                        	<div class="row-1">Date</div>
+                            <div class="row-2">Log</div>
+                            <div class="row-3">Actions</div>
+                            <div class="clearflot"></div>
+                        </div>
+                        
+                        <div class="row" wicket:id="chats">
+                       	  <div class="row-1" wicket:id="cdate">Apr 9, 2010</div>
+                          <div class="row-2" wicket:id="clog">Search Chat Logs List</div>
+                          <div class="row-3">
+                          <a wicket:id="viewChatLog"><img src="images/view.jpg" alt="" />  View</a> &nbsp;
+                          <a style="display:none"><img src="images/delete.jpg" alt="" /> Delete</a> </div>
+                            <div class="clearflot"></div>
+                      </div>
+                      <div>
+                      	<span wicket:id="navegacao">
+						navegacao
+						</span>
+                      </div>
+    			</div>
+    			</div>
+    			</form>
+    		</div>
+    	</div>
+    	
+    	<form wicket:id="panelChatLog">
+        <div style="background-color:#f1f1f1;position:absolute; left: 200px; top:50px;border: 3px solid black">
+        <div style="width:600px; height: 400px;">
+    		<!-- 
+    		<img class="heading" src="img/backend/heading-newuser.gif" alt="user creation"/><br/>
+    		-->
+    		<h3 style="font-size: 18px;color: #369;">Chat Log</h3>
+    		<a wicket:id="closeViewChatLog" style="margin-left:400px;cursor:pointer">
+    		<img  src="img/backend/close-button.jpg" alt="Close"/>
+    		</a>
+	        <div wicket:id="chatLog" style="overflow: auto;height: 330px; width: 580px;border:1px solid #AAAAAA">
+	        
+	        </div>
+    		<div class="spacer"></div>
+
+    	</div>
+    	</div>
+        
+        </form>
+    </wicket:extend>
+</html>

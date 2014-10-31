@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service
+END
+ProductService.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/ProductService.class
+END
+UserService.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/UserService.class
+END
+GroupService.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/GroupService.class
+END
+GuestChatService.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/GuestChatService.class
+END
+AuthenticateService.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/AuthenticateService.class
+END
+PurchaseService.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/PurchaseService.class
+END
+MailContactService.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/MailContactService.class
+END
+MailMessageService.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/MailMessageService.class
+END
+BrainTreeService.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/BrainTreeService.class
+END
+SubscriberService.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/SubscriberService.class
+END
+CompanyService.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/CompanyService.class
+END
+BaseService.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/BaseService.class
+END
+ChatService.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/ChatService.class
+END
+VideoService.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/VideoService.class
+END

@@ -1,0 +1,67 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+		    	<div class="boxTop">&nbsp;</div>
+    	<div class="boxContent">
+    		
+    		<img class="heading" src="img/backend/heading-newuser.gif" alt="user creation"/>
+    		<a wicket:id="btCancel" style="margin-left:300px;cursor:pointer">
+    		<img  src="img/backend/close-button.jpg" alt="Close"/>
+    		</a>
+    		<br/>
+    		
+    		<div class="formsLeft narrow">
+    			<img src="img/backend/profile-default.jpg" alt=""/>	    		
+    		</div>
+    		<div class="formsRight wide">
+   			<span wicket:id="feedback"></span><br>
+    		<form wicket:id="form" class="memberForm">
+    			<div class="description">Name</div>
+    			<div class="inputArea">
+    				<input type="text" class="borderGray" size="30" wicket:id="name" name="name"/>
+    			</div>
+    			<div class="spacer"></div>
+
+    			<div class="description">E-Mail</div>
+    			<div class="inputArea">
+    				<input type="text" class="borderGray" size="30" wicket:id="email" name="email"/>
+    			</div>
+    			<div class="spacer"></div>
+    			    			    			
+    			<div class="description">Groups</div>
+    			<div class="inputArea">
+    				<table class="contactList">
+    				<tr wicket:id="groups">
+    					<td style="text-align: right"><input type="checkbox" wicket:id="gcheck"></td>
+    					<td wicket:id="gname"></td>    					   					
+    				</tr>
+    			</table>
+    			</div>
+    			<div class="spacer"></div>
+    			    			
+    			
+     			<div class="description">Password</div>
+    			<div class="inputArea">
+    				<input type="password" class="borderGray" size="30" wicket:id="password" name="password"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Retype Password</div>
+    			<div class="inputArea">
+    				<input type="password" class="borderGray" size="30" wicket:id="repassword" name="repassword"/>
+    			</div>
+    			<div class="spacer"></div>    			
+    			
+    			<div class="description">&nbsp;</div>
+    			<div class="inputArea">
+    				<input type="image" src="img/backend/button-create.gif" name="submit" value="createuser"/>    				
+    			</div>
+    			<div class="spacer"></div>
+			</form>
+
+    		</div>
+    		<div class="spacer"></div>
+
+    	</div>
+    	<div class="boxBottom">&nbsp;</div>        	
+    </wicket:extend>
+</html>

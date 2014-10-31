@@ -1,0 +1,49 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+		    	<div class="boxTop">&nbsp;</div>
+    	<div class="boxContent">
+    		<!-- 
+    		<img class="heading" src="img/backend/heading-newuser.gif" alt="user creation"/><br/>
+    		-->
+    		<h3 style="font-size: 18px;color: #369;">Group</h3>
+    		<a wicket:id="btCancel" style="margin-left:400px;cursor:pointer">
+    		<img  src="img/backend/close-button.jpg" alt="Close"/>
+    		</a>
+    		<div class="formsLeft narrow">
+    			<img src="img/backend/profile-default.jpg" alt=""/>
+    		</div>
+    		<div class="formsRight wide">
+   			<span wicket:id="feedback"></span><br>
+    		<form wicket:id="form" class="memberForm">
+    			<div class="description">Name</div>
+    			<div class="inputArea">
+    				<input type="text" class="borderGray" size="30" wicket:id="name" name="name"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">E-Mail</div>
+    			<div class="inputArea">
+    				<input type="text" class="borderGray" size="30" wicket:id="email" name="email"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Privacy for guests</div>
+    			<div class="inputArea">
+    				<select wicket:id="privacy"></select>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">&nbsp;</div>
+    			<div class="inputArea">
+    				<input type="image" src="img/backend/save_group.jpg" name="submit" value="savegroup"/>
+    			</div>
+    			<div class="spacer"></div>
+			</form>
+
+    		</div>
+    		<div class="spacer"></div>
+
+    	</div>
+    	<div class="boxBottom">&nbsp;</div>        	
+    </wicket:extend>
+</html>

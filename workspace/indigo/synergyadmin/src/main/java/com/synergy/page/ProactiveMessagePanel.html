@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    
+<html 
+	xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:wicket="http://wicket.sourceforge.net/" 
+	xml:lang="en" 
+	lang="en">  
+<body>
+	<wicket:panel>
+<div class="welcome-box">
+                    
+                    <div class="popup">
+                    <p align="right"><a wicket:id="addMessageLink" href="#"><img src="images/add-message.jpg" alt="" /></a></p>
+    					<div wicket:id="addMessagePanel" style="display: block">
+                    </div>
+                    </div>
+	                    
+                    
+               	  <h2>Manage Preset Welcome Messages</h2>
+                    <p class="box-text">Click on the Add Message and create a message. You may add as many messages as you wish.<br/>
+                    These messages will be used by the users to start a conversation with the Proactive Chat.                    
+                    </p>
+                    <p>&nbsp;</p>
+                
+                <div style="text-align: center;width:100%;background-color:#FFFFCC;font-weight:bold">
+			    <span style="" wicket:id="feedback"></span>
+			    </div>
+                    
+                    <div class="detail-tbl">
+                    	<div class="hds">
+                        	<div class="row-1">Message</div>
+                            <div class="row-2">Actions</div>
+                            <div class="clearflot"></div>
+                        </div>
+                        
+                        <div class="row" wicket:id="messages">
+                       	  <div class="row-1" wicket:id="pmessage">Hi, may i help you with your purchase today ?</div>
+                            <div class="row-2">
+                            <a wicket:id="editMessage" href="#"><img src="images/icon-edit.gif" alt="edit" width="15" height="16" /> &nbsp;Edit </a>
+    &nbsp;&nbsp;
+    <a wicket:id="delMessage" href="#"><img src="images/icon-delete.gif" alt="delete" width="15" height="16" />&nbsp;Delete</a></div>
+                            <div class="clearflot"></div>
+                      </div>
+                      <!--  
+                      <div class="row">
+                       	  <div class="row-1">Hi, may i help you with your purchase today ?</div>
+                            <div class="row-2"><img src="images/edit.jpg" alt="" />  <a href="#">Edit</a> &nbsp;<img src="images/delete.jpg" alt="" /> <a href="#">Delete</a> </div>
+                            <div class="clearflot"></div>
+                      </div>
+                      
+                      <div class="row">
+                       	  <div class="row-1">Hi, may i help you with your purchase today ?</div>
+                            <div class="row-2"><img src="images/edit.jpg" alt="" />  <a href="#">Edit</a> &nbsp;<img src="images/delete.jpg" alt="" /> <a href="#">Delete</a> </div>
+                            <div class="clearflot"></div>
+                      </div>
+                      -->                      
+                    </div>
+                  
+			</div>
+			
+	</wicket:panel>
+</body>
+</html>

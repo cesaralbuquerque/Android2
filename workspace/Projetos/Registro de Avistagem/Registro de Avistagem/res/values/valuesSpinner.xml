@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="estado_mar">
+        <item>Calmo (0-1)</item>
+        <item>Crespo (2-3)</item>
+        <item>Agitado (4)</item>
+        <item>Forte (5+)</item>
+    </string-array>
+    <string-array name="visibilidade">
+        <item>Boa (maior que 5km)</item>
+        <item>Moderada</item>
+        <item>Agitado (menor que 4km)</item>
+    </string-array>
+    <string-array name="ondulacao">
+        <item>Baixa (menor que 2m)</item>
+        <item>Média (2-4m)</item>
+        <item>Forte (maior que 4m)</item>
+    </string-array>
+    <string-array name="grupo">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+    <string-array name="comportamento">
+        <item>Deslocamento lento</item>
+        <item>Deslocamento médio</item>
+        <item>Deslocamento rápido</item>
+        <item>Deslocamento na proa do navio</item>
+        <item>Porpousing</item>
+    </string-array>
+    <string-array name="confianca">
+        <item>Definitiva</item>
+        <item>Provável</item>
+        <item>Incerta</item>
+    </string-array>
+    <string-array name="canhao">
+        <item>Ligados</item>
+        <item>Soft start</item>
+        <item>Testes</item>
+        <item>Desligados</item>
+    </string-array>
+    <string-array name="solicitado">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+    <string-array name="realizado">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+</resources>

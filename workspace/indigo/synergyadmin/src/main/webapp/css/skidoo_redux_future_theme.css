@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+/*******************************************************************************
+*  skidoo_redux_theme.css : 2007.01.31 : ruthsarian@gmail.com
+* -----------------------------------------------------------------------------
+*  
+*  This stylesheet provides the theme of the layout. The theme includes
+*  anything that controls the presentation of the page, but typically it's just
+*  for setting colors, fonts, borders, and gutter space. 
+*
+*  It is possible to offer multiple themes for a single page and allow the
+*  user to pick the one that best fits their needs. 
+*  
+* ------------------------------------------------------------------------------
+*  This stylesheet is released into the public domain.
+*******************************************************************************/
+
+/* white out the layout
+ */
+#page-container, #inner-column-container, #masthead, #footer, #outer-column-container, 
+#middle-column div.rMenu-center, ul.rMenu li a
+{
+	border-color: #fff;
+}
+body, #masthead, #footer, #inner-column-container, ul.rMenu li a
+{
+	background-color: #fff;
+}
+
+body
+{
+	color: #778;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #fdfdfd;
+}
+#masthead
+{
+	padding-top: 20px;
+	background-color: #ccf;
+}
+#masthead h1
+{
+	font-size: 100px;
+	color: #fff;
+	margin-bottom: -0.25em;
+	line-height: 1em;
+}
+
+#page-container
+{
+	font-size: 80%;
+	margin: 0;
+	padding: 0;
+	font-family: arial, helvetica, sans-serif;
+}
+html, body
+{
+	height: 100%;
+}
+#page-container
+{
+	min-height: 100%;
+	border: none;
+}
+#left-column .inside
+{
+	margin-left: 10px;
+}
+#left-column h3, #left-column ul.rMenu
+{
+	margin-left: -10px;
+}
+#left-column h3
+{
+	padding-left: 5px;
+	color: #9c9;
+	line-height: 0.75em;
+}
+#left-column ul.rMenu
+{
+	width: auto;
+	border-top: solid 1px #9f9;
+	border-right: solid 1px #9f9;
+	margin-right: 10px;
+	padding: 11px 10px 1px 10px;
+}
+#left-column ul.rMenu li
+{
+	margin-bottom: 10px;
+	margin-right: -20px;
+	border: solid 1px #9f9;
+}
+#left-column ul.rMenu li li
+{
+	margin-bottom: 0;
+	margin-right: 0;
+}
+#left-column ul.rMenu li a:link, 
+#left-column ul.rMenu li a:visited
+{
+	background-color: #dfd;
+}
+#left-column ul.rMenu li a:hover
+{
+	background-color: #ffc;
+}
+#left-column ul.rMenu li a:active
+{
+	background-color: #f00;
+}
+#right-column
+{
+	border-top: solid 10px #fcc;
+}
+#right-column .inside
+{
+	margin-right: 10px;
+	margin-left: 0;
+	padding-left: 10px;
+	margin-top: 0;
+	padding-top: 10px;
+}
+#inner-column-container
+{
+	margin-top: 10px;
+	border-right: solid 1px #fcc;
+}
+#middle-column div.rMenu-center ul.rMenu li a:link,
+#middle-column div.rMenu-center ul.rMenu li a:visited
+{
+	border-color: #fff;
+	background-color: #f6f6ff;
+}
+#middle-column div.rMenu-center li
+{
+	border: solid 1px #ccf;
+}
+#middle-column div.rMenu-center ul.rMenu ul
+{
+	margin-top: 0;
+	margin-left: -1px;
+}
+#middle-column div.rMenu-center ul.rMenu ul ul
+{
+	margin-top: -0.6em;
+}
+#middle-column div.rMenu-center ul.rMenu li a:hover
+{
+	background-color: #ffd;
+}
+#middle-column div.rMenu-center
+{
+	margin-left: -10px;
+	border-bottom-color: #ccf;
+}
+#middle-column div.rMenu-center li
+{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+#middle-column div.rMenu-center li li
+{
+	margin-right: 0;
+	margin-left: 0;
+}
+#left-column p, #right-column p
+{
+	font-size: 90%;
+}
+
+#footer
+{
+	border-top: solid 1px #fcc;
+	margin: 0;
+}
+#left-column h3, #right-column h3
+{
+	margin-bottom: 0;		/* column menu titles should
+					   hug the menus */
+}
+#right-column p, #right-column ul
+{
+	margin-top: 0;
+}
+p.fontsize-set
+{
+	text-align: center;		/* center the icons for changing
+					   font size */
+}
+p.fontsize-set input
+{
+	margin: 0 2px;			/* space them out a bit */
+}
+
+
+/* HACKS
+ */
+#masthead
+{
+	min-width: 0;	/* trigger hasLayout for IE7 */
+}
+* html #masthead
+{
+	width: 100%;
+}
+* html body
+{
+	width: 800px;
+}
+* html #left-column ul.rMenu
+{
+	height: 0.1%;
+}
+#left-column ul.rMenu li a
+{
+	position: relative;
+}
+	
+/******************************************************************************/

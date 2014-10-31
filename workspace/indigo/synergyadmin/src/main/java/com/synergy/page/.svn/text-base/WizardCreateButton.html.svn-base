@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    
+<html 
+	xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:wicket="http://wicket.sourceforge.net/" 
+	xml:lang="en" 
+	lang="en">  
+<body>
+<wicket:extend>
+<div style="width:900px; margin:0 auto;">
+<div style="position:absolute; width:900px; float:left; text-align:right;">
+<a wicket:id="exitWizard" href="#"><img src="images/cancel.png" alt="cancel" /></a></div>
+<p>&nbsp;</p>
+<p class="clear"></p>
+</div>
+
+<div id="wrapper">
+	<div class="wizard">
+    <p class="top"><img src="images/wizard-top.gif" alt="" /></p>
+    <div class="rp">
+    <div class="contwrapper">
+    	<div class="head" style="padding-bottom:10px;">
+    	<p class="acsetup"><img src="images/img-account-setup.gif" alt="" /></p>
+        <p class="stepspart"><img src="images/step-1-1.gif" alt="step1" /><img src="images/step-2-2.gif" alt="step2" /><img src="images/step-3-s.gif" alt="step3" /></p>
+   		<p class="clear"></p>
+        <p class="divider"><img src="images/divider-raw.gif" alt="" /></p>
+        </div>
+    	<p class="clear"></p>
+    </div>
+    <p class="clear"></p>
+    
+    <div class="stepsraw">
+    <div class="stepcont">
+    <p class="text">
+    <span>Setup Contacts</span><br />
+    Please select one of the buttons that you wish to have placed on your website.</p>
+    </div>
+    <p class="adgroup">&nbsp;</p>
+    <p class="clear"></p>
+    </div>
+    
+    <form wicket:id="form">
+    <div wicket:id="group" class="rawlinestp2">
+    	<div class="createbtnraw">
+        	<p class="leftraw"><img src="images/arrow-left.gif" alt="arrow" width="14" height="26" /></p>
+            
+          <div class="middleraw">
+            <div class="linesraw">
+              <div class="btn1">
+                <p class="rdbtn">
+                  <input type='radio' wicket:id="1" >
+                </p>
+                <p class="btnimg"><img src="img/chatbuttons/LiveChatButton1.jpg"/></p>
+              </div>
+              <div class="btn1">
+                <p class="rdbtn">
+                  <input type='radio' wicket:id="2" >
+                </p>
+                <p class="btnimg"><img src="img/chatbuttons/LiveChatButton2.jpg"/></p>
+              </div>
+              <div class="btn1">
+                <p class="rdbtn">
+                  <input type='radio' wicket:id="3" >
+                </p>
+                <p class="btnimg"><img src="img/chatbuttons/LiveChatButton3.jpg"/></p>
+              </div>
+              <div class="btn1">
+                <p class="rdbtn">
+                  <input type='radio' wicket:id="4" >
+                </p>
+                <p class="btnimg"><img src="img/chatbuttons/LiveChatButton4.jpg"/></p>
+              </div>
+            	<div class="btn1" style="margin-right:0px;">
+               	  <p class="rdbtn">
+               	  <input type='radio' wicket:id="5" ></p>
+                    <p class="btnimg"><img src="img/chatbuttons/LiveChatButton5.jpg"/></p>
+              </div>
+          </div>
+          
+          
+            <div class="linesraw" style="margin-top:18px;">
+              <div class="btn1">
+                <p class="rdbtn">
+                  <input type='radio' wicket:id="6" >
+                </p>
+                <p class="btnimg"><img src="img/chatbuttons/LiveChatButton6.jpg"/></p>
+              </div>
+              <div class="btn1">
+                <p class="rdbtn">
+                  <input type='radio' wicket:id="7" >
+                </p>
+                <p class="btnimg"><img src="img/chatbuttons/LiveChatButton7.jpg"/></p>
+              </div>
+              <div class="btn1">
+                <p class="rdbtn">
+                  <input type='radio' wicket:id="8" >
+                </p>
+                <p class="btnimg"><img src="img/chatbuttons/LiveChatButton8.jpg"/></p>
+              </div>
+              <div class="btn1">
+                <p class="rdbtn">
+                  <input type='radio' wicket:id="9" >
+                </p>
+                <p class="btnimg"><img src="img/chatbuttons/LiveChatButton9.jpg"/></p>
+              </div>
+              <div class="btn1" style="margin-right:0px;">
+                <p class="rdbtn">
+                  <input type='radio' wicket:id="10" >
+                </p>
+                <p class="btnimg"><img src="img/chatbuttons/LiveChatButton10.jpg"/></p>
+              </div>
+            </div>
+            </div>
+        	<p class="rightraw"><img src="images/arrow-right.gif" alt="" width="14" height="26" /></p>
+            <p class="clear"></p>
+        </div>
+    </div>
+    <br/><br/>
+    <div class="rawline" style="padding:0 0 15px 36px; text-align:right;">&nbsp;&nbsp;
+    <a wicket:id="previousStep" href="#">
+    <img src="images/btn-prev.gif" alt="previous" width="96" height="29" />
+    </a>
+    &nbsp;&nbsp;&nbsp;
+    <input type="image" name="submit" src="images/btn-next.gif" alt="next" />
+    
+    <a href="#">
+    </a>
+    </div>   
+    </form>
+    </div>
+    <p class="btm"><img src="images/wizard-btm.gif" alt="" width="900" height="14" /></p>
+  </div>
+  <p class="clear"></p>
+</div>
+</wicket:extend>
+</body>
+</html>

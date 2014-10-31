@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service
+END
+CompanyService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/CompanyService.java
+END
+SubscriberService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/SubscriberService.java
+END
+VideoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/VideoService.java
+END
+ChatService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/ChatService.java
+END
+GuestChatService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/GuestChatService.java
+END
+GroupService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/GroupService.java
+END
+UserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/UserService.java
+END
+ProductService.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/ProductService.java
+END
+MailMessageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/MailMessageService.java
+END
+AuthenticateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/AuthenticateService.java
+END
+BrainTreeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/BrainTreeService.java
+END
+BaseService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/BaseService.java
+END
+MailContactService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/MailContactService.java
+END
+PurchaseService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/service/PurchaseService.java
+END

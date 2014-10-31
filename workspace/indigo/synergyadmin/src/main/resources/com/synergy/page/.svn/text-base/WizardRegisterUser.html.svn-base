@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.sourceforge.net/" xml:lang="en" lang="en">
+<body>
+<wicket:extend>
+	<div style="width: 900px; margin: 0 auto;">
+	<div
+		style="position: absolute; width: 900px; float: left; text-align: right;">
+	<a wicket:id="exitWizard" href="#"><img src="images/cancel.png"
+		alt="cancel" /></a></div>
+	<p>&nbsp;</p>
+	<p class="clear"></p>
+	</div>
+
+	<div id="wrapper">
+	<div class="wizard">
+	<p class="top"><img src="images/wizard-top.gif" alt="" /></p>
+	<div class="rp">
+	<div class="contwrapper">
+	<div class="head" style="padding-bottom: 10px;">
+	<p class="acsetup"><img src="images/img-account-setup.gif" alt="" /></p>
+	<p class="stepspart"><img src="images/step-1-1.gif" alt="step1" /><img
+		src="images/step-2-2.gif" alt="step2" /><img
+		src="images/step-3-s.gif" alt="step3" /></p>
+	<p class="clear"></p>
+	<p class="divider"><img src="images/divider-raw.gif" alt="" /></p>
+	</div>
+	<p class="clear"></p>
+	</div>
+	<p class="clear"></p>
+
+	<div wicket:id="userPanel" style="display: block"></div>
+
+	
+	<div class="rawline" style="padding: 0 0 15px 36px; text-align: right;">&nbsp;&nbsp;
+	<a wicket:id="previousStep" href="#"> <img
+		src="images/btn-prev.gif" alt="previous" width="96" height="29" /> </a>
+	&nbsp;&nbsp;&nbsp; <a wicket:id="nextStep" href="#"> <img
+		src="images/btn-next.gif" alt="next" /> </a></div>
+
+	<p class="btm"><img src="images/wizard-btm.gif" alt="" width="900"
+		height="14" /></p>
+	</div>
+	<p class="clear"></p>
+	</div>
+	</div>
+</wicket:extend>
+</body>
+</html>

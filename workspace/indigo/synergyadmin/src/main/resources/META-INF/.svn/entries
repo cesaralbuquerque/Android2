@@ -1,0 +1,52 @@
+8
+
+dir
+576
+https://synergychat.svn.cvsdude.com/synergychat/synergyadmin/src/main/resources/META-INF
+https://synergychat.svn.cvsdude.com/synergychat
+
+
+
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+45c3e2bf-c045-4bd1-baaf-4b6e865f7e0a
+
+MANIFEST.MF
+file
+
+
+
+
+2011-11-29T23:48:30.578000Z
+b10f37c8bb1803d98c127a01d1a71cc5
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+persistence.xml
+file
+
+
+
+
+2011-11-29T23:48:30.565000Z
+d37f0ea407c1e77b794fbf82f0c799df
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+

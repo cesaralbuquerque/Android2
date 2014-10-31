@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl
+END
+Payment.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/Payment.class
+END
+AuthenticateServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/AuthenticateServiceImpl.class
+END
+ChatServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/ChatServiceImpl.class
+END
+GuestChatServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/GuestChatServiceImpl.class
+END
+SubscriberServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/SubscriberServiceImpl.class
+END
+CompanyServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/CompanyServiceImpl.class
+END
+MailContactServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/MailContactServiceImpl.class
+END
+BrainTreeServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/BrainTreeServiceImpl.class
+END
+UserServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/UserServiceImpl.class
+END
+PurchaseServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/PurchaseServiceImpl.class
+END
+MailMessageServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/MailMessageServiceImpl.class
+END
+VideoServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/VideoServiceImpl.class
+END
+GroupServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/GroupServiceImpl.class
+END
+BraintreeConfiguration.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/BraintreeConfiguration.class
+END
+ProductServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/service/impl/ProductServiceImpl.class
+END

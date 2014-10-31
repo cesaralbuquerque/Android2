@@ -1,0 +1,80 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+	<body style="background: #d4ebf9; background-image:url(../img/vert-bg3.gif); background-repeat: repeat-x;">
+	<div id="outterContactWrap">
+   <div id="headerWrap" style="height: 96px">
+	<!--
+		<div id="memLogin">
+    
+    	<form wicket:id="loginForm" method="post">
+        Member Login : <input class="login" wicket:id="email" name="email" type="text" />
+        <input class="login" type="password" name="password" wicket:id="password" />
+        <input type="submit" value="Go" wicket:id="submit" name="submit_btn" />
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  		<input wicket:id="rememberme" type="checkbox"/>Remember me
+        <div style="display:none">
+        <a wicket:id="passwordLink" class="style3">Click Here</a>
+        <a wicket:id="register"><wicket:message key="register">Register</wicket:message></a>
+        </div>
+        </form>
+        <a wicket:id="logout" style="display:none"><span wicket:id="label">[[logout]]</span></a>
+    
+    </div>end memLogin-->
+    
+		<div id="logoWrapper">
+    	<br/>
+    	<img src="img/syn-logo.gif" alt="synergy chat"/><!--
+    
+		--></div><!--end logoWrapper-->
+  	</div>
+	<div id="navWrapper">
+    
+    <a wicket:id="homeLink"><img src="img/home-off.gif" alt="home" width="148" height="30" /></a><!--
+    --><a wicket:id="aboutusLink"><img src="img/about-off.gif" alt="about us" width="147" height="30" /></a><!--
+    --><a wicket:id="howitworksLink"><img src="img/how-it-off.gif" alt="how it works" width="175" height="30" /></a><!--
+    --><a href="core-tech" wicket:id="coretechLink"><img width="189" height="30" src="img/core-tech-off.gif"/></a>
+    <a wicket:id="contactusLink"><img src="img/contact-on.gif" width="151" height="30" /></a>
+    </div>
+<!--end navWrapper-->
+<div id="auxContent">
+		
+	<div id="listWrapper" style="margin: 310px 0 0 130px">
+
+		<div class="tblList" style="margin-right: 100px; width: 320px; float: left">
+		    <ul class="contacts">
+		  		 <li>SALES<br/><a href="mailto: sales@synergychat.com">sales@synergychat.com</a></li>
+		    </ul>
+		</div>
+		<div style="width: 220px; float: left">
+		<script>
+		function openSynergyWindow(cid,confid,visitor){
+			var n = 'wnd_'+Math.floor(Math.random()*1000);
+			window.open('http://www.synergychat.com/chat?op=openSynergyPanel&cid='+cid+'&confid='+confid+'&visitor='+visitor,n,'width=550,height=500,resizable=1');
+		}
+		</script>
+		<a target="_blank" onclick="openSynergyWindow(5,'','true');" style="cursor:pointer">
+		<img src="img/synergy-click.gif" alt="Click Here"/></a>
+		</div>
+		<div class="spacer"></div>
+		
+	</div><!--end listWrapper-->
+
+</div><!--end auxContent-->
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10703188-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Start Quantcast tag --> 
+<script type="text/javascript"> _qoptions={ qacct:"p-f6guzos4cxKUQ" }; </script> <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> <noscript> <img src="http://pixel.quantserve.com/pixel/p-f6guzos4cxKUQ.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/> </noscript> 
+<!-- End Quantcast tag -->
+
+</body>
+</wicket:extend>
+</html>

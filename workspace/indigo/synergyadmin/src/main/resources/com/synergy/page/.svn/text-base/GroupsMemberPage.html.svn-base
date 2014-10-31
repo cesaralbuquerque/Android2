@@ -1,0 +1,23 @@
+<html xmlns:wicket="http://wicket.apache.org">
+    <wicket:extend>
+           <p class="hd"><span style="display:none"><a href="#">Buy More Connections</a></span><img
+		src="images/user-groups.jpg" alt="" /></p>
+
+
+
+	<p>&nbsp;</p>
+
+	<ul class="TabbedPanelsTabGroup">
+		<li class="TabbedPanelsTab"><a wicket:id="contactLink">Users</a></li>
+		<li class="TabbedPanelsTabSelected">Groups</li>
+	</ul>
+	<div class="TabbedPanelsContentGroup">
+	<div class="TabbedPanelsContent">
+		
+	<div wicket:id="groupPanel" ></div>
+	
+	</div>
+	</div>         
+ 	
+    </wicket:extend>
+</html>

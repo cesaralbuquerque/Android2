@@ -1,0 +1,97 @@
+package br.com.caelum.cadastro;
+
+import java.util.Arrays;
+import java.util.List;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.ContextMenu;
+import android.view.ContextMenu.ContextMenuInfo;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.MenuItem.OnMenuItemClickListener;
+import android.view.View;
+import android.view.View.OnCreateContextMenuListener;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView.OnItemLongClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.Toast;
+
+public class ListaAlunos extends Activity {
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.lista);
+        
+        List<String> alunos = Arrays.asList("Anderson", "Filipe", "Filipe", "Filipe", "Filipe", "Filipe", "Filipe", "Filipe");
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, alunos);
+        
+       final ListView listaAlunos = (ListView)findViewById(R.id.listaAlunos);
+       listaAlunos.setAdapter(adapter);
+       listaAlunos.setClickable(true);
+       listaAlunos.setOnItemClickListener(new OnItemClickListener() {    	   
+			@Override
+			public void onItemClick(AdapterView<?> adapter, View view, int posicao,	long id) {
+				Toast.makeText(ListaAlunos.this, "Posição Selecionada: "+posicao, 4).show();
+			}
+       });
+       
+       listaAlunos.setOnItemLongClickListener(new OnItemLongClickListener() {
+			public boolean onItemLongClick(AdapterView<?> adapter, View view, int posicao, long id){
+	    		//Toast.makeText(ListaAlunos.this, "Posição selecionada com toque mas LONGO: "+ posicao, 4).show();
+				registerForContextMenu(listaAlunos);
+				return false;
+			}
+       });
+       
+    }
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		MenuItem novo = menu.add(0, 0, 0, "Novo");
+		novo.setIcon(R.drawable.novo);
+		novo.setOnMenuItemClickListener(new OnMenuItemClickListener() {
+			
+			@Override
+			public boolean onMenuItemClick(MenuItem item) {
+				Toast.makeText(ListaAlunos.this, "Você clicou no novoaluno", 2).show();
+				return false;
+			}
+		});
+		
+		MenuItem sincronizar = menu.add(0, 1 , 0, "Sincronizar");
+		sincronizar.setIcon(R.drawable.dial);
+		
+		MenuItem galeria = menu.add(0, 2, 0, "Galeria");
+		galeria.setIcon(R.drawable.planeta);
+		
+		MenuItem mapa = menu.add(0, 3, 0, "Mapa");
+		mapa.setIcon(R.drawable.mapa);
+		
+		return super.onCreateOptionsMenu(menu);
+	}
+
+
+	@Override
+	public void onCreateContextMenu(ContextMenu menu, View v,
+			ContextMenuInfo menuInfo) {
+		super.onCreateContextMenu(menu, v, menuInfo);
+		
+		menu.add(0, 0, 0, "Ligar");
+		menu.add(0, 1, 0, "Enviar SMS");
+		menu.add(0, 2, 0, "Achar no Mapa");
+		menu.add(0, 3, 0, "Navegar no Site");
+		menu.add(0, 4, 0, "Deletar");
+		menu.add(0, 5, 0, "Enviar Email");
+		
+	}
+	
+
+	
+    
+   
+    
+}

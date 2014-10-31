@@ -1,0 +1,51 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+	<p class="hd"><span style="display:none"><a href="#">Buy More Connections</a></span><img
+		src="images/user-groups.jpg" alt="" /></p>
+
+
+
+	<p>&nbsp;</p>
+
+	<ul class="TabbedPanelsTabGroup">
+		<li class="TabbedPanelsTabSelected">Users</li>
+		<li class="TabbedPanelsTab"><a wicket:id="groupsLink">Groups</a></li>
+	</ul>
+	<div class="TabbedPanelsContentGroup">
+	<div class="TabbedPanelsContent">
+		
+	<span wicket:id="feedback"></span>
+	<a wicket:id="btOk" href="#">Contacts imported with success!</a>
+		</div>
+      	<form wicket:id="form">
+        <div>
+            <div class="form-left">Emails:</div>
+            <textarea name="" type="text" class="form-left-input" style="width:300px" wicket:id="email" onfocus="this.select()" value="">
+            </textarea>
+            <div class="clear"></div>
+            <br/>
+            <div class="form-left" style="float:left">Groups:</div>
+            <div style="">
+            <div wicket:id="selectGroups" ></div>            
+			</div>
+			<br/>
+            <div class="clear"></div>
+            
+            <div class="form-left" style="float:left">Products:</div>
+            <div style="">
+            <div wicket:id="selectProducts" ></div>            
+			</div>
+			<br/>
+            <div class="clear"></div>
+            
+            
+            <div class="form-left">&nbsp;</div>
+            <input name="submit" type="image" src="images/btn-continue.png" /> &nbsp; 
+     	  <div class="clear"></div>
+            
+        </div>
+    </form>
+	
+	</div>	
+</wicket:extend>
+</html>

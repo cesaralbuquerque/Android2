@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util
+END
+LocalEncrypter.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util/LocalEncrypter.class
+END
+Test.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util/Test.class
+END
+SynergyMailUtil.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util/SynergyMailUtil.class
+END
+SessionIdUtil.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util/SessionIdUtil.class
+END
+CipherUtil.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util/CipherUtil.class
+END
+BCrypt.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util/BCrypt.class
+END
+SendMail.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util/SendMail.class
+END
+SendMail$SMTPAuthenticator.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util/SendMail$SMTPAuthenticator.class
+END
+Util.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util/Util.class
+END
+SendMessageException.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util/SendMessageException.class
+END
+SessionToken.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util/SessionToken.class
+END
+SynergyConfig.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/561/synergybusiness/target/classes/com/synergy/util/SynergyConfig.class
+END

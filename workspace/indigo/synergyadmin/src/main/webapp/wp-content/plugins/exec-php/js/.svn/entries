@@ -1,0 +1,52 @@
+8
+
+dir
+576
+https://synergychat.svn.cvsdude.com/synergychat/synergyadmin/src/main/webapp/wp-content/plugins/exec-php/js
+https://synergychat.svn.cvsdude.com/synergychat
+
+
+
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+45c3e2bf-c045-4bd1-baaf-4b6e865f7e0a
+
+admin.js
+file
+
+
+
+
+2011-11-29T23:49:00.166000Z
+357d610491c5c26b8bae1096f229825c
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+
+common.js
+file
+
+
+
+
+2011-11-29T23:49:00.177000Z
+65ba1702c5e17f04142ae86110aa6202
+2011-11-24T23:18:05.406944Z
+566
+fabianomodos
+

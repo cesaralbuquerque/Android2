@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.sourceforge.net/" xml:lang="en" lang="en">
+<body>
+<wicket:panel>
+
+
+	<div class="popup">
+	<p align="right"><a wicket:id="addUserLink" href="#"> <img
+		src="images/add_user.jpg" alt="" /> </a></p>
+		<div wicket:id="addUserPanel" style="display: block"></div>
+	</div>
+
+
+	<h1>Setup Users</h1>
+	<p>&nbsp;</p>
+	<p>Click on the Add User button and create a user.</p>
+
+
+	<br />
+	<div class="detail-4">
+	<div
+		style="text-align: center; width: 100%; background-color: #FFFFCC; font-weight: bold">
+	<span style="" wicket:id="feedback"></span></div>
+	<div class="hds">
+	<div class="row-1" style="width: 150px;">User</div>
+	<div class="row-2" style="width: 244px;">Groups</div>
+	<div class="row-3" style="width: 244px;">Access to applications</div>
+	<div class="row-3">Actions</div>
+	<div class="clearflot"></div>
+	</div>
+
+	<div class="row" wicket:id="users">
+	<div class="row-1" wicket:id="uname" style="width: 150px;">Shahil Kajj</div>
+	<div class="row-2" wicket:id="gname" style="width: 244px;">Indian Office Team Mates,
+	Team Leads</div>
+	<div class="row-3" style="width: 244px;"><input wicket:id="chkVMail" type="checkbox">&nbsp;VMail&nbsp;&nbsp;
+	<input wicket:id="chkVChat" type="checkbox">&nbsp;VChat&nbsp;&nbsp;
+	</div>
+	<div class="row-3"><a wicket:id="editUser"
+		href="#"><img src="images/icon-edit.gif" alt="edit" width="15"
+		height="16" />&nbsp;Edit</a> &nbsp;&nbsp; <a wicket:id="delUser" href="#"><img
+		src="images/icon-delete.gif" alt="delete" width="15" height="16" />&nbsp;Delete</a>
+	&nbsp;&nbsp; <a wicket:id="retrievePass" href="#"><img
+		src="images/icon-edit.gif" alt="edit" width="15" height="16" />&nbsp;Reset
+	Password</a></div>
+	<div class="clearflot"></div>
+	</div>
+
+	</div>
+</wicket:panel>
+</body>
+</html>

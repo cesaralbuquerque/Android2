@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao
+END
+ChatDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/ChatDao.java
+END
+ProductSubscriberCompanyDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/ProductSubscriberCompanyDao.java
+END
+CompanyDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/CompanyDao.java
+END
+GuestChatDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/GuestChatDao.java
+END
+BaseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/BaseDao.java
+END
+SubscriberDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/SubscriberDao.java
+END
+MailContactDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/MailContactDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/UserDao.java
+END
+VideoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/VideoDao.java
+END
+ProductDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/ProductDao.java
+END
+PurchaseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/PurchaseDao.java
+END
+GroupDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/GroupDao.java
+END
+MailMessageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/dao/MailMessageDao.java
+END

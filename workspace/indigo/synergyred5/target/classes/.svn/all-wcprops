@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/synergychat/!svn/ver/573/synergyred5/target/classes
+END
+hibernate.reveng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/synergychat/!svn/ver/573/synergyred5/target/classes/hibernate.reveng.xml
+END
+hibernateTest-ehcache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/synergychat/!svn/ver/573/synergyred5/target/classes/hibernateTest-ehcache.xml
+END
+logback-hibernateTest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/synergychat/!svn/ver/573/synergyred5/target/classes/logback-hibernateTest.xml
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/synergychat/!svn/ver/573/synergyred5/target/classes/hibernate.cfg.xml
+END
+logback-synergychattest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/synergychat/!svn/ver/573/synergyred5/target/classes/logback-synergychattest.xml
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app
+END
+AuthenticateServletEncrypted.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/AuthenticateServletEncrypted.java
+END
+Authorized.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/Authorized.java
+END
+VMailServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/VMailServlet.java
+END
+SessionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/SessionUtil.java
+END
+BasicServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/BasicServlet.java
+END
+QwicketException.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/QwicketException.java
+END
+QwicketSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/QwicketSession.java
+END
+QwicketApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/QwicketApplication.java
+END
+OutlookServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/OutlookServlet.java
+END
+LoginServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/LoginServlet.java
+END
+TestCipher.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/TestCipher.java
+END
+QwicketAuthorizationStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/QwicketAuthorizationStrategy.java
+END
+AuthenticateServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/java/com/synergy/app/AuthenticateServlet.java
+END

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Member Admin Login &laquo; Synergy Chat</title>
+<link rel="stylesheet" href="https://www.synergychat.com:8443/wp-content/themes/synergychat/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/payment.css" type="text/css" media="screen" />
+<!--
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+  <link href="css/new-style.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+-->
+<script type="text/javascript" src="js/synergy.js"></script>
+  
+<script type="text/javascript">
+
+function calculateTotal() {
+    var noOfUser1 = document.getElementById("noOfUsers_0").value;
+    var noOfUser2 = document.getElementById("noOfUsers_1").value;
+    var noOfUser3 = document.getElementById("noOfUsers_2").value;
+    var noOfUser4 = document.getElementById("noOfUsers_3").value;
+    
+    var price1 = document.getElementById("price_0").innerHTML.substr(1);
+    var price2 = document.getElementById("price_1").innerHTML.substr(1);
+    var price3 = document.getElementById("price_2").innerHTML.substr(1);
+    var price4 = document.getElementById("price_3").innerHTML.substr(1);
+    
+    var total = 0;
+    
+    total += (noOfUser1 * price1);
+    total += (noOfUser2 * price2);
+    total += (noOfUser3 * price3);
+    total += (noOfUser4 * price4);
+    
+    document.getElementById("totalVal").innerHTML = "$" + total;
+    
+    //alert("total: " + total);
+}
+
+function doSubmitBT() {
+    var trFormId = document.getElementById("trFormId");
+    var trUrlHF = document.getElementById("_trUrlHF").value;
+    
+    trFormId.action = trUrlHF;
+
+    //alert("action: " + trFormId.action);
+    
+    trFormId.submit();
+}
+
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+<style type="text/css" media="screen">
+
+
+</style>
+
+</head>
+<body onload="MM_preloadImages('http://www.synergychat.com/wp-content/themes/synergychat/images/nav-1h.gif','http://www.synergychat.com/wp-content/themes/synergychat/images/nav-2h.gif','http://www.synergychat.com/wp-content/themes/synergychat/images/nav-3h.gif','http://www.synergychat.com/wp-content/themes/synergychat/images/nav-4h.gif','http://www.synergychat.com/wp-content/themes/synergychat/images/nav-5h.gif')">
+<div class="main">
+  <div class="header">
+   	<p class="logo"><a href="http://www.synergychat.com"><img src="http://www.synergychat.com/wp-content/themes/synergychat/images/logo.jpg" alt="" /></a></p>
+      	<p class="top-login"><a style="cursor:pointer" target="_blank" onclick="openSynergyWindow(0,4,true,'')"><img src="http://www.synergychat.com/wp-content/themes/synergychat/images/btn-chatlogin.jpg" alt="" /></a>&nbsp;&nbsp;
+      	<a href="member-admin-login"><img src="http://www.synergychat.com/wp-content/themes/synergychat/images/btn-admin-login.jpg" alt="" /></a></p>
+        <p style="clear:both"></p>
+        <div class="menu">
+              
+            <a href="http://www.synergychat.com/">Home</a>
+              
+              
+            <a href="http://www.synergychat.com/?page_id=2">About Us</a>
+
+              
+            
+              
+            <a href="http://www.synergychat.com/?page_id=10">How It Works?</a>            
+              
+            
+              
+            <a href="http://www.synergychat.com/?page_id=11">Technology</a>            
+			  
+            
+              
+            <a href="http://www.synergychat.com/?page_id=14">The Cloud</a>
+              
+            
+                        <a href="client-beta-register">Free Beta</a>
+                          
+            
+            			<a href="http://www.synergychat.com/?page_id=8">Help</a>  
+			        </div>
+  </div>
+<div class="clear"><br/></div>  
+<wicket:child/>
+<div class="clear"></div>
+<div class="footerbg">
+  <p class="footer">Copyrights &copy;2010 Synergy Chat. All rights reserved.</p>
+  </div>
+ </div>
+<!-- Start Proactive SynergyChat -->
+<script type="text/javascript" src="https://www.synergychat.com:8443/js/pchatsynergy.js"></script>
+<script>initProactiveChat("5");</script>
+<!-- End Proactive SynergyChat -->
+
+ <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13147553-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+  </body>
+</html>

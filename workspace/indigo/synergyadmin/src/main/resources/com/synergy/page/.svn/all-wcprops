@@ -1,0 +1,515 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page
+END
+CoreTechPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/CoreTechPage.html
+END
+CoreTechPage.html.bak
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/CoreTechPage.html.bak
+END
+EditUserMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/EditUserMemberPage.html
+END
+Help.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/Help.html
+END
+RegisterClient.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/RegisterClient.html
+END
+RegisterBetaClientOld.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/RegisterBetaClientOld.html
+END
+ClientForgotUsername.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ClientForgotUsername.html
+END
+SetupCompletedMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/SetupCompletedMemberPage.html
+END
+WizardCreateButton.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/WizardCreateButton.html
+END
+ProactiveMessagePanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ProactiveMessagePanel.html
+END
+HomePage.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/HomePage.html
+END
+MonitorChatAdminSection.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/MonitorChatAdminSection.html
+END
+ForgotPassword.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ForgotPassword.html
+END
+GroupsPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/GroupsPanel.html
+END
+ConnectionsHistory.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ConnectionsHistory.html
+END
+AboutUs.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/AboutUs.html
+END
+AppearanceMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/AppearanceMemberPage.html
+END
+WizardRegisterUser.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/WizardRegisterUser.html
+END
+AddClientAdminSection.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/AddClientAdminSection.html
+END
+RegisterBetaClient.html.svntmp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/RegisterBetaClient.html.svntmp
+END
+ProfileMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ProfileMemberPage.html
+END
+HowItWorks.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/HowItWorks.html
+END
+RegisterProactiveMessagePanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/RegisterProactiveMessagePanel.html
+END
+ClientRegisteredSuccess.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ClientRegisteredSuccess.html
+END
+RegisterBetaClient.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/RegisterBetaClient.html
+END
+RegisterGroupPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/RegisterGroupPanel.html
+END
+ChangePasswordMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ChangePasswordMemberPage.html
+END
+ChatLogMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ChatLogMemberPage.html
+END
+WizardPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/WizardPanel.html
+END
+CurrentPlan.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/CurrentPlan.html
+END
+RegisterUserPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/RegisterUserPanel.html
+END
+WizardSuccessfull.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/WizardSuccessfull.html
+END
+BasePageRegistering.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/BasePageRegistering.html
+END
+NewUserMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/NewUserMemberPage.html
+END
+RegisterBetaUser.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/RegisterBetaUser.html
+END
+ListingService.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ListingService.html
+END
+PurchaseMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/PurchaseMemberPage.html
+END
+ViewCustomers.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ViewCustomers.html
+END
+ProactiveChatMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ProactiveChatMemberPage.html
+END
+CustomizeMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/CustomizeMemberPage.html
+END
+DeveloperContact.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/DeveloperContact.html
+END
+MemberGroupsPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/MemberGroupsPanel.html
+END
+FAQS.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/FAQS.html
+END
+PaymentSuccessPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/PaymentSuccessPage.html
+END
+PrivacyPolicy.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/PrivacyPolicy.html
+END
+ProcessImportContactsMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ProcessImportContactsMemberPage.html
+END
+CheckOutConnectionMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/CheckOutConnectionMemberPage.html
+END
+CheckOutConnectionPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/CheckOutConnectionPanel.html
+END
+ViewSalesperson.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ViewSalesperson.html
+END
+WizardUserPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/WizardUserPanel.html
+END
+ChatPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ChatPanel.html
+END
+AdminSection.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/AdminSection.html
+END
+CurrentPlan.html.svntmp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/CurrentPlan.html.svntmp
+END
+WelcomeAdminSection.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/WelcomeAdminSection.html
+END
+ViewDevelopers.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ViewDevelopers.html
+END
+AddSalesDevAdminSection.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/AddSalesDevAdminSection.html
+END
+MonitorAdminSection.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/MonitorAdminSection.html
+END
+TheCloud.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/TheCloud.html
+END
+TermsAndUse.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/TermsAndUse.html
+END
+MemberAdminLogin.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/MemberAdminLogin.html
+END
+MultipleSelectDropDown.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/MultipleSelectDropDown.html
+END
+WelcomeMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/WelcomeMemberPage.html
+END
+MemberUserPanel.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/MemberUserPanel.html
+END
+BuyConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/BuyConnection.html
+END
+ViewCustomersMonthlyPrice.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ViewCustomersMonthlyPrice.html
+END
+CartMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/CartMemberPage.html
+END
+PaymentConfirmPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/PaymentConfirmPage.html
+END
+JoinCompanyPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/JoinCompanyPage.html
+END
+ContactUs.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ContactUs.html
+END
+ImportContactsMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ImportContactsMemberPage.html
+END
+SiteMap.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/SiteMap.html
+END
+BasePage.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/BasePage.html
+END
+MemberBasePage.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/MemberBasePage.html
+END
+WizardRegisterGroup.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/WizardRegisterGroup.html
+END
+ContactsMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ContactsMemberPage.html
+END
+PermissionDeniedMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/PermissionDeniedMemberPage.html
+END
+GroupsMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/GroupsMemberPage.html
+END
+PaymentPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/PaymentPage.html
+END
+EmailLogMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/EmailLogMemberPage.html
+END
+WizardWelcome.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/WizardWelcome.html
+END
+RegisterBuyClient.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/RegisterBuyClient.html
+END
+ClientPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ClientPage.html
+END
+BasePageMemberAdminLogin.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/BasePageMemberAdminLogin.html
+END
+NewGroupMemberPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/NewGroupMemberPage.html
+END
+ProductsPage.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/synergychat/!svn/ver/566/synergyadmin/src/main/resources/com/synergy/page/ProductsPage.html
+END

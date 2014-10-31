@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    
+<html 
+	xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:wicket="http://wicket.sourceforge.net/" 
+	xml:lang="en" 
+	lang="en">  
+<body>
+	<wicket:panel>
+		<script>
+			function clearInputValue(inp, value){
+				if(inp.value == value){
+					inp.value = '';
+				}
+			}
+		</script>		
+		<div id="menuDiv" style="color:#FFFFFF; background:#FF0000; font-size:20px; position:absolute; margin:-35px 0 0 -176px; width:341px; min-width:341px; z-index:100001;">
+      <p style="position:absolute; margin:-37px 0 0 176px"><img src="images/add_user.jpg" alt="" /></p>
+      <div><img src="images/bubble-top.jpg" alt="" /></div>
+      <div class="form-left-wapper">
+	
+		<div style="padding-left:100px;background-color:#FFFFCC;font-weight:bold">
+		<span wicket:id="feedback"></span>
+		</div>
+      	<form wicket:id="form">
+        <div>
+        	<div class="form-left">Name:</div>
+            <input name="" size="30" wicket:id="name" type="text" class="form-left-input" onfocus="this.select()" value="" />
+            <div class="clear"></div>
+            
+            <div class="form-left">Email:</div>
+            <input name="" type="text" size="30" wicket:id="email" class="form-left-input" onfocus="this.select()" value="" />
+            <div class="clear"></div>
+            
+            <div class="form-left" style="float:left">Groups:</div>
+            <div style="">
+            <input wicket:id="selGroupsLink" class="form-left-input" type="image" style="display: none" src="images/selGroupsImg.jpg name="" value="Select Multiple Groups"/>
+            <div wicket:id="selectGroups" ></div>            
+			</div>
+			<br/>
+            <div class="clear"></div>
+            
+            <div class="form-left">Password:</div>
+            <input size="30" wicket:id="password" type="password" class="form-left-input" />
+            <div class="clear"></div>
+            
+            
+            <div class="form-left">Retype Password:</div>
+            <input size="30" wicket:id="repassword" type="password" class="form-left-input" />
+            <div class="clear"></div>
+            
+            
+            <div class="form-left">&nbsp;</div>
+            <input name="submit" type="image" src="images/save.jpg" class="form-left-button" /> &nbsp; 
+            <a wicket:id="btCancel" href="#">Cancel</a>
+     	  <div class="clear"></div>
+            
+        </div>
+    </form>
+    
+     </div>
+      <div><img src="images/bubble-bot.jpg" alt="" /></div>
+    </div>
+</wicket:panel>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+	<div>
+	<table border="1">
+		<tr>
+			<th style="width: 50px">Month/Year</th>
+			<th style="width: 50px">Chat</th>
+			<th style="width: 100px">Video Message</th>
+			<!--  
+			<th style="width: 80px">Actions</th>
+			-->
+		</tr>
+		<tr wicket:id="list">
+			<td wicket:id="mdate"></td>
+			<td><a wicket:id="viewmonchat"><span wicket:id="mtchat"></span></a></td>
+			<td wicket:id="mtvideo"></td>
+			<!--  
+			<td><a wicket:id="viewCustomers">View Customers</a></td>
+			-->
+		</tr>
+	</table>
+	</div>
+</wicket:extend>
+</html>

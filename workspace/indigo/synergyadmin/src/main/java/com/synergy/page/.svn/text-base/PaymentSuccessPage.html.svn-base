@@ -1,0 +1,70 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+
+
+
+
+	<div class="content">
+	<div class="account_management_text">Payment Confirm Status</div>
+	<br />
+	
+	<div><span wicket:id="feedback">feedbackmessages will be put here</span></div>
+	
+	
+	<ul class="pay-form">
+
+		<li>
+		<div class="form-left-pay">Amount:</div>
+		<div>
+		<div wicket:id="amountLbl">Amount:</div>
+		</div>
+		</li>
+
+
+		<li>
+		<div class="form-left-pay">Transactoin:</div>
+		<div>
+		<div wicket:id="transIdLbl">Transactoin Id:</div>
+		</div>
+		</li>
+		
+		<li>
+        <div class="form-left-pay">Credit Card No:</div>
+        <div>
+        <div wicket:id="creditCardNoLbl">Credit Card No:</div>
+        </div>
+        </li>
+        
+        <li>
+        <div class="form-left-pay">Card Type:</div>
+        <div>
+        <div wicket:id="cardTypeLbl">Card Type:</div>
+        </div>
+        </li>
+		
+	</ul>
+
+
+
+
+
+
+
+
+
+
+
+	<div wicket:id="errorLbl"></div>
+	    
+        <div class="account_management_text_bot">Amount:</div><div wicket:id="amountLbl">Amount:</div>
+                
+        <div class="account_management_text_bot">Transactoin Id:</div> <div wicket:id="transIdLbl">Transactoin Id:</div>
+        
+        <div wicket:id="amountLbl"></div>
+        <div wicket:id="transIdLbl"></div>
+	    <div wicket:id="creditCardNoLbl"></div>
+	    <div wicket:id="cardTypeLbl"></div>
+	    
+        --></div>
+</wicket:extend>
+</html>

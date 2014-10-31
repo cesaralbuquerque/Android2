@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ </HEAD>
+
+ <BODY>
+<script>
+function start(){
+	document.JScrCap.start_streaming("0", "rtmp://64.71.230.10:1937/splitstream+test");
+	document.JScrCap.set_EventEnable(1);
+}
+
+function stop(){
+	document.JScrCap.stop_streaming("0");
+}
+
+
+function JScrCap_Event(operation, code, desc) {
+	document.getElementById('evtstatus').value = ("op: " + operation + ", code: " + code + ", desc: " + desc);
+	//document.getElementById('ssStatus').value = document.Form1.events.value;
+	//if(started==true){
+	//	document.getElementById('SynergyChat').onShareScreenEvent(code);
+	//}
+}
+
+</script>
+<button onclick="start()">Start</button>
+<button onclick="stop()">Stop</button>
+<input id="evtstatus" style="width:300px"/>
+  <applet codebase="http://www.synergychat.com/thirdparty" code="CToolkitUIStarter.class" name="Java Screen Capture" archive="screenshare.jar,JScrCapUI.jar" width="1" height="1" id="JScrCap" mayscript="yes" scriptable="true"> </applet>
+ </BODY>
+</HTML>

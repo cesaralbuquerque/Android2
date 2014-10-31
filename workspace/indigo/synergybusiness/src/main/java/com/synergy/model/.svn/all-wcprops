@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model
+END
+InboxMailMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/InboxMailMessage.java
+END
+MailMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/MailMessage.java
+END
+Subscriber.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/Subscriber.java
+END
+Video.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/Video.java
+END
+AbstractPersistent.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/AbstractPersistent.java
+END
+Purchase.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/Purchase.java
+END
+MailContact.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/MailContact.java
+END
+Product.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/Product.java
+END
+GuestChat.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/GuestChat.java
+END
+Persistent.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/Persistent.java
+END
+SentMailMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/SentMailMessage.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/Group.java
+END
+ProductSubscriber.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/ProductSubscriber.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/User.java
+END
+Company.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/Company.java
+END
+Chat.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/synergychat/!svn/ver/561/synergybusiness/src/main/java/com/synergy/model/Chat.java
+END

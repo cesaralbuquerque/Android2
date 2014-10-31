@@ -1,0 +1,144 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:head>
+<TITLE>Synergy Chat Beta Registration | Cloud Computing | Internet Video Chat, Mail & Conference</TITLE>
+<META NAME="Keywords" CONTENT="synergy, chat, beta, registration, free, try, video, chat, email, conference"/>
+<META NAME="Description" CONTENT="Synergy Chat Beta Registration Page. Free beta registration for all who wish to try Synergy Chat's cloud applications."/>
+<META NAME="Classification" CONTENT="Cloud Computing"/>
+<META NAME="Abstract" CONTENT="Synergy Chat Beta Registration Page. Free beta registration for all who wish to try Synergy Chat's cloud applications."/>
+<META NAME="Copyright" CONTENT="© 2008 Synergy Chat"/>
+<META NAME="Contact" CONTENT="support@synergychat.com"/>
+<META NAME="Publisher" CONTENT="Synergy Chat"/>
+<META NAME="Robots" CONTENT="ALL"/>
+<META NAME="Robots" CONTENT="INDEX,FOLLOW"/>
+<META NAME="Distribution" CONTENT="Global"/>
+<META NAME="Rating" CONTENT="General"/>
+</wicket:head>
+
+
+    <wicket:extend>
+    <div style="text-align:left; padding-left:70px">
+    <div style="text-align:center">
+    <br/><br/>
+    <img src="img/beta-registration-header.gif"/>
+    </div>
+    <br/><br/>
+    <div style="height:600px">		
+    		<form wicket:id="form" class="memberForm">
+    		<div style="float:left">
+    		
+    			
+				<span wicket:id="feedback"></span><br>
+    			
+    			<div style="display:none">
+    			<div class="description">Developer ID</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="developerId" class="borderGray" size="30" name="developerId"/>
+    				<span style="color: blue;font-size:10px">*Only for developers</span>
+    			</div>
+    			<div class="spacer"></div>
+    			</div>
+    			
+    			<div class="description">First Name</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="firstName" class="borderGray" size="30" name="firstName"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Last Name</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="lastName" class="borderGray" size="30" name="lastName"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">E-Mail</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="email" class="borderGray" size="30" name="email"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Company Name</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="companyName" class="borderGray" size="30" name="companyName"/>
+    			</div>
+    			
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Company Website</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="www" class="borderGray" size="30" value="http://" name="www"/>
+    			</div>
+    			
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Username</div>
+    			<div class="inputArea">
+    				<input type="text" wicket:id="username" class="borderGray" size="30" name="username"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Personal Page</div>
+    			<div class="inputArea">
+    				<span style="font-size:10px">http://www.synergychat.com/chat/</span>
+    				<input type="text" wicket:id="personalPage" class="borderGray" size="10" maxlength="10" name="personalPage"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">Password</div>
+    			<div class="inputArea">
+    				<input type="password" wicket:id="pass" class="borderGray" size="30" name="pass"/>
+    			</div>
+    			<div class="spacer"></div>	
+    			
+    			<div class="description">Retype Password</div>
+    			<div class="inputArea">
+    				<input type="password" wicket:id="repass" class="borderGray" size="30" name="repass"/>
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div class="description">
+    			<div>Enter CAPTCHA:<br>
+    			</div>
+    			</div>
+    			<div class="inputArea" >
+    			<input wicket:id="conteudo" size="10" type="text" name="textfield2" id="textfield3" class="text-lower"/>
+	    			
+    			</div>
+    			<div class="spacer"></div>
+    			
+    			<div style="font-size:11px">By clicking Sign Up, you are indicating that you have read
+    			<br/> and agree to the 
+    			<a href="html/terms_of_use.html" target="_blank" style="color:blue;text-decoration:underline">Terms of Use</a>
+    			and <a href="html/privacy_policy.html" target="_blank" style="color:blue;text-decoration:underline">Privacy Policy</a>.</div>
+    			<div class="description">&nbsp;</div><br/>
+    			<div class="inputArea">
+    				<input type="image" src="img/beta-sign-up-button.gif" name="submit" value="Sign Up"/>
+    			</div>
+    			<div class="spacer"></div>	
+
+    		</div>
+    		<div style="width:300px;float:right;padding-right:210px">
+    		<div><span style="font-size:20px;">Information</span></div>
+				<p>
+				Thank you for participating in our Beta Test.<br/>
+				</p>
+				<br/>
+				<p>
+				This is a limited time Beta Test offer comprising of two connections. The Beta Test
+				is free and there are no limits to how many guests you may chat with or any other
+				function restrictions.
+				</p>
+				<br/>
+				<p>
+				We value your feedback and suggestions! Please feel free to contact us with program
+				bugs, suggestions and any installation question at <a style="color:#0000FF;text-decoration:underline" href="mailto: support@synergychat.com">support@synergychat.com</a>.
+				</p>
+				<br/>				
+			<img style="padding-top:100px" wicket:id="captchaImage" height="150" width="200" />
+			</div>
+    		
+    		</form>
+    	</div>
+    	</div>
+    	
+ </wicket:extend>
+</html>
